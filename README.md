@@ -94,123 +94,6 @@ WFinance é um aplicativo avançado de controle financeiro desenvolvido em Kotli
 - Desempenho de investimentos
 - Relatórios personalizados por período
 
-## 📖 Documentação
-
-Para informações mais detalhadas sobre o funcionamento do sistema, consulte:
-
-### Sincronização com a Nuvem
-- [Visão Geral do Sistema de Sincronização](docs/cloudsync/00_VISAO_GERAL.md)
-- [Fundamentos e Estruturas Básicas](docs/cloudsync/01_FUNDAMENTOS.md)
-- [Fluxo de Sincronização (PUSH/PULL)](docs/cloudsync/02_FLUXO_SINCRONIZACAO.md)
-- [Sincronização em Tempo Real](docs/cloudsync/03_TEMPO_REAL.md)
-- [Estrutura do Firestore](docs/cloudsync/04_ESTRUTURA_FIRESTORE.md)
-- [Como Adicionar Nova Entidade Sincronizável](docs/cloudsync/05_ADICIONAR_ENTIDADE.md)
-
-### Espaços Compartilhados (Grupos)
-- [Visão Geral de Espaços](docs/group/SPACES_OVERVIEW.md)
-- [Sistema de Convites](docs/group/INVITATION_SYSTEM.md)
-- [Sistema Offline-First e Sincronização](docs/group/OFFLINE_FIRST_SYNC.md)
-- [Níveis de Permissões](docs/group/GROUP_PERMISSIONS.md)
-
-### Transações
-- [Conceitos de Transações](docs/transaction/TRANSACTIONS_CONCEPTS.md)
-- [Regras de Transações](docs/transaction/TRANSACTION_RULES.md)
-- [Regras de Status das Transações](docs/transaction/TRANSACTION_RULES_STATUS.md)
-- [Modos de uso da TransactionsActivity](docs/transaction/TRANSACTIONS_ACTIVITY_MODES.md)
-
-### Outros Recursos
-- [Conceitos de Cartões de Crédito](docs/creditcard/CREDIT_CARD_CONCEPTS.md)
-- [Captura de Transações via Notificações e SMS](docs/notifications/TRANSACTION_CAPTURE_NOTIFICATIONS.md)
-- [Notificações de Post](docs/notifications/POST_NOTIFICATIONS.md)
-
-### Documentação Técnica
-- [Histórico de Implementação](docs/implementation_history/) - Detalhes técnicos de cada fase implementada
-- [Regras de Segurança do Firestore](docs/firestore_rules/) - Security Rules (DEV e PRD)
-
-
-## 👨‍💻 Desenvolvimento
-
-O projeto está estruturado seguindo Clean Architecture e separação de responsabilidades:
-
-```
-app/
-├── src/
-│   ├── main/
-│   │   ├── java/com/wrj/wfinance/
-│   │   │   ├── data/                    # Camada de dados
-│   │   │   │   ├── sync/                  # Sistema de sincronização
-│   │   │   │   │   ├── core/                # SyncManager, EntitySyncRepository
-│   │   │   │   │   ├── realtime/            # Sincronização em tempo real
-│   │   │   │   │   ├── initial/             # Sincronização inicial
-│   │   │   │   │   └── processing/          # Pós-processamento
-│   │   │   │   ├── transactions/          # Transações
-│   │   │   │   ├── groups/                # Espaços e membros
-│   │   │   │   ├── capturedtransactions/  # Dados capturados
-│   │   │   │   └── migrations/            # Migrações do banco
-│   │   │   ├── firestore/               # Interface com Firestore
-│   │   │   │   ├── CloudDataSource.kt       # Interface abstrata
-│   │   │   │   ├── GenericCloudMapper.kt    # Mapper universal
-│   │   │   │   └── FirestoreDataSource.kt   # Implementação
-│   │   │   ├── usecases/                # Regras de negócio
-│   │   │   │   ├── groups/                  # Lógica de espaços
-│   │   │   │   ├── transactions/            # Lógica de transações
-│   │   │   │   └── sync/                    # Lógica de sincronização
-│   │   │   ├── screens/                 # Activities e UI
-│   │   │   │   ├── groups/                  # Telas de gestão de espaços
-│   │   │   │   ├── transactions/            # Telas de transações
-│   │   │   │   └── ...
-│   │   │   ├── services/                # Serviços em background
-│   │   │   │   ├── transactioncapture/    # Captura de notificações
-│   │   │   │   └── sms/                   # Captura via SMS
-│   │   │   ├── workers/                 # WorkManager Workers
-│   │   │   ├── utils/                   # Utilitários
-│   │   │   └── notifications/           # Notificações ao usuário
-│   │   └── res/                        # Recursos (layouts, strings, etc)
-│   ├── test/                           # Testes unitários
-│   └── androidTest/                    # Testes instrumentados
-└── docs/                               # Documentação detalhada
-```
-
-### Arquitetura de Sincronização
-
-O sistema de sincronização é o coração do WFinance moderno:
-
-**Componentes Principais:**
-- **SyncManager**: Orquestrador que coordena sincronização de todas as entidades
-- **EntitySyncRepository**: Lógica genérica reutilizável para qualquer entidade
-- **GenericCloudMapper**: Conversor universal (eliminou ~3500 linhas de mappers específicos)
-- **SyncOutbox**: Fila persistente de operações pendentes
-- **RealtimeSyncCoordinator**: Coordena sincronização em tempo real
-
-**Como Funciona:**
-
-```
-Dispositivo A (Usuário cria transação)
-    ↓
-1. Salva no Room Database local (offline)
-    ↓
-2. Enfileira na SyncOutbox
-    ↓
-3. OutboxMonitor detecta mudança (tempo real)
-    ↓
-4. SyncManager.push() → Firebase Firestore (3-10 segundos)
-    ↓
-Firebase Firestore (nuvem)
-    ↓
-5. FirestoreRealtimeListener detecta mudança
-    ↓
-6. SyncManager.pull() → Room Database local
-    ↓
-Dispositivo B (Usuário vê a transação - 5-10 segundos)
-```
-
-**Principais Decisões:**
-- Offline-first para experiência sem interrupções
-- Last-Write-Wins para resolução automática de conflitos
-- Soft delete para rastreabilidade e sincronização de deleções
-- Sincronização incremental para economia de rede
-- Idempotência para garantir consistência em retries
-
 ## 🎯 Casos de Uso
 
 ### 1. Finanças Familiares
@@ -243,7 +126,7 @@ Use o mesmo espaço em vários dispositivos:
 O aplicativo funciona 100% sem internet. Todas as operações são realizadas localmente primeiro e sincronizadas quando há conexão disponível.
 
 ### Colaboração em Tempo Real
-Sincronização automática em ~5-10 segundos permite que múltiplos usuários vejam mudanças quase instantaneamente.
+Sincronização automática em ~10-15 segundos permite que múltiplos usuários vejam mudanças quase instantaneamente.
 
 ### Resolução Automática de Conflitos
 Sistema Last-Write-Wins (LWW) resolve conflitos automaticamente sem intervenção do usuário. A última modificação sincronizada prevalece.
@@ -259,18 +142,9 @@ Sistema Last-Write-Wins (LWW) resolve conflitos automaticamente sem intervençã
 - Soft delete permite rastreabilidade e recuperação
 - Sincronização incremental economiza rede
 
-## 📊 Estatísticas do Sistema
-
-### Sincronização
-- **24 entidades sincronizáveis** (19 GROUP-SCOPED + 5 USER-SCOPED)
-- **Latência de sincronização**: ~5-10 segundos (antes: 30 minutos)
-- **Melhoria de performance**: 95%+ na velocidade de sincronização
-- **~2000 linhas de código** para sincronizar todas as entidades
-- **Economia de código**: GenericCloudMapper eliminou ~3500 linhas de mappers específicos
-
 ### Espaços
 - **4 níveis de permissão**: Proprietário, Administrador, Membro, Somente Leitura
-- **Convites com código de 8 caracteres**: fácil compartilhamento
+- **Convites com código**: fácil compartilhamento
 - **Validade do convite**: 7 dias
 - **Sincronização automática** de membros e permissões
 - **Membros ilimitados** por espaço (limitado pela assinatura)
