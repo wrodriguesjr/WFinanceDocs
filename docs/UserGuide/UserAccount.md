@@ -139,11 +139,9 @@ Use quando quiser sair do WFinance de vez.
 
 Como nos dados, se o servidor não puder atender (por exemplo, sem internet), a exclusão **não acontece** neste aparelho.
 
-### Solicitar exclusão pelo site
+### Solicitar exclusão fora do app
 
-A Google Play exige um endereço **fora do aplicativo** para quem já desinstalou o WFinance e ainda precisa pedir a exclusão da conta e dos dados na nuvem.
-
-Use este canal se você **não tem mais o app instalado**. Se o WFinance ainda estiver no aparelho, prefira **Editar perfil** — o pedido é processado na hora.
+Use este canal se você **não tem mais o app instalado** e ainda precisa pedir a exclusão da conta e dos dados na nuvem. Se o WFinance ainda estiver no aparelho, prefira **Editar perfil** — o pedido é processado na hora.
 
 **Como pedir**
 
