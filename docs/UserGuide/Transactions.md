@@ -2,7 +2,7 @@
 
 Uma **transação** é qualquer movimentação de dinheiro no WFinance: o salário que entrou, o almoço no cartão, o PIX para a poupança, o pagamento da fatura.
 
-Esta página explica o que é uma transação, os tipos, os status e como usar as telas do dia a dia. Para o panorama do app, volte a [WFinance](WFinance.md).
+Esta página explica o que é uma transação, os tipos, os sinais (incluindo estornos), os status e como as listas funcionam. Para o passo a passo do formulário de lançamento, veja [Como lançar uma transação](ManageTransaction.md). Visão geral do app: [WFinance](WFinance.md).
 
 ---
 
@@ -10,36 +10,66 @@ Esta página explica o que é uma transação, os tipos, os status e como usar a
 
 Cada transação responde: **quanto**, **quando**, **em qual conta**, **de que tipo** e **em que situação** (prevista, feita ou já conferida).
 
+O app trata **três tipos**: receita, despesa e transferência. Aplicação e resgate de investimento são transferências especiais. O mesmo formulário serve para criar, editar, copiar ou importar.
+
 ---
 
 ## Os três tipos
 
 ### Receita
 
-Dinheiro **entrando** na conta: salário, freelance, reembolso, rendimento creditado, presente.
+Dinheiro **entrando** na conta: salário, freelance, aluguel recebido, rendimento creditado.
 
-Na lista, receitas entram nas **Entradas**.
+- Exige **conta** e **categoria**.
+- Pode ir para conta bancária, carteira ou cartão de crédito.
+- Aceita **recorrência fixa** (salário, pensão) e **parcelamento**, quando fizer sentido.
+- Na lista, entra nas **Entradas**.
+
+O sinal normal da receita é **positivo (+)**. Um sinal invertido registra um **estorno** — por exemplo, devolver parte de um valor que você tinha recebido.
 
 ### Despesa
 
-Dinheiro **saindo** da conta: mercado, conta de luz, assinatura, compra no cartão.
+Dinheiro **saindo** da conta: mercado, luz, assinatura, compra no cartão.
 
-Na lista, despesas entram nas **Saídas**.
+- Exige **conta** e **categoria**.
+- Pode sair de conta bancária, carteira ou cartão de crédito.
+- Aceita **parcelamento** (muito comum no cartão) e **recorrência fixa** (aluguel, escola, streaming).
+- Na lista, entra nas **Saídas**.
+
+O sinal normal da despesa é **negativo (−)**. Um sinal invertido registra um **estorno** — reembolso do plano de saúde, devolução da loja, crédito na fatura.
 
 ### Transferência
 
-Dinheiro **saindo de uma conta e entrando em outra**. Exemplos: PIX da conta corrente para a poupança, pagamento da fatura do cartão, aporte em investimento, saque para a carteira.
+Dinheiro **saindo de uma conta e entrando em outra**, no mesmo espaço. Exemplos: PIX da corrente para a poupança, pagamento da fatura, aplicação em investimento, saque para a carteira.
 
-A transferência vira **dois lançamentos ligados**:
+- Exige **conta origem** e **conta destino**.
+- **Não tem categoria**: só muda o dinheiro de lugar, sem entrar no “quanto gastei” como uma compra.
+- Vira **dois lançamentos ligados**. Se você editar ou apagar um lado, o outro acompanha. Os dois compartilham o mesmo status.
+- Aceita contas de moedas diferentes, com conversão.
+- Cartão de crédito **não entra** em transferência (compras e estornos de compra ficam como despesa ou receita no próprio cartão).
+- Conta de investimento **só** aparece em transferência — é assim que se faz [aplicação e resgate](#aplicação-e-resgate).
 
-- um de saída na conta de origem;
-- um de entrada na conta de destino.
+O sinal normal é **negativo (−)** na origem (saiu daqui, entrou ali). O sinal invertido desfaz a transferência.
 
-Se você editar ou apagar um lado, o outro acompanha. Os dois sempre compartilham o mesmo status.
+---
 
-Quando as contas têm moedas diferentes (reais e dólares, por exemplo), cada lado guarda o valor na moeda daquela conta, com a taxa de câmbio do dia.
+## Sinais e estornos
 
-> Transferência **não** é receita nem despesa. Ela só muda o dinheiro de lugar. Por isso não deve entrar no “quanto gastei no mês” da mesma forma que uma compra.
+Toda transação tem um **sinal**. Ele não muda o tipo: um reembolso médico continua sendo **despesa** de Saúde, só que com o sinal trocado.
+
+| Tipo              | Sinal normal                         | Estorno (sinal invertido)              | Exemplo                                             |
+|-------------------|--------------------------------------|----------------------------------------|-----------------------------------------------------|
+| **Despesa**       | − dinheiro saindo                    | + reembolso, devolução, crédito        | Consulta R$ 200 (−); plano devolve R$ 150 (+)       |
+| **Receita**       | + dinheiro entrando                  | − devolução do que você tinha recebido | Cliente pagou R$ 1.000 (+); você devolve R$ 200 (−) |
+| **Transferência** | − saiu da origem e entrou no destino | + desfaz o movimento                   | Poupança → corrente; depois você reverte            |
+
+Por que isso importa:
+
+- o reembolso **não vira receita** — a categoria continua correta;
+- relatórios mostram o gasto bruto e o líquido daquela categoria;
+- o histórico reflete o que aconteceu, sem maquiar a natureza do lançamento.
+
+Na lista, estorno de despesa entra nas **Entradas** e estorno de receita nas **Saídas**, porque o dinheiro andou no sentido contrário. O tipo (despesa/receita) permanece.
 
 ---
 
@@ -47,11 +77,11 @@ Quando as contas têm moedas diferentes (reais e dólares, por exemplo), cada la
 
 O status diz se o valor já vale para o saldo real.
 
-| Status | O que significa | Entra no saldo? |
-| --- | --- | --- |
-| **Previsto** | Ainda vai acontecer (ou você está só planejando). | Não. Aparece só no saldo previsto. |
-| **Efetivado** | Já aconteceu. | Sim. |
-| **Reconciliado** | Conferido com extrato do banco ou fatura do cartão. | Sim. |
+| Status           | O que significa                                                               | Entra no saldo?                    |
+|------------------|-------------------------------------------------------------------------------|------------------------------------|
+| **Previsto**     | Ainda vai acontecer (ou você está só planejando).                             | Não. Aparece só no saldo previsto. |
+| **Efetivado**    | Já aconteceu.                                                                 | Sim.                               |
+| **Reconciliado** | Conferido com extrato bancário ou fatura importada. Maior nível de confiança. | Sim.                               |
 
 Regras práticas:
 
@@ -59,6 +89,7 @@ Regras práticas:
 - **Parcelas e recorrências** nascem **previstas**. Você confirma quando o dinheiro de fato sai ou entra.
 - **Compras no cartão** já nascem **efetivadas**. Não existe “previsto” em fatura.
 - Na **carteira** (dinheiro vivo), o ciclo é previsto ↔ efetivado. Reconciliado não se usa.
+- Os dois lados de uma transferência **sempre** têm o mesmo status.
 
 Só o que está **efetivado** ou **reconciliado** muda o saldo da conta, os totais da barra inferior e o progresso das metas.
 
@@ -66,20 +97,34 @@ Só o que está **efetivado** ou **reconciliado** muda o saldo da conta, os tota
 
 ## Em quais contas uma transação pode viver
 
-| Conta | Como a lista se comporta |
-| --- | --- |
-| **Conta bancária** | Extrato do mês, com saldo de cada dia e opção de ver o previsto. |
-| **Carteira** | Controle do dinheiro em espécie. |
-| **Cartão de crédito** | Fatura do ciclo (não o mês civil). |
-| **Investimento** | Aportes, resgates e avaliações de saldo. |
+| Conta                 | Receita / despesa | Transferência          | Como a lista se comporta                                         |
+|-----------------------|-------------------|------------------------|------------------------------------------------------------------|
+| **Conta bancária**    | Sim               | Sim                    | Extrato do mês, com saldo de cada dia e opção de ver o previsto. |
+| **Carteira**          | Sim               | Sim                    | Controle do dinheiro em espécie.                                 |
+| **Cartão de crédito** | Sim               | Não                    | Fatura do ciclo (não o mês civil).                               |
+| **Investimento**      | Não               | Só aplicação e resgate | Aportes, resgates e avaliações de saldo.                         |
 
 Uma transação também guarda:
 
 - **descrição** (obrigatória);
-- **categoria e subcategoria** (nas transferências podem ficar em branco);
+- **categoria e subcategoria** (obrigatórias em receita e despesa; transferências ficam sem);
 - **observações** (opcional);
-- **tags** (rótulos livres, como “viagem” ou “reforma”);
+- **tags** (rótulos livres, como “viagem” ou “reforma”), para recortes nos relatórios;
 - **moeda e valor** — o valor original e, se for o caso, o valor já convertido para a moeda da conta.
+
+---
+
+## Aplicação e resgate
+
+São transferências, não receitas nem despesas.
+
+**Aplicação (aporte)** — conta bancária → investimento. Aumenta o valor investido.
+
+**Resgate** — investimento → conta bancária. Diminui o valor investido.
+
+A conta bancária precisa ser a **mesma associada** àquele investimento no cadastro do ativo. Se a conta não bater, o app não conclui o lançamento.
+
+Rendimento, perda e imposto **não** se lançam como aplicação. Use a **avaliação de saldo** no extrato do investimento.
 
 ---
 
@@ -143,19 +188,11 @@ Quando você vem de um relatório, a lista mostra **somente** os lançamentos da
 
 ## Criar, editar, copiar e importar
 
-O botão de adicionar abre o formulário. Você também chega nele ao editar, copiar ou confirmar um lançamento capturado de notificação.
+O botão de adicionar abre o [formulário de lançamento](ManageTransaction.md). Você também chega nele ao editar, copiar ou confirmar um lançamento capturado de notificação.
 
-### Campos do lançamento
+**Copiar** preenche todos os campos com o lançamento original. Ajuste o que for diferente e grave. Alguns tipos automáticos (pagamento de fatura, avaliação de saldo, ajuste) não podem ser copiados.
 
-1. **Tipo** — receita, despesa ou transferência.
-2. **Descrição** — o nome que você vai reconhecer na lista.
-3. **Valor e moeda** — o valor da operação. Se a moeda for diferente da conta, o app pede a taxa e mostra o valor convertido.
-4. **Data**.
-5. **Conta** — ou, na transferência, **origem** e **destino**.
-6. **Categoria e subcategoria** — para receitas e despesas.
-7. **Fatura** — obrigatória quando a conta é um cartão. O app sugere o ciclo pela data da compra; você pode trocar.
-8. **Observações** e **tags**.
-9. **Recorrência ou parcelamento**, se for o caso.
+**Importar** preenche com o que veio da notificação ou do SMS. Confira conta, categoria e valor antes de confirmar. A captura sozinha **não** cria o lançamento.
 
 Na hora de sair sem gravar, o app pergunta se você quer descartar.
 
@@ -176,21 +213,25 @@ Puxe a lista para baixo para atualizar.
 
 ## Parcelas e recorrência
 
+Recorrência fixa e parcelamento são **mutuamente exclusivos**: no mesmo lançamento você escolhe um ou nenhum.
+
 ### Parcelamento
 
 O valor total é dividido em N parcelas iguais (a primeira pode receber o ajuste dos centavos). Todas as parcelas são criadas de uma vez, com status **previsto**, cada uma na data certa.
 
-Útil para: compra em 10 vezes, inscrição anual dividida, reforma paga em etapas.
+No cartão, cada parcela cai na **fatura correspondente**.
+
+Útil para: compra em 10 vezes, inscrição anual dividida, financiamento.
+
+Cada parcela pode ser ajustada depois, sozinha.
 
 ### Recorrência fixa
 
 O mesmo valor se repete a cada período, até o limite da série. Também nasce **previsto**.
 
-Útil para: salário, aluguel, escola, streaming, contribuição mensal.
+Útil para: salário, aluguel, escola, streaming, pensão.
 
-Frequências disponíveis:
-
-Diária, semanal, quinzenal, mensal, bimestral, trimestral, semestral, anual — e intervalos próximos (bi-semanal, bi-anual).
+Frequências: diária, semanal, bi-semanal, quinzenal, mensal, bimestral, trimestral, semestral, anual e bi-anual.
 
 O app limita o tamanho da série para não criar lançamentos demais de uma vez (por exemplo, cerca de 1 ano no diário e alguns anos no mensal).
 
@@ -198,13 +239,13 @@ O app limita o tamanho da série para não criar lançamentos demais de uma vez 
 
 Você escolhe o alcance:
 
-| Opção | Efeito |
-| --- | --- |
-| **Só esta** | Altera ou apaga apenas o lançamento aberto. Os outros da série continuam. |
-| **Esta e as futuras** | A partir desta data, inclusive. O passado fica como está. |
-| **Toda a série** | Todas as ocorrências. |
+| Opção                 | Efeito                                                                                                                         |
+|-----------------------|--------------------------------------------------------------------------------------------------------------------------------|
+| **Só esta**           | Altera ou apaga apenas o lançamento aberto. Os outros da série continuam.                                                      |
+| **Esta e as futuras** | A partir desta data, inclusive. **Substitui** ajustes que você tinha feito à mão nessas ocorrências. O passado fica como está. |
+| **Toda a série**      | Todas as ocorrências, inclusive as passadas. Também **substitui** ajustes individuais.                                         |
 
-Uma ocorrência editada sozinha vira uma **exceção**: o restante da série não muda.
+Uma ocorrência editada sozinha vira uma **exceção**: o restante da série não muda — até você escolher “futuras” ou “todas”.
 
 ---
 
@@ -217,11 +258,19 @@ Há dois valores possíveis:
 
 Se as moedas forem iguais, os dois coincidem. Se forem diferentes, o app usa a taxa do dia (ou a que você informar).
 
+**Receita ou despesa** — a conversão aparece quando a moeda do lançamento é diferente da moeda da conta (compra em euro numa conta em reais).
+
+**Transferência** — a conversão aparece quando origem e destino têm moedas diferentes. A moeda da transação é sempre a da **conta origem**. Cada lado guarda o valor na moeda daquela conta.
+
 Exemplo: compra de US$ 100 numa conta em reais, com taxa 5,00 → a conta registra R$ 500.
 
-Na transferência entre contas de moedas diferentes, cada lado usa a moeda da própria conta. A taxa fica registrada com a data da cotação.
+No formulário:
 
-No formulário, o botão de atualizar busca a taxa daquela data. Cadastre suas moedas mais usadas em Configurações → Moedas.
+- **Recarregar taxa** busca a cotação da data da transação (ou de hoje, se a data estiver vazia);
+- **Editar** libera taxa, data da cotação e valor já convertido;
+- o valor na moeda da conta é calculado sozinho a partir da taxa.
+
+Cadastre suas moedas mais usadas em Configurações → Moedas.
 
 ---
 
@@ -274,20 +323,20 @@ A reconciliação é a forma de dizer: “isto bate com o banco”. Lançamentos
 
 Alguns itens não nascem do botão “adicionar”. Eles existem para manter saldos e faturas coerentes.
 
-| Origem | Quando aparece | Pode editar? |
-| --- | --- | --- |
-| **Manual** | Você criou. | Sim. |
-| **Notificação de app** | Importou de uma captura. | Sim, em geral. |
-| **Reconciliação / importação** | Veio de extrato ou fatura. | Com cuidado — já foi conferido. |
-| **Saldo inicial** | Valor que a conta já tinha ao ser cadastrada. | Só em investimento. Nas outras contas, apague e faça um ajuste de saldo. |
-| **Ajuste de saldo** | Correção pontual do saldo da conta. | Não. Apague e crie outro. |
-| **Pagamento de cartão** | Você pagou a fatura. | Não edite. Se errou, exclua e pague de novo. |
-| **Previsão de pagamento** | O app estima o pagamento futuro da fatura. | Não. Some sozinha quando o pagamento real é lançado. |
-| **Saldo da fatura anterior** | O que não foi pago e passou para o ciclo seguinte. | Não. Some se a fatura anterior for paga no valor exato. |
-| **Importação de fatura** | Compra vinda do arquivo do cartão. | Conforme as regras da fatura. |
-| **Avaliação de saldo** | Você informou o valor atual do investimento. | Sempre efetivada; não mude o status. |
-| **Aporte direto** | Entrada no investimento sem passar por outra conta. | Sem cópia. |
-| **Imposto** | Lançamento de imposto ligado ao investimento. | Sem cópia. |
+| Origem                         | Quando aparece                                      | Pode editar?                                                             |
+|--------------------------------|-----------------------------------------------------|--------------------------------------------------------------------------|
+| **Manual**                     | Você criou.                                         | Sim.                                                                     |
+| **Notificação de app**         | Importou de uma captura.                            | Sim, em geral.                                                           |
+| **Reconciliação / importação** | Veio de extrato ou fatura.                          | Com cuidado — já foi conferido.                                          |
+| **Saldo inicial**              | Valor que a conta já tinha ao ser cadastrada.       | Só em investimento. Nas outras contas, apague e faça um ajuste de saldo. |
+| **Ajuste de saldo**            | Correção pontual do saldo da conta.                 | Não. Apague e crie outro.                                                |
+| **Pagamento de cartão**        | Você pagou a fatura.                                | Não edite. Se errou, exclua e pague de novo.                             |
+| **Previsão de pagamento**      | O app estima o pagamento futuro da fatura.          | Não. Some sozinha quando o pagamento real é lançado.                     |
+| **Saldo da fatura anterior**   | O que não foi pago e passou para o ciclo seguinte.  | Não. Some se a fatura anterior for paga no valor exato.                  |
+| **Importação de fatura**       | Compra vinda do arquivo do cartão.                  | Conforme as regras da fatura.                                            |
+| **Avaliação de saldo**         | Você informou o valor atual do investimento.        | Sempre efetivada; não mude o status.                                     |
+| **Aporte direto**              | Entrada no investimento sem passar por outra conta. | Sem cópia.                                                               |
+| **Imposto**                    | Lançamento de imposto ligado ao investimento.       | Sem cópia.                                                               |
 
 Se o app recusar a edição, em geral a mensagem explica o caminho certo (excluir e refazer, ou deixar o automático cuidar).
 
@@ -298,7 +347,7 @@ Se o app recusar a edição, em geral a mensagem explica o caminho certo (exclui
 - Lançamento **único**: some só ele. Se for transferência, os dois lados saem juntos.
 - **Série**: escolha se apaga só esta, as futuras ou todas.
 - Tags daquele lançamento saem junto.
-- Os saldos são recalculados na hora.
+- Os saldos são recalculados na hora (criação, edição, exclusão ou mudança de status).
 - Apagar um **pagamento de fatura** desfaz o pagamento na fatura.
 
 Algumas origens automáticas (previsão de pagamento, saldo rolado) **não** podem ser apagadas à mão.
@@ -312,7 +361,9 @@ Pense assim:
 - **Saldo real** = efetivados + reconciliados.
 - **Saldo previsto** = real + o que ainda está previsto.
 - **Metas** = só efetivados e reconciliados.
-- **Estorno** (valor negativo) continua sendo receita ou despesa — só o sinal inverte.
+- **Estorno** continua sendo receita, despesa ou transferência — só o sinal inverte.
+- **Saldo do período** (visão geral) soma entradas e saídas da lista, sem puxar meses anteriores.
+- **Saldo inicial e final** (uma conta bancária ou carteira) consideram o que veio do mês passado.
 
 Na visão geral, transferências aparecem nos dois lados (saiu daqui, entrou ali). No extrato de uma conta, você vê só a perna daquela conta.
 
@@ -320,10 +371,12 @@ Na visão geral, transferências aparecem nos dois lados (saiu daqui, entrou ali
 
 ## Dicas rápidas
 
-- Use **previsto** para o que ainda não saiu da conta (boleto do mês que vem, parcela futura). O saldo real continua limpo.
+- Use **previsto** para o que ainda não saiu da conta. O saldo real continua limpo.
 - Prefira **transferência** em vez de “despesa + receita” quando o dinheiro só mudou de conta.
+- Reembolso é **estorno de despesa**, não receita nova.
 - Categorias boas deixam relatórios e metas úteis. Tags resolvem recortes que atravessam várias categorias.
 - Ative a captura de notificações se você já recebe alerta de PIX e compra no celular.
 - No cartão, olhe a **fatura**, não o mês do calendário.
 - No investimento, avalie o saldo com alguma frequência para a rentabilidade não ficar parada.
+- O passo a passo dos campos está em [Como lançar uma transação](ManageTransaction.md).
 - No plano Free há limite de transações por espaço. O Premium remove esse teto — veja [Conta de usuário](UserAccount.md).

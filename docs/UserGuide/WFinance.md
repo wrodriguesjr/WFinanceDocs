@@ -43,7 +43,7 @@ Cada lançamento tem um status:
 
 O app também pode **captar lançamentos automaticamente** a partir de notificações e SMS de bancos — você só revisa e confirma.
 
-Leia o guia completo em [Transações](Transactions.md).
+Leia o guia em [Transações](Transactions.md) e o passo a passo do formulário em [Como lançar uma transação](ManageTransaction.md).
 
 ### Espaços
 
