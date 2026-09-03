@@ -2,7 +2,7 @@
 
 Sua conta no WFinance é o que liga você aos seus espaços, ao plano e — no Premium — aos dados na nuvem.
 
-Esta página explica como entrar, o que acontece num aparelho novo, o que você pode alterar no perfil e como apagar dados ou a conta. Visão geral do app: [WFinance](WFinance.md).
+Esta página explica como entrar, o que acontece num aparelho novo, o que você pode alterar no perfil e como apagar dados ou a conta. Visão geral do app: [WFinance](WFinance.md). Textos legais: [Termos de Uso](TermsOfUse.md) e [Política de Privacidade](PrivacyPolice.md).
 
 ---
 
@@ -139,6 +139,31 @@ Use quando quiser sair do WFinance de vez.
 
 Como nos dados, se o servidor não puder atender (por exemplo, sem internet), a exclusão **não acontece** neste aparelho.
 
+### Solicitar exclusão pelo site
+
+A Google Play exige um endereço **fora do aplicativo** para quem já desinstalou o WFinance e ainda precisa pedir a exclusão da conta e dos dados na nuvem.
+
+Use este canal se você **não tem mais o app instalado**. Se o WFinance ainda estiver no aparelho, prefira **Editar perfil** — o pedido é processado na hora.
+
+**Como pedir**
+
+1. Envie um e-mail para [wfinance.suporte@gmail.com](mailto:wfinance.suporte@gmail.com?subject=Exclus%C3%A3o%20de%20conta%20WFinance).
+2. No assunto, escreva **Exclusão de conta WFinance**.
+3. No corpo, informe o **e-mail da conta Google** usada no aplicativo e se o pedido é para:
+   - excluir **só os dados** (a conta continua existindo); ou
+   - excluir a **conta inteira** e todos os dados associados.
+4. Se possível, confirme que a solicitação parte do titular daquela conta Google.
+
+**O que acontece depois**
+
+- Confirmamos a identidade pelo e-mail da conta Google e processamos o pedido.
+- A exclusão da conta também remove os dados associados na nuvem. Congelar ou desativar a conta **não** substitui essa exclusão.
+- Quem participa de um espaço **seu** perde o acesso àqueles dados.
+- A exclusão **não cancela** uma assinatura ativa na Google Play. Cancele antes em Google Play → Assinaturas, se ainda houver cobrança.
+- Dados que existirem **apenas** num aparelho já formatado ou sem o app não podem ser recuperados para apagar localmente — no plano Free, o histórico nunca esteve na nuvem.
+
+Esta página (e o e-mail acima) é o recurso web de solicitação de exclusão do **WFinance**. O mesmo endereço deve constar no formulário de segurança de dados da Play Console.
+
 ---
 
 ## Privacidade e o que o app guarda
@@ -154,7 +179,7 @@ Permissões que o Android pode pedir:
 - **Biometria** — trava local, se você ligar.
 - **SMS e acesso a notificações** — só se quiser a [captura automática de lançamentos](Transactions.md#captura-automática-notificações-e-sms). O processamento acontece no próprio aparelho.
 
-Textos completos: tela **Sobre** → Política de Privacidade e Termos de Uso.
+Textos completos: [Política de Privacidade](PrivacyPolice.md) e [Termos de Uso](TermsOfUse.md), também na tela **Sobre** do app.
 
 ---
 
@@ -167,7 +192,7 @@ Textos completos: tela **Sobre** → Política de Privacidade e Termos de Uso.
 | Troquei de celular no plano Free | O histórico daquele aparelho não volta. No próximo aparelho você começa de novo, ou assina o Premium no aparelho antigo **antes** de migrar. |
 | Assinei o Premium e o sync não apareceu | Abra o app com internet e aguarde alguns instantes. A loja confirma a assinatura sozinha. |
 | Quero parar de pagar | Cancele em Google Play → Assinaturas. Apagar a conta no WFinance não basta. |
-| Quero remover tudo | Editar perfil → excluir dados ou excluir conta, digitando EXCLUIR. |
+| Quero remover tudo | No app: Editar perfil → excluir dados ou excluir conta, digitando EXCLUIR. Sem o app: [solicite pelo site](#solicitar-exclusão-pelo-site). |
 
 ---
 

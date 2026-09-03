@@ -8,6 +8,8 @@ Esta página apresenta o que o WFinance oferece. Para detalhes de uso, veja tamb
 
 - [Transações](Transactions.md)
 - [Conta de usuário](UserAccount.md)
+- [Termos de Uso](TermsOfUse.md)
+- [Política de Privacidade](PrivacyPolice.md)
 
 ---
 
@@ -161,7 +163,7 @@ Seus dados financeiros ficam no aparelho. No Premium, também vão para a nuvem 
 
 O WFinance **não vende, não aluga e não compartilha** seus dados para propaganda.
 
-No app, em **Sobre**, você encontra a Política de Privacidade e os Termos de Uso. Também é possível excluir os dados ou a conta inteira — veja [Conta de usuário](UserAccount.md).
+Os textos completos estão em [Política de Privacidade](PrivacyPolice.md) e [Termos de Uso](TermsOfUse.md) (também na tela **Sobre** do app). Também é possível excluir os dados ou a conta inteira — veja [Conta de usuário](UserAccount.md).
 
 ---
 
@@ -176,6 +178,6 @@ No app, em **Sobre**, você encontra a Política de Privacidade e os Termos de U
 ## Contato
 
 - **E-mail:** [wfinance.suporte@gmail.com](mailto:wfinance.suporte@gmail.com)
-- **Documentação no GitHub:** [WFinanceDocs](https://wrodriguesjr.github.io/WFinanceDocs/user_guide/WFinance)
+- **Documentação no GitHub:** [WFinanceDocs](https://wrodriguesjr.github.io/WFinanceDocs/UserGuide/WFinance)
 
 Atualizações do app saem na Google Play. Na tela **Sobre**, toque na versão para conferir se já está na última.
