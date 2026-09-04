@@ -143,12 +143,12 @@ No primeiro acesso você entra no **WFinance Free**, com as funções essenciais
 
 Limites atuais do plano Free (por espaço):
 
-- 250 transações
+- 120 transações
 - 2 contas bancárias
 - 2 contas de investimento
 - 1 carteira
 - 1 cartão de crédito
-- 10 metas
+- 5 metas
 - 1 reserva
 
 Itens arquivados ou inativos **continuam contando** no limite. A assinatura é cobrada pela Google Play e pode ser cancelada nas configurações da loja.
