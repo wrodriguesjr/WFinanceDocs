@@ -22,9 +22,9 @@ O app puxa nome, e-mail e foto do Google. Depois você pode completar apelido, d
 
 ### Depois do primeiro acesso
 
-Se você já entrou neste aparelho e a sessão continua válida, o app abre direto, sem pedir o Google de novo.
+Se você já entrou neste aparelho e a sessão continua válida, o app abre direto, sem pedir o usuário Google novamente. Isso também funciona quando o dispositivo estiver offline.
 
-Na tela **Editar perfil** existe a opção de cadastrar uma **senha local**. Isso só serve para entrar de novo **neste mesmo aparelho**, com e-mail e senha, depois que a conta Google já existe. Não substitui o Google e **não recupera** a conta em outro celular.
+Se a sessão for encerrada (logoff), é preciso entrar de novo com seu usuário do Google — e para isso é necessária **conexão com a internet**.
 
 ---
 
@@ -96,10 +96,6 @@ Nome, e-mail e foto. O ícone de atualizar busca de novo essas informações no 
 - **Moeda padrão** — usada nos totais da visão geral e em conversões quando não há uma conta específica.
 
 Salve pelo botão de atualizar dados gerais.
-
-### Senha local (opcional)
-
-Se quiser entrar neste aparelho sem passar pelo botão do Google, defina uma senha e confirme. A senha precisa ser forte o bastante (o app avisa se estiver fraca). Isso **não** cria uma conta independente e **não** funciona como recuperação em outro dispositivo.
 
 ### Espaço ativo
 
