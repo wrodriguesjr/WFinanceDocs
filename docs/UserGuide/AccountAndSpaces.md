@@ -57,7 +57,7 @@ Guia completo: [Espaços](Spaces.md).
 | O que representa        | Você (identidade Google)                   | Um ambiente de dados financeiros                    |
 | Quantos você tem        | Um por conta Google                        | Um pessoal; extras no Premium                       |
 | Dá para compartilhar?   | Não. A conta é só sua                      | Sim, no Premium, por convite                        |
-| Onde se gerencia        | Menu da conta → **Editar perfil**          | Central → **Meus espaços**                          |
+| Onde se gerencia        | Nome do usuário → **Editar perfil**        | Central → **Meus espaços**                          |
 | O que acontece se apagar| Some o cadastro e, se for o caso, os dados | Some aquele ambiente e o que havia nele             |
 
 Uma mesma conta pode participar de vários espaços. Um mesmo espaço pode ter vários membros, cada um com a própria conta.

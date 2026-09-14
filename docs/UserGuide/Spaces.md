@@ -114,7 +114,7 @@ O app avisa que o espaço foi criado e que você pode ativá-lo em **Trocar espa
 
 ## Convites
 
-O convite não é um link: é um **código** de até 8 caracteres, para copiar e colar no WhatsApp, e-mail ou SMS. Vale **7 dias**. Quem envia e quem aceita precisam do plano com **espaços e sincronização**. Sem internet, o código ainda não chega à nuvem — e quem tenta usá-lo não consegue validar.
+O convite não é um link: é um **código** de até 8 caracteres, para copiar e colar no WhatsApp, e-mail ou SMS. Vale **7 dias**. Quem envia e quem aceita precisam do plano **Premium**. Sem internet, o código ainda não chega à nuvem — e quem tenta usá-lo não consegue validar.
 
 ### Criar convite
 
@@ -211,7 +211,7 @@ Apagar a **conta** ou **todos os dados** pelo perfil é outro fluxo — veja [Ap
 | Vários aparelhos com os mesmos dados | Não  | Sim     |
 | Uso offline do que já está no aparelho | Sim | Sim     |
 
-No Free, toques em **Criar espaço**, **Criar convite** e **Usar código de convite** abrem o convite para assinar. Quem aceita um convite **também** precisa do plano com espaços e sincronização.
+Quem aceita um convite **também** precisa do plano Premium.
 
 Se o Premium acabar enquanto você estiver num espaço extra, o app devolve você ao espaço pessoal. O proprietário de um espaço extra, com plano ainda válido, continua nele.
 
