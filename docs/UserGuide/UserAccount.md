@@ -65,15 +65,15 @@ Se você pretende mudar de aparelho ou usar o WFinance em mais de um lugar, assi
 
 ## Plano Free e plano Premium
 
-| | Free | Premium |
-| --- | --- | --- |
-| Criar conta com Google | Sim | Sim |
-| Usar o app sem internet | Sim | Sim |
-| Guardar dados neste aparelho | Sim | Sim |
-| Recuperar tudo num aparelho novo | Não | Sim |
-| Vários aparelhos ao mesmo tempo | Não | Sim |
-| Espaços compartilhados | Não | Sim |
-| Limite de cadastros | Sim | Não |
+|                                  | Free | Premium |
+|----------------------------------|------|---------|
+| Criar conta com Google           | Sim  | Sim     |
+| Usar o app sem internet          | Sim  | Sim     |
+| Guardar dados neste aparelho     | Sim  | Sim     |
+| Recuperar tudo num aparelho novo | Não  | Sim     |
+| Vários aparelhos ao mesmo tempo  | Não  | Sim     |
+| Espaços compartilhados           | Não  | Sim     |
+| Uso ilimitado                    | Não  | Sim     |
 
 Limites do Free (por espaço): 250 transações, 2 contas bancárias, 2 investimentos, 1 carteira, 1 cartão, 10 metas e 1 reserva. Itens inativos continuam contando.
 

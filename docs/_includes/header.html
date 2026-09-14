@@ -15,7 +15,7 @@
       <a href="{{ '/UserGuide/WFinance.html' | relative_url }}"{% if page.url contains '/UserGuide/WFinance' %} aria-current="page"{% endif %}>Guia</a>
       <a href="{{ '/UserGuide/MainDashboard.html' | relative_url }}"{% if page.url contains '/MainDashboard' %} aria-current="page"{% endif %}>Painel</a>
       <a href="{{ '/UserGuide/Transactions/Transactions.html' | relative_url }}"{% if page.url contains '/Transactions' %} aria-current="page"{% endif %}>Transações</a>
-      <a href="{{ '/UserGuide/UserAccount.html' | relative_url }}"{% if page.url contains '/UserAccount' %} aria-current="page"{% endif %}>Conta</a>
+      <a href="{{ '/UserGuide/AccountAndSpaces.html' | relative_url }}"{% if page.url contains '/AccountAndSpaces' or page.url contains '/Spaces' or page.url contains '/UserAccount' %} aria-current="page"{% endif %}>Conta e espaços</a>
     </nav>
   </div>
 </header>

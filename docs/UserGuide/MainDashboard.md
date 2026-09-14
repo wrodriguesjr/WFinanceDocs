@@ -2,7 +2,7 @@
 
 O **painel inicial** é a tela que abre depois do login. É um resumo do espaço ativo: o mês corrente, as contas, os cartões, as metas e as reservas — sem precisar entrar em cada lista.
 
-Visão geral do app: [WFinance](WFinance.md). Conceitos de lançamento: [Transações](Transactions/Transactions.md). Perfil e espaços: [Conta de usuário](UserAccount.md).
+Visão geral do app: [WFinance](WFinance.md). Conceitos de lançamento: [Transações](Transactions/Transactions.md). Perfil e espaços: [Conta e espaços](AccountAndSpaces.md).
 
 ---
 

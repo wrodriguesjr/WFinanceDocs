@@ -8,7 +8,7 @@ Esta página apresenta o que o WFinance oferece. Para detalhes de uso, veja tamb
 
 - [Painel inicial](MainDashboard.md)
 - [Transações](Transactions/Transactions.md)
-- [Conta de usuário](UserAccount.md)
+- [Conta e espaços](AccountAndSpaces.md)
 - [Termos de Uso](TermsOfUse.md)
 - [Política de Privacidade](PrivacyPolice.md)
 
@@ -68,6 +68,8 @@ Há quatro níveis de permissão:
 | **Somente leitura** | Só visualiza, sem alterar nada.                         |
 
 Para criar ou participar de espaços compartilhados é necessário um plano com sincronização na nuvem.
+
+Leia o guia em [Espaços](Spaces.md). Conta, perfil e exclusão: [Conta de usuário](UserAccount.md).
 
 ### Investimentos
 
