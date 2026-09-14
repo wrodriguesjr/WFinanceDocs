@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'pt-BR' }}">
+<head>
+  {% include head.html %}
+</head>
+<body class="wf-home">
+  <div class="wf-bg" aria-hidden="true"></div>
+  {% include header.html %}
+  <main class="wf-main wf-main-home">
+    <section class="wf-hero">
+      <img
+        class="wf-hero-image"
+        src="{{ '/assets/images/hero.png' | relative_url }}"
+        width="1024"
+        height="500"
+        alt="WFinance — Seu controle financeiro, do seu jeito. App com fluxo de caixa, contas, metas, patrimônio e espaços compartilhados.">
+      <div class="wf-hero-copy">
+        <p class="wf-kicker">Documentação</p>
+        <h1>Seu controle financeiro, do seu jeito.</h1>
+        <p class="wf-lead">
+          Guia de uso do WFinance: painel inicial, transações, espaços, conta e privacidade.
+        </p>
+        <a class="wf-button" href="{{ '/UserGuide/WFinance.html' | relative_url }}">Abrir o guia</a>
+      </div>
+    </section>
+
+    <section class="wf-features" aria-label="O que o WFinance oferece">
+      <a class="wf-feature" href="{{ '/UserGuide/MainDashboard.html' | relative_url }}">Painel inicial</a>
+      <a class="wf-feature" href="{{ '/UserGuide/Transactions/Transactions.html' | relative_url }}">Transações</a>
+      <a class="wf-feature" href="{{ '/UserGuide/UserAccount.html' | relative_url }}">Conta e espaços</a>
+      <a class="wf-feature" href="{{ '/UserGuide/PrivacyPolice.html' | relative_url }}">Privacidade</a>
+      <a class="wf-feature" href="{{ '/UserGuide/TermsOfUse.html' | relative_url }}">Termos de uso</a>
+    </section>
+
+    {{ content }}
+  </main>
+  {% include footer.html %}
+</body>
+</html>

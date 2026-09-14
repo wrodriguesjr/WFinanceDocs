@@ -1,0 +1,16 @@
+<!DOCTYPE html>
+<html lang="{{ site.lang | default: 'pt-BR' }}">
+<head>
+  {% include head.html %}
+</head>
+<body>
+  <div class="wf-bg" aria-hidden="true"></div>
+  {% include header.html %}
+  <main class="wf-main">
+    <article class="wf-card wf-prose">
+      {{ content }}
+    </article>
+  </main>
+  {% include footer.html %}
+</body>
+</html>

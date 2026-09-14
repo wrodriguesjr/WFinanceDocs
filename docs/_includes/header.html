@@ -1,0 +1,25 @@
+<header class="wf-header">
+  <div class="wf-header-inner">
+    <a class="wf-brand" href="{{ '/' | relative_url }}">
+      <svg class="wf-logo" viewBox="0 0 40 40" aria-hidden="true">
+        <defs>
+          <linearGradient id="wfLogoGrad" x1="0" y1="0" x2="1" y2="1">
+            <stop offset="0%" stop-color="#E9D5FF"/>
+            <stop offset="45%" stop-color="#A78BFA"/>
+            <stop offset="100%" stop-color="#7C3AED"/>
+          </linearGradient>
+        </defs>
+        <path fill="url(#wfLogoGrad)" d="M4.5 7h7.2l3.6 18.4L20 9.2h5.4l4.5 16.9L33.3 7H40L32.2 33h-7.4L20 18.6 15.2 33H7.8L4.5 7z"/>
+      </svg>
+      <span>WFinance</span>
+    </a>
+
+    <nav class="wf-nav" aria-label="Documentação">
+      <a href="{{ '/' | relative_url }}"{% if page.url == '/' %} aria-current="page"{% endif %}>Início</a>
+      <a href="{{ '/UserGuide/WFinance.html' | relative_url }}"{% if page.url contains '/UserGuide/WFinance' %} aria-current="page"{% endif %}>Guia</a>
+      <a href="{{ '/UserGuide/MainDashboard.html' | relative_url }}"{% if page.url contains '/MainDashboard' %} aria-current="page"{% endif %}>Painel</a>
+      <a href="{{ '/UserGuide/Transactions/Transactions.html' | relative_url }}"{% if page.url contains '/Transactions' %} aria-current="page"{% endif %}>Transações</a>
+      <a href="{{ '/UserGuide/UserAccount.html' | relative_url }}"{% if page.url contains '/UserAccount' %} aria-current="page"{% endif %}>Conta</a>
+    </nav>
+  </div>
+</header>
