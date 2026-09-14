@@ -6,7 +6,8 @@ O WFinance é um aplicativo Android para organizar o dinheiro do dia a dia: rece
 
 Esta página apresenta o que o WFinance oferece. Para detalhes de uso, veja também:
 
-- [Transações](Transactions.md)
+- [Painel inicial](MainDashboard.md)
+- [Transações](Transactions/Transactions.md)
 - [Conta de usuário](UserAccount.md)
 - [Termos de Uso](TermsOfUse.md)
 - [Política de Privacidade](PrivacyPolice.md)
@@ -27,6 +28,12 @@ O WFinance serve bem em situações como:
 
 ## O que você consegue fazer
 
+### Painel inicial
+
+A tela que abre depois do login reúne o mês corrente, contas, cartões, metas e reservas. Cards sem dado somem sozinhos; você escolhe quais blocos ver.
+
+Leia o guia em [Painel inicial](MainDashboard.md).
+
 ### Transações
 
 Registre **receitas**, **despesas** e **transferências** em contas bancárias, carteiras, cartões de crédito e investimentos.
@@ -43,7 +50,7 @@ Cada lançamento tem um status:
 
 O app também pode **captar lançamentos automaticamente** a partir de notificações e SMS de bancos — você só revisa e confirma.
 
-Leia o guia em [Transações](Transactions.md) e o passo a passo do formulário em [Como lançar uma transação](ManageTransaction.md).
+Leia o guia em [Transações](Transactions/Transactions.md) e o passo a passo do formulário em [Como lançar uma transação](Transactions/ManageTransaction.md).
 
 ### Espaços
 

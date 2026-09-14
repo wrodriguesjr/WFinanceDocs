@@ -2,7 +2,7 @@
 
 Uma **transação** é qualquer movimentação de dinheiro no WFinance: o salário que entrou, o almoço no cartão, o PIX para a poupança, o pagamento da fatura.
 
-Esta página explica o que é uma transação, os tipos, os sinais (incluindo estornos), os status e como as listas funcionam. Para o passo a passo do formulário de lançamento, veja [Como lançar uma transação](ManageTransaction.md). Visão geral do app: [WFinance](WFinance.md).
+Esta página explica o que é uma transação, os tipos, os sinais (incluindo estornos), os status e como as listas funcionam. Para o passo a passo do formulário de lançamento, veja [Como lançar uma transação](ManageTransaction.md). Visão geral do app: [WFinance](../WFinance.md).
 
 ---
 
@@ -379,4 +379,4 @@ Na visão geral, transferências aparecem nos dois lados (saiu daqui, entrou ali
 - No cartão, olhe a **fatura**, não o mês do calendário.
 - No investimento, avalie o saldo com alguma frequência para a rentabilidade não ficar parada.
 - O passo a passo dos campos está em [Como lançar uma transação](ManageTransaction.md).
-- No plano Free há limite de transações por espaço. O Premium remove esse teto — veja [Conta de usuário](UserAccount.md).
+- No plano Free há limite de transações por espaço. O Premium remove esse teto — veja [Conta de usuário](../UserAccount.md).
