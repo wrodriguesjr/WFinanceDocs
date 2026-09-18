@@ -298,6 +298,8 @@ Enquanto não importar, o rascunho não pertence a ninguém. No aparelho só uma
 
 A captura **não cria lançamento sozinha**. Sempre há a etapa de confirmação.
 
+Pode aparecer um aviso de **possível duplicidade** se já existir um lançamento com o **mesmo valor e o mesmo sinal** na **mesma data** ou **1 dia antes/depois** (assinatura no cartão cobrada num dia vizinho ao da recorrência, por exemplo). Despesa e receita do mesmo valor não se misturam; estorno também não conta como duplicata da despesa original. O aviso também aparece ao gravar o formulário — inclusive se você chegou nele pelo toque na notificação do WFinance, sem passar pela lista. Continuar grava mesmo assim; voltar não grava.
+
 ---
 
 ## Importação de extrato e fatura

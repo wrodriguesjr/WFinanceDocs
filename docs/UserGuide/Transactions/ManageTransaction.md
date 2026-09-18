@@ -125,6 +125,8 @@ Não é possível copiar pagamento de fatura, previsão de pagamento, saldo rola
 
 Os campos vêm do rascunho capturado (descrição, valor, data, às vezes cartão). Confira a conta e a categoria — a captura nem sempre acerta — e grave.
 
+Se já existir um lançamento com o mesmo valor **e o mesmo sinal** na mesma data ou 1 dia de diferença, o app pergunta se você quer continuar. Despesa não alerta receita nem estorno. Isso vale ao confirmar na lista de capturas **e** ao gravar esta tela (criação, cópia ou importação — inclusive pelo toque na notificação do WFinance). Continuar grava; cancelar fica no formulário.
+
 Depois de importar, o rascunho some para não ser usado de novo.
 
 ---
@@ -147,5 +149,7 @@ Mensagens comuns:
 - conta bancária diferente da associada ao investimento;
 - recorrência e parcela ligadas ao mesmo tempo;
 - tentativa de editar um lançamento que o app controla sozinho.
+
+Aviso de **possível duplicidade** não é recusa: o app mostra o lançamento que já existe (mesmo valor e sinal, mesma data ou 1 dia de diferença) e pergunta se você quer gravar assim mesmo.
 
 A mensagem na tela costuma indicar o caminho. A tabela completa está em [Transações — lançamentos que o próprio app cria](Transactions.md#lançamentos-que-o-próprio-app-cria).
