@@ -61,7 +61,7 @@ Data em que o dinheiro saiu, entrou ou foi transferido. No cartão, essa data ta
 
 Toque para escolher. A lista já filtra o que vale para o tipo atual.
 
-Na transferência, preencha os dois lados. Se as moedas forem diferentes, a área de câmbio aparece.
+Na transferência, preencha os dois lados. A moeda do lançamento fica **presa à moeda da conta origem** — o app corrige se você tentar outra. Se as moedas das contas forem diferentes, a área de câmbio aparece.
 
 ### Categoria e subcategoria
 
@@ -92,8 +92,8 @@ Não dá para ligar recorrência e parcela ao mesmo tempo.
 Ao **editar** um item de série, o app pergunta o alcance:
 
 - **Somente esta** — só o lançamento aberto.
-- **Esta e futuras** — a partir desta data; **apaga ajustes manuais** feitos nessas ocorrências.
-- **Todas** — a série inteira, inclusive o passado; também substitui exceções.
+- **Esta e futuras** — a partir desta data; **sobrescreve** ajustes manuais feitos nessas ocorrências.
+- **Todas** — a série inteira, inclusive o passado; também **sobrescreve** exceções.
 
 ---
 
@@ -102,7 +102,7 @@ Ao **editar** um item de série, o app pergunta o alcance:
 A faixa de câmbio só entra se for necessária:
 
 - receita ou despesa cuja moeda é diferente da moeda da conta;
-- transferência entre contas de moedas diferentes (a moeda do lançamento é a da origem).
+- transferência entre contas de moedas diferentes (a moeda do lançamento é a da origem e não pode ser trocada).
 
 Nessa faixa você pode:
 

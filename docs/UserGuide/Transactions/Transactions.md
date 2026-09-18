@@ -190,11 +190,7 @@ Quando você vem de um relatório, a lista mostra **somente** os lançamentos da
 
 O botão de adicionar abre o [formulário de lançamento](ManageTransaction.md). Você também chega nele ao editar, copiar ou confirmar um lançamento capturado de notificação.
 
-**Copiar** preenche todos os campos com o lançamento original. Ajuste o que for diferente e grave. Alguns tipos automáticos (pagamento de fatura, avaliação de saldo, ajuste) não podem ser copiados.
-
-**Importar** preenche com o que veio da notificação ou do SMS. Confira conta, categoria e valor antes de confirmar. A captura sozinha **não** cria o lançamento.
-
-Na hora de sair sem gravar, o app pergunta se você quer descartar.
+O passo a passo dos campos, das restrições de cópia e da importação está nessa página.
 
 ### Gestos na lista
 
@@ -242,8 +238,8 @@ Você escolhe o alcance:
 | Opção                 | Efeito                                                                                                                         |
 |-----------------------|--------------------------------------------------------------------------------------------------------------------------------|
 | **Só esta**           | Altera ou apaga apenas o lançamento aberto. Os outros da série continuam.                                                      |
-| **Esta e as futuras** | A partir desta data, inclusive. **Substitui** ajustes que você tinha feito à mão nessas ocorrências. O passado fica como está. |
-| **Toda a série**      | Todas as ocorrências, inclusive as passadas. Também **substitui** ajustes individuais.                                         |
+| **Esta e as futuras** | A partir desta data, inclusive. **Sobrescreve** ajustes que você tinha feito à mão nessas ocorrências. O passado fica como está. |
+| **Toda a série**      | Todas as ocorrências, inclusive as passadas. Também **sobrescreve** ajustes individuais.                                         |
 
 Uma ocorrência editada sozinha vira uma **exceção**: o restante da série não muda — até você escolher “futuras” ou “todas”.
 
@@ -264,11 +260,7 @@ Se as moedas forem iguais, os dois coincidem. Se forem diferentes, o app usa a t
 
 Exemplo: compra de US$ 100 numa conta em reais, com taxa 5,00 → a conta registra R$ 500.
 
-No formulário:
-
-- **Recarregar taxa** busca a cotação da data da transação (ou de hoje, se a data estiver vazia);
-- **Editar** libera taxa, data da cotação e valor já convertido;
-- o valor na moeda da conta é calculado sozinho a partir da taxa.
+Como preencher a faixa de câmbio: [Como lançar uma transação — conversão](ManageTransaction.md#quando-a-conversão-de-moeda-aparece).
 
 Cadastre suas moedas mais usadas em Configurações → Moedas.
 
