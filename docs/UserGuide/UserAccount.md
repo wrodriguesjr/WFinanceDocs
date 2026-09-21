@@ -135,6 +135,12 @@ Use quando quiser sair do WFinance de vez.
 
 Como nos dados, se o servidor não puder atender (por exemplo, sem internet), a exclusão **não acontece** neste aparelho.
 
+### Comprovante da solicitação
+
+Quando você pede para apagar os dados ou a conta, o WFinance guarda um comprovante interno desse pedido.
+Importante ressaltar que permanece só um registro de auditoria, com a **data**, o **tipo de pedido** (grupo, dados de usuário ou a conta inteira) e o **e-mail da conta Google** de quem solicitou a exclusão.
+Esse comprovante serve para confirmar, se for preciso, que a exclusão foi pedida por aquela conta. Ele **não** contém lançamentos, contas nem outros dados financeiros. O app não mostra esse registro — ele disponível para auditoria interna.
+
 ### Solicitar exclusão fora do app
 
 Use este canal se você **não tem mais o app instalado** e ainda precisa pedir a exclusão da conta e dos dados na nuvem. Se o WFinance ainda estiver no aparelho, prefira **Editar perfil** — o pedido é processado na hora.
@@ -150,7 +156,7 @@ Use este canal se você **não tem mais o app instalado** e ainda precisa pedir 
 
 **O que acontece depois**
 
-- Confirmamos a identidade pelo e-mail da conta Google e processamos o pedido.
+- Confirmamos a identidade pelo e-mail da conta Google e processamos o pedido. Esse e-mail também entra no [comprovante interno](#comprovante-da-solicitação) da solicitação.
 - A exclusão da conta também remove os dados associados na nuvem. Congelar ou desativar a conta **não** substitui essa exclusão.
 - Quem participa de um espaço **seu** perde o acesso àqueles dados.
 - A exclusão **não cancela** uma assinatura ativa na Google Play. Cancele antes em Google Play → Assinaturas, se ainda houver cobrança.
@@ -166,6 +172,7 @@ Esta página (e o e-mail acima) é o recurso web de solicitação de exclusão d
 - No Premium, o necessário para sincronizar também fica na nuvem, de forma isolada por espaço.
 - Dados não são vendidos nem usados para propaganda.
 - Você pode editar ou apagar lançamentos no app, revogar permissões no Android e pedir a exclusão da conta.
+- Depois de um pedido de exclusão, permanece um comprovante interno (data, tipo de pedido e e-mail da conta Google daquele momento), sem os seus dados financeiros. Detalhes em [Comprovante da solicitação](#comprovante-da-solicitação).
 
 Permissões que o Android pode pedir:
 
@@ -179,14 +186,14 @@ Textos completos: [Política de Privacidade](PrivacyPolice.md) e [Termos de Uso]
 
 ## Se algo der errado no acesso
 
-| Situação | O que fazer |
-| --- | --- |
-| Sem internet na hora de entrar com o Google | Conecte-se e tente de novo. O primeiro login e a recuperação precisam de rede. |
-| Entrei com outra conta Google | Saia e use a conta original. Contas diferentes são usuários diferentes. |
-| Troquei de celular no plano Free | O histórico daquele aparelho não volta. No próximo aparelho você começa de novo, ou assina o Premium no aparelho antigo **antes** de migrar. |
-| Assinei o Premium e o sync não apareceu | Abra o app com internet e aguarde alguns instantes. A loja confirma a assinatura sozinha. |
-| Quero parar de pagar | Cancele em Google Play → Assinaturas. Apagar a conta no WFinance não basta. |
-| Quero remover tudo | No app: Editar perfil → excluir dados ou excluir conta, digitando EXCLUIR. Sem o app: [solicite pelo site](#solicitar-exclusão-pelo-site). |
+| Situação                                    | O que fazer                                                                                                                                  |
+|---------------------------------------------|----------------------------------------------------------------------------------------------------------------------------------------------|
+| Sem internet na hora de entrar com o Google | Conecte-se e tente de novo. O primeiro login e a recuperação precisam de rede.                                                               |
+| Entrei com outra conta Google               | Saia e use a conta original. Contas diferentes são usuários diferentes.                                                                      |
+| Troquei de celular no plano Free            | O histórico daquele aparelho não volta. No próximo aparelho você começa de novo, ou assina o Premium no aparelho antigo **antes** de migrar. |
+| Assinei o Premium e o sync não apareceu     | Abra o app com internet e aguarde alguns instantes. A loja confirma a assinatura sozinha.                                                    |
+| Quero parar de pagar                        | Cancele em Google Play → Assinaturas. Apagar a conta no WFinance não basta.                                                                  |
+| Quero remover tudo                          | No app: Editar perfil → excluir dados ou excluir conta, digitando EXCLUIR. Sem o app: [solicite pelo site](#solicitar-exclusão-pelo-site).   |
 
 ---
 
