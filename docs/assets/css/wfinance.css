@@ -177,6 +177,12 @@ a:hover {
   max-width: 42rem;
 }
 
+.wf-hero-actions {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 10px;
+}
+
 .wf-button {
   display: inline-flex;
   align-items: center;
@@ -194,6 +200,18 @@ a:hover {
 .wf-button:hover {
   color: #fff;
   filter: brightness(1.08);
+}
+
+.wf-button-secondary {
+  background: rgba(33, 22, 47, 0.85);
+  border: 1px solid var(--wf-border);
+  box-shadow: none;
+}
+
+.wf-button-secondary:hover {
+  color: var(--wf-primary-strong);
+  filter: none;
+  border-color: var(--wf-primary);
 }
 
 .wf-features {

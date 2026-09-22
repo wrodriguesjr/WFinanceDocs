@@ -4,6 +4,8 @@
 
 O WFinance é um aplicativo Android para organizar o dinheiro do dia a dia: receitas, despesas, transferências, cartões, investimentos e metas. Você decide se usa sozinho, com a família ou com um sócio — e o app continua funcionando mesmo sem internet.
 
+Disponível na [Google Play](https://play.google.com/store/apps/details?id=com.wrj.wfinance).
+
 Esta página apresenta o que o WFinance oferece. Para detalhes de uso, veja também:
 
 - [Painel inicial](MainDashboard.md)
@@ -187,6 +189,7 @@ Os textos completos estão em [Política de Privacidade](PrivacyPolice.md) e [Te
 ## Contato
 
 - **E-mail:** [wfinance.suporte@gmail.com](mailto:wfinance.suporte@gmail.com)
+- **Google Play:** [Baixar o WFinance](https://play.google.com/store/apps/details?id=com.wrj.wfinance)
 - **Documentação no GitHub:** [WFinanceDocs](https://wrodriguesjr.github.io/WFinanceDocs/UserGuide/WFinance)
 
-Atualizações do app saem na Google Play. Na tela **Sobre**, toque na versão para conferir se já está na última.
+Atualizações do app saem na [Google Play](https://play.google.com/store/apps/details?id=com.wrj.wfinance). Na tela **Sobre**, toque na versão para conferir se já está na última.
