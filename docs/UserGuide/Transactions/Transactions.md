@@ -354,7 +354,7 @@ Pense assim:
 
 - **Saldo real** = efetivados + reconciliados.
 - **Saldo previsto** = real + o que ainda está previsto.
-- **Metas** = só efetivados e reconciliados.
+- **Metas** = só efetivados e reconciliados. O guia está em [Metas de gastos](../Goals/Goals.md).
 - **Estorno** continua sendo receita, despesa ou transferência — só o sinal inverte.
 - **Saldo do período** (visão geral) soma entradas e saídas da lista, sem puxar meses anteriores.
 - **Saldo inicial e final** (uma conta bancária ou carteira) consideram o que veio do mês passado.

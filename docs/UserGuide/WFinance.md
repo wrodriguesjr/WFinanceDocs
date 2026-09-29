@@ -10,6 +10,8 @@ Esta página apresenta o que o WFinance oferece. Para detalhes de uso, veja tamb
 
 - [Painel inicial](MainDashboard.md)
 - [Transações](Transactions/Transactions.md)
+- [Metas de gastos](Goals/Goals.md)
+- [Reservas para objetivos](Reserves/Reserves.md)
 - [Conta e espaços](AccountAndSpaces.md)
 - [Termos de Uso](TermsOfUse.md)
 - [Política de Privacidade](PrivacyPolice.md)
@@ -91,9 +93,19 @@ Se o saldo ficar muitos dias sem avaliação, o app avisa que os números estão
 
 Defina um teto de gasto por categoria ou subcategoria, no mês ou no ano. O progresso usa só transações **efetivadas** e **reconciliadas**.
 
-Dá para olhar o orçamento no **mês**, no **trimestre** ou no **ano**. O app avisa quando a meta chega a **80%** e a **100%**.
+Na lista, cada categoria vira um **card**. Meta anual e metas mensais do mesmo recorte **somam** nesse card. Você escolhe olhar o **acumulado no ano** (janeiro até o mês escolhido), o **mês**, o **trimestre** ou o **ano inteiro**.
 
-Meses sem meta definida não entram no cálculo anual: a ideia é comparar o que você planejou com o que executou, não somar todo o gasto do período.
+Todo o período do filtro conta no atingido — inclusive meses em que você não cadastrou limite. O app avisa quando uma meta chega a **80%** e a **100%**.
+
+Leia o guia em [Metas de gastos](Goals/Goals.md) e o passo a passo em [Como cadastrar uma meta](Goals/ManageGoal.md).
+
+### Reservas
+
+Separe o dinheiro que já está nas contas para um **objetivo**: viagem, troca de carro, emergência. A reserva **não move saldo** e **não cria lançamento** — só soma as contas que você associar.
+
+Uma conta entra em **no máximo uma** reserva. Cartão de crédito não entra. Valor alvo e data são opcionais; com alvo, o app mostra o progresso.
+
+Leia o guia em [Reservas para objetivos](Reserves/Reserves.md) e o passo a passo em [Como cadastrar uma reserva](Reserves/ManageReserve.md).
 
 ### Várias moedas
 

@@ -2,7 +2,7 @@
 
 O **painel inicial** é a tela que abre depois do login. É um resumo do espaço ativo: o mês corrente, as contas, os cartões, as metas e as reservas — sem precisar entrar em cada lista.
 
-Visão geral do app: [WFinance](WFinance.md). Conceitos de lançamento: [Transações](Transactions/Transactions.md). Perfil e espaços: [Conta e espaços](AccountAndSpaces.md).
+Visão geral do app: [WFinance](WFinance.md). Conceitos de lançamento: [Transações](Transactions/Transactions.md). Teto de gastos: [Metas](Goals/Goals.md). Objetivos: [Reservas](Reserves/Reserves.md). Perfil e espaços: [Conta e espaços](AccountAndSpaces.md).
 
 ---
 
@@ -164,7 +164,7 @@ No topo:
 
 Toque numa meta para ver o detalhe. **Ir para metas** abre o acompanhamento completo (mês, trimestre ou ano).
 
-Metas usam só transações **efetivadas** e **reconciliadas**.
+Metas usam só transações **efetivadas** e **reconciliadas**. O guia completo está em [Metas de gastos](Goals/Goals.md).
 
 ---
 
@@ -180,6 +180,8 @@ No topo:
 - **Objetivos concluídos** — quantas já chegaram lá, no formato “2 de 5”.
 
 Toque na reserva para o detalhe. **Ir para reservas** abre a tela completa. Com os valores ocultos pelo olho, o toque no item fica desativado.
+
+O guia completo está em [Reservas para objetivos](Reserves/Reserves.md).
 
 ---
 
