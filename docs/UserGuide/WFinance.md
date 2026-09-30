@@ -97,7 +97,7 @@ Na lista, cada categoria vira um **card**. Meta anual e metas mensais do mesmo r
 
 Todo o período do filtro conta no atingido — inclusive meses em que você não cadastrou limite. O app avisa quando uma meta chega a **80%** e a **100%**.
 
-Leia o guia em [Metas de gastos](Goals/Goals.md) e o passo a passo em [Como cadastrar uma meta](Goals/ManageGoal.md).
+Leia o guia em [Metas de gastos](Goals/Goals.md), o passo a passo em [Como cadastrar uma meta](Goals/ManageGoal.md) e a estimativa até dezembro em [Projeção das metas](Goals/GoalForecast.md).
 
 ### Reservas
 

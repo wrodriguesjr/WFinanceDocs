@@ -2,7 +2,7 @@
 
 Uma **meta** é um teto de gasto para uma categoria (ou subcategoria) de despesa. Você define o limite; o app mostra quanto já foi gasto e o quanto ainda cabe.
 
-Esta página explica a lista, os períodos, os números do card e os detalhes. Para cadastrar, editar ou copiar uma meta, veja [Como cadastrar uma meta](ManageGoal.md). Visão geral do app: [WFinance](../WFinance.md).
+Esta página explica a lista, os períodos, os números do card e os detalhes. Para cadastrar, editar ou copiar uma meta, veja [Como cadastrar uma meta](ManageGoal.md). Para estimar quanto você terá gasto até dezembro, veja [Projeção das metas](GoalForecast.md). Visão geral do app: [WFinance](../WFinance.md).
 
 ---
 
@@ -16,12 +16,12 @@ Metas **não movem dinheiro** e **não alteram saldo**. Elas só respondem: “e
 
 ## Como chegar
 
-| Caminho | Observação |
-|---------|------------|
-| Ícone de **metas** na barra inferior | A tela completa, com filtro de período. |
-| Central → Planejamento → Metas de gastos | Mesma tela. |
-| Painel inicial → **Ir para metas** | O card da home mostra só as 3 de maior desvio no mês. |
-| Aviso de 80% ou 100% | O toque na notificação abre esta tela. |
+| Caminho                                  | Observação                                            |
+|------------------------------------------|-------------------------------------------------------|
+| Ícone de **metas** na barra inferior     | A tela completa, com filtro de período.               |
+| Central → Planejamento → Metas de gastos | Mesma tela.                                           |
+| Painel inicial → **Ir para metas**       | O card da home mostra só as 3 de maior desvio no mês. |
+| Aviso de 80% ou 100%                     | O toque na notificação abre esta tela.                |
 
 É preciso ter pelo menos uma **categoria de despesa**. Sem ela, o botão de adicionar avisa e não abre o formulário.
 
@@ -207,15 +207,15 @@ Itens de um espaço em que você só visualiza não se editam. Trocar de espaço
 
 ## Se algo não bate
 
-| Situação | O que conferir |
-|----------|----------------|
-| Lista vazia, mas você cadastrou meta | O filtro talvez não inclua aquele mês. No acumulado até março, meta só de dezembro não aparece. |
-| Percentual “estourou” sem você ter gasto tanto no mês da meta | O atingido soma **todo** o intervalo do filtro, inclusive meses sem teto. |
-| Dois cards para a mesma categoria | Um é a categoria toda (“meta geral da categoria”); o outro é uma subcategoria. |
-| Aviso de 80%/100% com % diferente na tela | O aviso usa o período completo daquela meta; a tela usa o filtro. |
-| Números não mudam depois de lançar | A despesa precisa estar **efetivada** ou **reconciliada**, na mesma categoria (ou subcategoria) e no intervalo. |
-| Não consigo tocar em + | Falta categoria de despesa, ou você está só para visualizar neste espaço. |
-| Meta não soma com a outra no mesmo card | Precisam ser o **mesmo** recorte (mesma categoria/subcategoria) e o **mesmo ano**. Moedas diferentes no mesmo ano não são aceitas. |
+| Situação                                                      | O que conferir                                                                                                                     |
+|---------------------------------------------------------------|------------------------------------------------------------------------------------------------------------------------------------|
+| Lista vazia, mas você cadastrou meta                          | O filtro talvez não inclua aquele mês. No acumulado até março, meta só de dezembro não aparece.                                    |
+| Percentual “estourou” sem você ter gasto tanto no mês da meta | O atingido soma **todo** o intervalo do filtro, inclusive meses sem teto.                                                          |
+| Dois cards para a mesma categoria                             | Um é a categoria toda (“meta geral da categoria”); o outro é uma subcategoria.                                                     |
+| Aviso de 80%/100% com % diferente na tela                     | O aviso usa o período completo daquela meta; a tela usa o filtro.                                                                  |
+| Números não mudam depois de lançar                            | A despesa precisa estar **efetivada** ou **reconciliada**, na mesma categoria (ou subcategoria) e no intervalo.                    |
+| Não consigo tocar em +                                        | Falta categoria de despesa, ou você está só para visualizar neste espaço.                                                          |
+| Meta não soma com a outra no mesmo card                       | Precisam ser o **mesmo** recorte (mesma categoria/subcategoria) e o **mesmo ano**. Moedas diferentes no mesmo ano não são aceitas. |
 
 ---
 
