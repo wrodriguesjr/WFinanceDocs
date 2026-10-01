@@ -26,7 +26,7 @@ O card **O WFinance ainda não está pronto** lista o que é necessário para o 
 |----------------|--------------------------------------------------------------|--------------------------------------------------------------------------------------------------------------|
 | **Conta**      | Não há conta bancária, carteira nem cartão no espaço.        | Cadastre pelo menos uma.                                                                                     |
 | **Categoria**  | Não há categorias. Receita e despesa exigem classificação.   | Crie as suas ou use as categorias padrão do app.                                                             |
-| **Permissões** | Notificações do app ou leitura de avisos de banco ainda não. | Opcional. Ajuda na [captura automática](Transactions/Transactions.md#captura-automática-notificações-e-sms). |
+| **Permissões** | Notificações do app ou leitura de avisos de banco ainda não. | Opcional. Ajuda na [captura de notificações](Capture/Capture.md). |
 
 Conta e categoria são **obrigatórias**. Sem elas o resumo financeiro não aparece. Permissões são **recomendadas**; dá para adiar por 30 dias.
 
@@ -72,7 +72,7 @@ No Premium, na primeira vez neste aparelho, um aviso no topo mostra o andamento 
 
 Além do checklist do primeiro uso, pode aparecer:
 
-**Transações aguardando importação** — o app captou notificações ou SMS e ainda não virou lançamento. Toque para revisar e importar. Enquanto não confirmar, o valor **não entra** em saldo nem no resumo. Detalhes em [Captura automática](Transactions/Transactions.md#captura-automática-notificações-e-sms).
+**Transações aguardando importação** — o app captou notificações ou SMS e ainda não virou lançamento. Toque para revisar e importar. Enquanto não confirmar, o valor **não entra** em saldo nem no resumo. Detalhes em [Captura de notificações bancárias](Capture/Capture.md).
 
 Esses avisos somem sozinhos quando não há mais o que fazer.
 

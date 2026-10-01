@@ -285,20 +285,9 @@ Dá para ordenar por data, valor ou descrição.
 
 ## Captura automática (notificações e SMS)
 
-Com a permissão ativada, o WFinance lê notificações e SMS de bancos e cartões e identifica compras, PIX, pagamentos e, em alguns apps (como o Wise), taxas de câmbio.
+Com as permissões ligadas, o WFinance lê notificações e SMS de bancos e cartões e monta um rascunho de compra, PIX, pagamento e, em alguns apps, taxa de câmbio. Você revisa e confirma. O valor só entra no saldo depois disso.
 
-O fluxo é:
-
-1. A mensagem chega no celular, mesmo com o app fechado.
-2. Se o WFinance reconhecer o formato, guarda um **rascunho**.
-3. Você abre a lista de capturas, confere conta, categoria e valor, e importa.
-4. Só então vira uma transação de verdade no seu espaço.
-
-Enquanto não importar, o rascunho não pertence a ninguém. No aparelho só uma pessoa fica logada por vez: quem importar fica com o lançamento, e o rascunho some para não ser usado de novo.
-
-A captura **não cria lançamento sozinha**. Sempre há a etapa de confirmação.
-
-Pode aparecer um aviso de **possível duplicidade** se já existir um lançamento com o **mesmo valor e o mesmo sinal** na **mesma data** ou **1 dia antes/depois** (assinatura no cartão cobrada num dia vizinho ao da recorrência, por exemplo). Despesa e receita do mesmo valor não se misturam; estorno também não conta como duplicata da despesa original. O aviso também aparece ao gravar o formulário — inclusive se você chegou nele pelo toque na notificação do WFinance, sem passar pela lista. Continuar grava mesmo assim; voltar não grava.
+O guia completo — permissões, bateria, listas, envio para análise e dicas — está em [Captura de notificações bancárias](../Capture/Capture.md).
 
 ---
 
@@ -369,7 +358,7 @@ Na visão geral, transferências aparecem nos dois lados (saiu daqui, entrou ali
 - Prefira **transferência** em vez de “despesa + receita” quando o dinheiro só mudou de conta.
 - Reembolso é **estorno de despesa**, não receita nova.
 - Categorias boas deixam relatórios e metas úteis. Tags resolvem recortes que atravessam várias categorias.
-- Ative a captura de notificações se você já recebe alerta de PIX e compra no celular.
+- Ative a [captura de notificações](../Capture/Capture.md) se você já recebe alerta de PIX e compra no celular.
 - No cartão, olhe a **fatura**, não o mês do calendário.
 - No investimento, avalie o saldo com alguma frequência para a rentabilidade não ficar parada.
 - O passo a passo dos campos está em [Como lançar uma transação](ManageTransaction.md).

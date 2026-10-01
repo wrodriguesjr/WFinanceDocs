@@ -211,7 +211,7 @@ Permissões que o Android pode pedir:
 
 - **Notificações** — lembretes de metas e avisos.
 - **Biometria** — trava local, se você ligar.
-- **SMS e acesso a notificações** — só se quiser a [captura automática de lançamentos](Transactions/Transactions.md#captura-automática-notificações-e-sms). O processamento acontece no próprio aparelho.
+- **SMS e acesso a notificações** — só se quiser a [captura de notificações bancárias](Capture/Capture.md). A leitura acontece no próprio aparelho.
 
 Textos completos: [Política de Privacidade](PrivacyPolice.md) e [Termos de Uso](TermsOfUse.md), também na tela **Sobre** do app.
 

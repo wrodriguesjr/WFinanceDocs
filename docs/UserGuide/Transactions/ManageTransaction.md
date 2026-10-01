@@ -123,7 +123,7 @@ Não é possível copiar pagamento de fatura, previsão de pagamento, saldo rola
 
 ## Importar de notificação
 
-Os campos vêm do rascunho capturado (descrição, valor, data, às vezes cartão). Confira a conta e a categoria — a captura nem sempre acerta — e grave.
+Os campos vêm do rascunho capturado (descrição, valor, data, às vezes cartão). Confira a conta e a categoria — a captura nem sempre acerta — e grave. O caminho até aqui, as permissões e as duas listas estão em [Captura de notificações bancárias](../Capture/Capture.md).
 
 Se já existir um lançamento com o mesmo valor **e o mesmo sinal** na mesma data ou 1 dia de diferença, o app pergunta se você quer continuar. Despesa não alerta receita nem estorno. Isso vale ao confirmar na lista de capturas **e** ao gravar esta tela (criação, cópia ou importação — inclusive pelo toque na notificação do WFinance). Continuar grava; cancelar fica no formulário.
 

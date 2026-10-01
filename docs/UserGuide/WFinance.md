@@ -10,6 +10,7 @@ Esta página apresenta o que o WFinance oferece. Para detalhes de uso, veja tamb
 
 - [Painel inicial](MainDashboard.md)
 - [Transações](Transactions/Transactions.md)
+- [Captura de notificações bancárias](Capture/Capture.md)
 - [Metas de gastos](Goals/Goals.md)
 - [Reservas para objetivos](Reserves/Reserves.md)
 - [Conta e espaços](AccountAndSpaces.md)
@@ -54,7 +55,7 @@ Cada lançamento tem um status:
 
 O app também pode **captar lançamentos automaticamente** a partir de notificações e SMS de bancos — você só revisa e confirma.
 
-Leia o guia em [Transações](Transactions/Transactions.md) e o passo a passo do formulário em [Como lançar uma transação](Transactions/ManageTransaction.md).
+Leia o guia em [Transações](Transactions/Transactions.md), o passo a passo do formulário em [Como lançar uma transação](Transactions/ManageTransaction.md) e a captura em [Captura de notificações bancárias](Capture/Capture.md).
 
 ### Espaços
 
