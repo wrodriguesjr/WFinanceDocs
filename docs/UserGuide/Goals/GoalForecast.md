@@ -69,6 +69,8 @@ Não tem meta nem percentual. A projeção deste bloco é **sempre** pela média
 
 ## A lista
 
+A lista começa fechada. Toque em **Ver projeções das metas por categoria** para abri-la; o mesmo controle passa a dizer **Ocultar projeções das metas por categoria**. Sem meta no ano, o controle não aparece e fica só o aviso de lista vazia.
+
 Só aparecem categorias e subcategorias de **despesa** com meta no ano (anual ou de qualquer mês).
 
 - **Categoria com meta**: uma linha da categoria. Ela inclui o gasto de todas as subcategorias. Metas das subcategorias não viram outra linha e não somam no limite.
@@ -90,11 +92,11 @@ A meta de cada mês segue a mesma regra da tela de metas: 1/12 da meta anual mai
 
 ## Os dois modelos
 
-A tela sempre abre no **Plano Futuro**. A escolha não fica gravada.
+A tela sempre abre no modelo de **Metas futuras**. 
 
 O modelo só muda a **projeção do bloco planejado**. Realizado, meta e o bloco não planejado não mudam.
 
-### Plano Futuro
+### Modelo de metas futuras
 
 `projetado = realizado dos meses fechados + meta dos meses restantes`
 
@@ -102,7 +104,7 @@ Melhor para despesas **fixas ou previsíveis**: aluguel, condomínio, mensalidad
 
 Uma meta anual continua valendo nos meses restantes: um IPVA anual pago todo em janeiro ainda soma as fatias de setembro a dezembro.
 
-### Tendência
+### Modelo meu ritmo atual
 
 `projetado = realizado dos meses fechados + meta de cada mês restante × ritmo`
 
