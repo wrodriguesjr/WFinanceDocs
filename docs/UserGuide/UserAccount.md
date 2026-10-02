@@ -2,7 +2,7 @@
 
 Sua conta no WFinance é o que liga você aos seus espaços, ao plano e — no Premium — aos dados na nuvem.
 
-Esta página explica como entrar, o que acontece num aparelho novo, o que você pode alterar no perfil e como apagar dados ou a conta. Visão geral do app: [WFinance](WFinance.md). Textos legais: [Termos de Uso](TermsOfUse.md) e [Política de Privacidade](PrivacyPolice.md).
+Esta página explica como entrar, o que acontece num aparelho novo, como travar o app neste celular, o que você pode alterar no perfil e como apagar dados ou a conta. Visão geral do app: [WFinance](WFinance.md). Textos legais: [Termos de Uso](TermsOfUse.md) e [Política de Privacidade](PrivacyPolice.md).
 
 ---
 
@@ -22,7 +22,7 @@ O app puxa nome, e-mail e foto do Google. Depois você pode completar apelido, d
 
 ### Depois do primeiro acesso
 
-Se você já entrou neste aparelho e a sessão continua válida, o app abre direto, sem pedir o usuário Google novamente. Isso também funciona quando o dispositivo estiver offline.
+Se você já entrou neste aparelho e a sessão continua válida, o app abre sem pedir a conta Google de novo. Isso também funciona quando o dispositivo estiver offline. Com o [Bloqueio do app](#bloqueio-do-app) ligado, o Android ainda pede biometria ou o bloqueio de tela deste celular.
 
 Se a sessão for encerrada (logoff), é preciso entrar de novo com seu usuário do Google — e para isso é necessária **conexão com a internet**.
 
@@ -105,9 +105,38 @@ Cada usuário tem o espaço pessoal. Espaços extras (família, empresa) existem
 
 ### Sair
 
-**Sair** encerra a sessão neste aparelho. Os dados locais permanecem; outra pessoa no mesmo celular não entra na sua conta enquanto você estiver desconectado.
+**Sair** encerra a sessão neste aparelho. Os dados locais permanecem; outra pessoa no mesmo celular não entra na sua conta enquanto você estiver desconectado. O [Bloqueio do app](#bloqueio-do-app), se estiver ligado, continua valendo neste celular.
 
 Para limpar de verdade, use uma das exclusões abaixo.
+
+---
+
+## Bloqueio do app
+
+Opcional e **desligado** por padrão. A entrada continua sendo a conta Google. Com o bloqueio ligado, o Android pede biometria ou o bloqueio de tela deste aparelho antes de mostrar as telas.
+
+A escolha fica **só neste celular**. Não acompanha a conta em outro aparelho. **Sair** mantém o bloqueio. **Apagar a conta** desliga.
+
+### Como ligar
+
+1. Toque no ícone de engrenagem e abra **Configurações**.
+2. Em **Funcionalidades e segurança**, em **Bloqueio do app**, escolha **1 min**, **5 min** ou **15 min**.
+3. Confirme com a biometria ou com o PIN, padrão ou senha do aparelho. Se cancelar, o bloqueio continua desligado.
+
+Para desligar, escolha **Desligado**. Trocar entre 1, 5 e 15 minutos não pede essa confirmação de novo.
+
+O aparelho precisa ter biometria ou bloqueio de tela já cadastrados no Android. Sem nenhum dos dois, as opções ficam indisponíveis até você cadastrar um nas configurações de segurança do sistema.
+
+### Quando pede de novo
+
+- Sempre que o WFinance é aberto do zero.
+- Quando o app fica em segundo plano por mais tempo do que o escolhido.
+
+Passar de uma tela para outra dentro do app não pede de novo.
+
+Quem verifica é o Android. O WFinance não acessa nem guarda digital, rosto ou PIN. O bloqueio protege a entrada no app; ele não criptografa os dados guardados no aparelho.
+
+Se a biometria e o bloqueio de tela sumirem do Android, o WFinance desliga a trava sozinho e avisa — o acesso ao app continua possível.
 
 ---
 
@@ -127,7 +156,7 @@ Se a nuvem estiver indisponível, **nada é apagado** — o app só conclui quan
 
 ### Apagar a conta inteira
 
-Remove o **cadastro**, os **espaços** e **todos os dados**. Em seguida o app faz logoff.
+Remove o **cadastro**, os **espaços** e **todos os dados**. Em seguida o app faz logoff e desliga o [Bloqueio do app](#bloqueio-do-app) neste aparelho.
 
 Use essa opção se você quiser parar de usar o WFinance de maneira definitiva. Se quiser apenas zerar sua conta e começar de novo, use a opção **APAGAR DADOS**.
 
@@ -210,8 +239,9 @@ Esta página (e o e-mail acima) é o recurso web de solicitação de exclusão d
 Permissões que o Android pode pedir:
 
 - **Notificações** — lembretes de metas e avisos.
-- **Biometria** — trava local, se você ligar.
 - **SMS e acesso a notificações** — só se quiser a [captura de notificações bancárias](Capture/Capture.md). A leitura acontece no próprio aparelho.
+
+O [Bloqueio do app](#bloqueio-do-app) usa a biometria ou o bloqueio de tela que você já cadastrou no Android. O WFinance não pede uma permissão à parte para isso e não guarda digital, rosto nem PIN.
 
 Textos completos: [Política de Privacidade](PrivacyPolice.md) e [Termos de Uso](TermsOfUse.md), também na tela **Sobre** do app.
 
@@ -227,6 +257,9 @@ Textos completos: [Política de Privacidade](PrivacyPolice.md) e [Termos de Uso]
 | Assinei o Premium e o sync não apareceu            | Abra o app com internet e aguarde alguns instantes. A loja confirma a assinatura sozinha.                                                        |
 | Quero parar de pagar                               | Cancele em Google Play → Assinaturas. Apagar a conta no WFinance não basta.                                                                      |
 | Excluí a conta, criei outra e o Premium não voltou | A assinatura da loja fica no cadastro antigo. Cancele na Play Store ou [peça a transferência](#nova-conta-depois-de-excluir-assinatura-na-loja). |
+| O app pede digital, rosto ou PIN ao abrir          | É o [Bloqueio do app](#bloqueio-do-app) neste aparelho. A conta Google continua a mesma. O tempo fica em Configurações → **Funcionalidades e segurança**. |
+| Não consigo ligar o bloqueio                       | Cadastre biometria ou um bloqueio de tela (PIN, padrão ou senha) nas configurações de segurança do Android e volte ao WFinance.                  |
+| O bloqueio desligou sozinho                        | O aparelho ficou sem biometria e sem bloqueio de tela. O WFinance desliga a trava e avisa, para o acesso continuar possível.                     |
 | Quero remover tudo                                 | No app: Editar perfil → excluir dados ou excluir conta, digitando EXCLUIR. Sem o app: [solicite pelo site](#solicitar-exclusão-pelo-site).       |
 
 ---

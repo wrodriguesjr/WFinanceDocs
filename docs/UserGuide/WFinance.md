@@ -74,7 +74,7 @@ Há quatro níveis de permissão:
 
 Para criar ou participar de espaços compartilhados é necessário um plano com sincronização na nuvem.
 
-Leia o guia em [Espaços](Spaces.md). Conta, perfil e exclusão: [Conta de usuário](UserAccount.md).
+Leia o guia em [Espaços](Spaces.md). Conta, perfil, bloqueio do app e exclusão: [Conta de usuário](UserAccount.md).
 
 ### Investimentos
 
@@ -177,7 +177,7 @@ Limites atuais do plano Free (por espaço):
 
 Itens arquivados ou inativos **continuam contando** no limite. A assinatura é cobrada pela Google Play e pode ser cancelada nas configurações da loja.
 
-Detalhes de login, recuperação e exclusão estão em [Conta de usuário](UserAccount.md).
+Detalhes de login, recuperação, bloqueio do app e exclusão estão em [Conta de usuário](UserAccount.md).
 
 ---
 

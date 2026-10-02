@@ -4,7 +4,7 @@ No WFinance, **conta** e **espaço** são coisas diferentes. A conta é você. O
 
 Esta página resume os dois conceitos e aponta para o detalhe. Visão geral do app: [WFinance](WFinance.md).
 
-- [Conta de usuário](UserAccount.md) — login, perfil, planos, exclusão de dados e da conta.
+- [Conta de usuário](UserAccount.md) — login, bloqueio do app, perfil, planos, exclusão de dados e da conta.
 - [Espaços](Spaces.md) — espaço pessoal, espaços extras, convites, membros e permissões.
 
 ---

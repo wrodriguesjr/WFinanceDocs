@@ -1,6 +1,6 @@
 # Política de Privacidade
 
-Última atualização: agosto de 2026
+Última atualização: outubro de 2026
 
 Esta política descreve como o WFinance trata os dados que você insere no aplicativo. Os [Termos de Uso](TermsOfUse.md) regem o uso do serviço. Visão geral do app: [WFinance](WFinance.md).
 
@@ -36,7 +36,7 @@ Seus dados pessoais e financeiros são utilizados estritamente para o funcioname
 Para habilitar recursos específicos, o aplicativo poderá solicitar permissões como:
 
 - **Notificações:** para lembretes de contas, metas e avisos do sistema.
-- **Autenticação biométrica:** para proteção de acesso local ao aplicativo (se ativada por você).
+- **Biometria:** o WFinance não coleta nem armazena dados biométricos. Se você ativar o Bloqueio do app, a confirmação (digital, rosto ou bloqueio de tela do aparelho) é feita pelo Android, só para liberar a entrada nas telas. Esse bloqueio não criptografa os dados guardados no dispositivo. Detalhes em [Bloqueio do app](UserAccount.md#bloqueio-do-app).
 - **Leitura de SMS / notificações (opcional):** apenas se utilizada para detecção automática de lançamentos. O processamento é realizado no próprio dispositivo.
 
 ---
