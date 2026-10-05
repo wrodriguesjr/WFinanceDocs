@@ -40,7 +40,7 @@ Duas metas no mesmo recorte **não se substituem**: elas **somam**. Uma anual de
 
 Categoria e subcategoria são recortes **independentes**. Uma meta de Veículo (a categoria toda) e outra de Combustível (subcategoria) viram **dois cards**. Uma despesa de combustível conta nos dois — não é duplicação, são perguntas diferentes: “quanto gastei em veículo?” e “quanto gastei em combustível?”.
 
-Só transações de **despesa** entram. Receitas e transferências não contam. Estorno de despesa (reembolso, devolução) **reduz** o atingido. Conceitos de tipo e status: [Transações](../Transactions/Transactions.md).
+Só transações de **despesa** entram. Receitas e transferências não contam. [Estorno de despesa](../Transactions/Reversal.md) (reembolso, devolução) **reduz** o atingido. Conceitos de tipo e status: [Transações](../Transactions/Transactions.md).
 
 ---
 
@@ -156,7 +156,7 @@ Três blocos:
 
 Abre a lista das despesas que formaram o **atingido do card**, no mesmo intervalo do filtro. No exemplo, “Jan 2026 até Jun 2026”. É o conjunto do card, não de uma linha só.
 
-A lista abre em [modo relatório](../Transactions/Transactions.md): aqueles lançamentos, sem incluir novos.
+A lista abre em [modo relatório](../Transactions/TransactionLists.md#modo-relatório): aqueles lançamentos, sem incluir novos.
 
 ### Metas do período
 

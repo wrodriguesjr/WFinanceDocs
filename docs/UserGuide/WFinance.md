@@ -56,7 +56,7 @@ Cada lançamento tem um status:
 
 O app também pode **captar lançamentos automaticamente** a partir de notificações e SMS de bancos — você só revisa e confirma.
 
-Leia o guia em [Transações](Transactions/Transactions.md), o passo a passo do formulário em [Como lançar uma transação](Transactions/ManageTransaction.md) e a captura em [Captura de notificações bancárias](Capture/Capture.md).
+Leia o guia em [Transações](Transactions/Transactions.md). O formulário, o estorno, o status, as listas e a conversão de moeda estão ligados a partir dessa página. A captura está em [Captura de notificações bancárias](Capture/Capture.md).
 
 ### Espaços
 
@@ -109,7 +109,7 @@ Leia o guia em [Reservas para objetivos](Reserves/Reserves.md) e o passo a passo
 
 Cada conta e cada cartão pode ter a **própria moeda**. Uma compra em dólar numa conta em reais é convertida com a taxa do dia.
 
-Isso vale também para transferências entre contas de moedas diferentes — útil para quem usa Wise, Nomad ou tem conta no exterior.
+Isso vale também para transferências entre contas de moedas diferentes — útil para quem usa Wise, Nomad ou tem conta no exterior. O exemplo de uma compra em dólar está em [Conversão de moeda](Transactions/CurrencyConversion.md).
 
 Você pode cadastrar taxas diárias (ficam guardadas por 12 meses) e o app monta médias mensais para períodos mais antigos. Em Configurações → Moedas, escolha as moedas que usa com mais frequência para a lista ficar mais curta na hora de lançar.
 

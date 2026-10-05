@@ -93,7 +93,7 @@ A diferença mais comum: compra no cartão em março entra no **Resultado** de m
 
 O interruptor **Considerar previstas** vale para as duas visões:
 
-- **Ligado** — inclui lançamentos ainda [previstos](Transactions/Transactions.md#status-previsto-efetivado-e-reconciliado) (salário que vai cair, conta que ainda não venceu).
+- **Ligado** — inclui lançamentos ainda [previstos](Transactions/TransactionStatus.md) (salário que vai cair, conta que ainda não venceu).
 - **Desligado** — só o que já foi efetivado ou reconciliado.
 
 Toque nos valores para abrir o relatório correspondente (por categoria no Resultado, fluxo de caixa na outra visão), já com o mesmo critério de previstas.

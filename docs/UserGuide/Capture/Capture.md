@@ -260,7 +260,7 @@ Três destinos possíveis:
 | O aplicativo é conhecido e o texto não foi entendido | Aba **Não reconhecidas**. |
 | O aplicativo não é acompanhado | A mensagem é deixada de lado. |
 
-Pagamento agendado pode vir com data futura. Confira no formulário. Se o dinheiro ainda não saiu, grave e, na lista de transações, deixe o lançamento como [previsto](../Transactions/Transactions.md#status-previsto-efetivado-e-reconciliado).
+Pagamento agendado pode vir com data futura. Confira no formulário. Se o dinheiro ainda não saiu, grave e, na lista de transações, deixe o lançamento como [previsto](../Transactions/TransactionStatus.md).
 
 ---
 

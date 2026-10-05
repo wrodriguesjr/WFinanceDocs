@@ -12,7 +12,7 @@ Visão geral do app: [WFinance](../WFinance.md).
 - [Como cadastrar uma conta de investimento](ManageInvestmentAccount.md) — nome, tipo, saldo inicial, moeda e a conta bancária de onde sai o dinheiro.
 - [Atualizar o saldo](UpdateBalance.md) — por que avaliar pelo menos uma vez por mês, o aviso de 30 dias e a folha de avaliação.
 - [Como a rentabilidade é calculada](Profitability.md) — o replay cronológico, o efeito de cada lançamento e um exemplo até o resgate.
-- [Extrato da conta](../Transactions/Transactions.md#extrato-de-investimentos) — aplicar, resgatar e os outros lançamentos no dia a dia.
+- [Extrato da conta](../Transactions/TransactionLists.md#extrato-de-investimentos) — aplicar, resgatar e os outros lançamentos no dia a dia.
 
 ---
 

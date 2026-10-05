@@ -1,6 +1,6 @@
 # Como lançar uma transação
 
-Esta página é o passo a passo da tela que **cria, edita, copia e importa** lançamentos. Os conceitos (tipos, status, estornos, saldos) estão em [Transações](Transactions.md).
+Esta página é o passo a passo da tela que **cria, edita, copia e importa** lançamentos. Os outros guias estão em [Transações](Transactions.md).
 
 Você chega aqui pelo botão de adicionar, ao deslizar um item para editar, ao copiar, ou ao confirmar uma notificação capturada.
 
@@ -44,7 +44,7 @@ Nome que você vai reconhecer na lista. Em importação, já vem o texto da noti
 
 Informe o valor e a moeda da operação.
 
-Os botões **+** e **−** definem o [sinal](Transactions.md#sinais-e-estornos):
+Os botões **+** e **−** definem o [sinal](Reversal.md):
 
 - despesa normal: **−**
 - receita normal: **+**
@@ -109,7 +109,7 @@ Nessa faixa você pode:
 - **Recarregar** — busca a taxa da data da transação (ou de hoje, se a data estiver vazia);
 - **Editar** — informa taxa, data da cotação e o valor já convertido.
 
-O valor na moeda da conta é calculado a partir da taxa. Detalhes e exemplos: [Transações — várias moedas](Transactions.md#várias-moedas-no-lançamento).
+O valor na moeda da conta é calculado a partir da taxa. O exemplo da despesa em dólar está em [Conversão de moeda](CurrencyConversion.md).
 
 ---
 
@@ -152,4 +152,4 @@ Mensagens comuns:
 
 Aviso de **possível duplicidade** não é recusa: o app mostra o lançamento que já existe (mesmo valor e sinal, mesma data ou 1 dia de diferença) e pergunta se você quer gravar assim mesmo.
 
-A mensagem na tela costuma indicar o caminho. A tabela completa está em [Transações — lançamentos que o próprio app cria](Transactions.md#lançamentos-que-o-próprio-app-cria).
+A mensagem na tela costuma indicar o caminho. A tabela completa está em [Lançamentos que o app cria](SpecialTransactions.md).

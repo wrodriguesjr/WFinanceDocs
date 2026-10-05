@@ -86,5 +86,5 @@ Editar o valor **zera o histórico de avisos** de 80% e 100% daquela meta, para 
 - Use subcategoria quando quiser um teto mais apertado dentro do grupo (Combustível dentro de Veículo).
 - Copiar é o caminho mais rápido para repetir o mesmo teto em outro mês ou no ano seguinte.
 - Lançamentos **previstos** não empurram a meta. Efetive quando o gasto acontecer.
-- Reembolso é [estorno de despesa](../Transactions/Transactions.md#sinais-e-estornos): a meta desce, sem virar receita.
+- Reembolso é [estorno de despesa](../Transactions/Reversal.md): a meta desce, sem virar receita.
 - Metas não substituem [reservas](../Reserves/Reserves.md). Teto de gasto é uma coisa; dinheiro separado para um objetivo é outra.
