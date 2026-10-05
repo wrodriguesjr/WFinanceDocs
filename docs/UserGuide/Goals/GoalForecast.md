@@ -1,143 +1,145 @@
 # Projeção das metas
 
-A **projeção** mostra para onde seus gastos do ano estão indo. Ela junta o que já aconteceu nos meses fechados com as [metas](Goals.md) que você cadastrou e estima quanto você terá gasto até dezembro.
+A projeção estima **como o ano fecha em dezembro**. Ela olha o que você já gastou nos meses que já terminaram e completa o resto do ano de um de dois jeitos: repetindo a meta que falta, ou repetindo o ritmo em que você tem gastado.
 
-Para cadastrar ou editar metas, veja [Como cadastrar uma meta](ManageGoal.md). Visão geral do app: [WFinance](../WFinance.md).
-
----
-
-## Em uma frase
-
-Até o mês passado você gastou X. Se o resto do ano seguir o modelo escolhido, você fecha dezembro com Y. A meta do ano é Z.
+Os outros guias estão em [Metas de gastos](Goals.md). A lista do dia a dia está em [A tela de metas](GoalScreen.md).
 
 ---
 
 ## Como chegar
 
-| Caminho                                               | Observação     |
-|-------------------------------------------------------|----------------|
-| Central → Planejamento → **Projeção anual das metas** | Única entrada. |
+Central → Planejamento → **Projeção anual das metas**.
 
-A tela não tem filtro de período. Ela sempre olha para o **ano corrente**, que aparece no topo.
+A tela não tem filtro de mês. Ela olha o **ano que está no título**. Em outubro, o título é “Projeção das metas de 2026”.
 
 ---
 
-## Meses fechados e meses restantes
+## O que a tela está olhando
 
-- **Meses fechados** vão de janeiro até o mês **anterior** ao atual. São a base da projeção.
-- **Meses restantes** vão do mês atual até dezembro.
+Os meses se dividem em dois grupos.
 
-O mês atual só entra na base quando fechar. Lançamentos com data no mês atual ou em meses futuros não entram no realizado.
+- **Meses fechados** — de janeiro até o mês anterior ao atual. São a base. Em outubro, a base é janeiro a setembro: **9 meses fechados**.
+- **Meses que ainda vêm** — do mês atual até dezembro. Em outubro, são outubro, novembro e dezembro.
 
-Em **janeiro** nenhum mês fechou ainda. A tela mostra só o ano e avisa que não há dados suficientes para projetar. A partir de fevereiro, janeiro passa a ser a base.
+O mês em que você está não entra no “já gastei”. Ele ainda não fechou. Lançamento previsto também fica de fora. Entram despesas **efetivadas** ou **reconciliadas**. Estorno reduz o que já foi gasto.
 
-Só contam despesas **efetivadas** ou **reconciliadas**. Lançamentos previstos ficam de fora. Estorno reduz o realizado, que pode até ficar negativo.
-
----
-
-## O cabeçalho
-
-O cabeçalho tem o seletor do modelo e dois blocos, os dois na **sua moeda**.
-
-### Planejado
-
-É a soma das linhas da lista. Responde: *o que eu planejei está indo para onde?*
-
-| Campo              | O que é                                          |
-|--------------------|--------------------------------------------------|
-| Realizado          | Gasto dos meses fechados nas categorias da lista |
-| Meta               | Meta dos meses fechados                          |
-| Percentual         | Realizado ÷ meta                                 |
-| Projetado          | Estimativa até dezembro, conforme o modelo       |
-| Meta no ano        | Meta de janeiro a dezembro                       |
-| Indicador circular | Projetado ÷ meta no ano                          |
-
-Sem nenhuma meta no ano, a lista fica vazia e este bloco fica zerado.
-
-### Não planejado
-
-Tudo o que você gasta em categorias **sem meta**. Responde: *o que eu não planejei também consome dinheiro até o fim do ano.*
-
-| Campo            | O que é                                |
-|------------------|----------------------------------------|
-| Realizado        | Gasto dos meses fechados fora da lista |
-| Projeção até dez | Média mensal dos meses fechados × 12   |
-
-Não tem meta nem percentual. A projeção deste bloco é **sempre** pela média, nos dois modelos: trocar o seletor não muda este número.
+Em janeiro nenhum mês fechou. A tela avisa que ainda não há base para projetar. A partir de fevereiro, janeiro passa a contar.
 
 ---
 
-## A lista
+## Um exemplo, em outubro
 
-A lista começa fechada. Toque em **Ver projeções das metas por categoria** para abri-la; o mesmo controle passa a dizer **Ocultar projeções das metas por categoria**. Sem meta no ano, o controle não aparece e fica só o aviso de lista vazia.
+A captura abaixo está no modelo **Metas futuras**. A base é janeiro a setembro.
 
-Só aparecem categorias e subcategorias de **despesa** com meta no ano (anual ou de qualquer mês).
+![Projeção de 2026 em outubro, no modelo Metas futuras](Metas%20-%20projecao%20anual.png)
 
-- **Categoria com meta**: uma linha da categoria. Ela inclui o gasto de todas as subcategorias. Metas das subcategorias não viram outra linha e não somam no limite.
-- **Categoria sem meta**: uma linha para cada subcategoria que tem meta.
-- **Categoria e subcategorias sem meta**: não aparecem. O gasto vai para o **não planejado**.
+### O que já aconteceu, nas categorias com meta
 
-Exemplos:
+| | Valor | Em palavras |
+|--|-------|-------------|
+| **Meta** | R$ 42.498,43 | A soma dos tetos de janeiro a setembro. |
+| **Realizado (jan a set)** | R$ 34.602,73 | O que você já gastou nessas mesmas categorias. |
+| **81%** | | 34.602,73 ÷ 42.498,43. Até setembro, o gasto ficou em 81% do que estava planejado. |
 
-- Alimentação tem meta de R$ 10.000 e Mercado, de R$ 4.000. A lista mostra só Alimentação, com meta de R$ 10.000. O gasto de Mercado entra em Alimentação.
-- Veículo não tem meta. Combustível, IPVA e Manutenção têm. A lista mostra as três. Estacionamento, sem meta, vai para o não planejado, junto com lançamentos de Veículo sem subcategoria.
+O 81% está em laranja: na mesma escala da lista de metas, de 80% a 99% é “perto do teto”, ainda abaixo de 100%.
 
-Lançamentos sem categoria não entram em nenhum dos dois blocos. Tocar numa linha não abre nada.
+### Para onde o ano vai, se daqui para a frente você cumprir a meta
 
-Cada linha mostra, para os meses fechados, o realizado, a meta e o percentual; e, até dezembro, o projetado, a meta do ano e o indicador circular. Cores: verde abaixo de 80%, laranja de 80% a 99%, vermelho de 100% em diante.
+| | Valor | Em palavras |
+|--|-------|-------------|
+| **Meta no ano** | R$ 47.848,43 | A soma dos tetos de janeiro a dezembro. |
+| **Projetado até dez** | R$ 39.952,74 | O que já foi gasto, mais a meta que ainda falta em outubro, novembro e dezembro. |
+| **83%** | | 39.952,74 ÷ 47.848,43. É o anel laranja. |
 
-A meta de cada mês segue a mesma regra da tela de metas: 1/12 da meta anual mais a meta mensal daquele mês.
+A conta do meio, em voz alta: a meta do ano menos a meta até setembro deixa **R$ 5.350,00** para os três meses que faltam (47.848,43 − 42.498,43). Somando isso ao que já foi gasto: 34.602,73 + 5.350,00 = **R$ 39.952,73**, que a tela mostra como R$ 39.952,74.
+
+Ou seja: o modelo não repete um gasto atípico de janeiro. Ele assume que, nos meses que faltam, você gasta **o teto que cadastrou** para esses meses.
+
+### O outro botão mudaria esse número
+
+**Meu ritmo atual** olha o 81% e imagina que outubro, novembro e dezembro também fiquem em cerca de 81% da meta deles. O projetado até dezembro fica menor do que R$ 39.952,74, e o percentual do ano tende a continuar perto dos 81%, em vez de subir para 83%.
+
+Realizado, meta até setembro e meta do ano **não mudam** quando você troca o botão. O que muda é o **projetado até dezembro** e o anel.
+
+### Gastos que não têm meta
+
+Embaixo, **Projeção de despesas sem metas** junta o que você gastou em categorias sem teto.
+
+| | Valor |
+|--|-------|
+| **Realizado (jan a set)** | R$ 9.187,94 |
+| **Projetado até dez** | R$ 12.250,59 |
+
+São cerca de R$ 1.021 por mês nos nove meses fechados. Doze meses nesse mesmo ritmo dão R$ 12.250,59.
+
+Esse bloco é uma média. Trocar entre **Metas futuras** e **Meu ritmo atual** não mexe nele. A tela lembra que esse dinheiro também sai até o fim do ano, mesmo sem teto cadastrado.
 
 ---
 
 ## Os dois modelos
 
-A tela sempre abre no modelo de **Metas futuras**. 
+A tela abre em **Metas futuras**.
 
-O modelo só muda a **projeção do bloco planejado**. Realizado, meta e o bloco não planejado não mudam.
+O aviso perto dos botões vale para os dois: a projeção é uma conta em cima do passado. Quanto menos meses fechados, mais um gasto fora do comum pesa no resultado.
 
-### Modelo de metas futuras
+### Metas futuras
 
-`projetado = realizado dos meses fechados + meta dos meses restantes`
+Pega o que você já gastou e soma a **meta dos meses que faltam**.
 
-Melhor para despesas **fixas ou previsíveis**: aluguel, condomínio, mensalidade. Um conserto em janeiro não é repetido pelo resto do ano: a meta cadastrada continua sendo a referência dos meses que faltam.
+Serve para gasto que você já sabe quanto vai ser: aluguel, condomínio, mensalidade. Um conserto em janeiro não é copiado para o resto do ano. A referência dos meses que faltam continua sendo o teto cadastrado.
 
-Uma meta anual continua valendo nos meses restantes: um IPVA anual pago todo em janeiro ainda soma as fatias de setembro a dezembro.
+Uma meta anual continua valendo nesses meses. Um IPVA pago inteiro em janeiro ainda entra com a fatia de outubro, novembro e dezembro, se a meta anual existir.
 
-### Modelo meu ritmo atual
+### Meu ritmo atual
 
-`projetado = realizado dos meses fechados + meta de cada mês restante × ritmo`
+Pega o que você já gastou e soma a meta dos meses que faltam **multiplicada pelo seu ritmo**.
 
-O **ritmo** é o realizado dividido pela meta dos meses fechados. Quem está 37% acima da meta até aqui vê os meses restantes 37% acima da meta.
+O ritmo é o realizado dividido pela meta dos meses fechados. No exemplo, 81%. Quem está acima da meta vê os meses que faltam também acima, na mesma proporção.
 
-Melhor para despesas **variáveis**: supermercado, lazer, delivery, combustível.
+Serve para gasto que varia: supermercado, lazer, delivery, combustível.
 
-- A forma da meta se mantém: mês restante com meta zero continua zero. Um IPVA com meta só em janeiro não é espalhado pelos outros meses.
-- Se o realizado for zero ou negativo, o ritmo é zero: a projeção fica igual ao realizado.
-- Se não houver meta nos meses fechados, a linha usa a média mensal × 12.
+- Mês que não tem meta continua em zero. Um IPVA com teto só em janeiro não é espalhado pelos outros meses.
+- Se o realizado dos meses fechados for zero, a projeção fica igual ao que já foi gasto.
+- Se não houver meta nenhuma nos meses fechados, a linha usa a média mensal vezes 12.
+
+O ritmo não tem teto. Quanto maior a diferença entre o gasto e a meta até aqui, maior o número. Um presente ou uma viagem nos primeiros meses é espalhado pelo resto do ano de propósito: é o que esse modelo faz. Com poucos meses fechados, o efeito é forte. Em fevereiro, com só janeiro de base, um gasto atípico pode dobrar a projeção. Conforme o ano avança, a base cresce e o efeito diminui.
+
+Se você não quer esse espalhamento, use **Metas futuras**.
+
+O mesmo aviso está no link **Como funciona a projeção?**, no topo da tela.
 
 ---
 
-## Cuidado com distorções
+## Por categoria
 
-A Tendência **não tem limite**. Quanto maior a diferença entre o realizado e a meta nos meses fechados, maior o ritmo. Ela existe para mostrar o ritmo real, não para suavizá-lo.
+A lista começa fechada. Toque em **Ver projeções por categoria** para abrir. O mesmo controle passa a ocultá-la. Sem meta no ano, o controle não aparece.
 
-Por isso, qualquer gasto pontual dos meses fechados — um conserto, um presente, uma viagem — é **espalhado pelo resto do ano, de propósito**. Não é defeito: é o que o modelo faz.
+Só entram categorias e subcategorias de despesa com meta no ano.
 
-**Quanto menos meses fechados, maior o risco.** Em fevereiro, com só janeiro como base, um único gasto fora do comum pode dobrar a projeção. Com o passar dos meses, a base aumenta e o efeito diminui.
+- **Categoria com meta** — uma linha da categoria. O gasto das subcategorias entra nela. A meta da subcategoria não vira outra linha e não soma no limite.
+- **Categoria sem meta, subcategoria com meta** — uma linha para cada subcategoria.
+- **Sem meta nenhuma** — não aparece na lista. O gasto vai para **despesas sem metas**.
 
-Se você não quer esse efeito, use o **Plano Futuro**. Ele ignora o ritmo real e repete a meta cadastrada nos meses restantes.
+Exemplos:
 
-O aviso aparece também na tela, perto do seletor, e no **Como funciona a projeção?**.
+- Alimentação tem meta de R$ 10.000 e Mercado, de R$ 4.000. A lista mostra só Alimentação, com meta de R$ 10.000. O gasto de Mercado entra em Alimentação.
+- Veículo não tem meta. Combustível, IPVA e Manutenção têm. A lista mostra as três. Estacionamento, sem meta, vai para as despesas sem metas.
+
+Lançamento sem categoria não entra em nenhum dos dois blocos. Tocar numa linha não abre detalhe.
+
+Cada linha repete a lógica do topo: realizado e meta dos meses fechados, projetado e meta do ano, e o percentual. As cores são as mesmas da lista de metas: verde abaixo de 80%, laranja de 80% a 99%, vermelho a partir de 100%.
+
+A meta de cada mês segue a [tela de metas](GoalScreen.md#um-card-várias-metas): um doze avos da meta anual, mais a meta mensal daquele mês.
 
 ---
 
 ## Moedas
 
-- Cada linha usa a **moeda da meta**. Se o mesmo recorte tem metas em moedas diferentes (dado antigo), a linha usa a sua moeda e mostra um aviso, como na tela de metas.
-- O cabeçalho converte cada linha para a **sua moeda** antes de somar.
-- Meses fechados usam a taxa do **último dia do mês**. Meses restantes usam a **taxa mais recente** disponível.
-- Se faltar taxa de câmbio, a tela **não calcula** e mostra o erro. Cadastre a taxa que falta e volte.
+Cada linha usa a **moeda da meta**. O topo converte tudo para a **sua moeda** antes de somar.
+
+Meses fechados usam a taxa do último dia do mês. Meses que ainda vêm usam a taxa mais recente.
+
+Se faltar taxa, a tela não calcula e mostra o erro. Cadastre a taxa e volte.
 
 ---
 
@@ -149,14 +151,14 @@ A tela se atualiza sozinha enquanto está aberta: ao criar, editar ou excluir um
 
 ## Se algo não bate
 
-| Situação                                   | O que conferir                                                                                                             |
-|--------------------------------------------|----------------------------------------------------------------------------------------------------------------------------|
-| “Não há dados suficientes”                 | É janeiro. A projeção começa em fevereiro.                                                                                 |
-| Gasto deste mês não aparece                | O mês atual só entra na base quando fechar.                                                                                |
-| Subcategoria com meta não aparece na lista | A categoria dela tem meta: o gasto está na linha da categoria.                                                             |
-| Tendência muito alta no começo do ano      | Poucos meses fechados e algum gasto pontual. Veja [Cuidado com distorções](#cuidado-com-distorções) ou use o Plano Futuro. |
-| Não planejado não muda com o seletor       | É esperado: esse bloco é sempre pela média.                                                                                |
-| Erro de taxa de câmbio                     | Falta taxa para uma das moedas das metas ou das transações.                                                                |
+| Situação | O que conferir |
+|----------|----------------|
+| “Não há dados suficientes” | É janeiro. A projeção começa em fevereiro. |
+| Gasto deste mês não aparece no realizado | O mês atual só entra na base quando fechar. |
+| Subcategoria com meta não aparece na lista | A categoria dela tem meta. O gasto está na linha da categoria. |
+| Projeção muito alta no começo do ano, em Meu ritmo atual | Poucos meses fechados e algum gasto pontual. Use Metas futuras se quiser repetir o teto, não o ritmo. |
+| Despesas sem metas não mudam com o botão | Esperado. Esse bloco é sempre a média mensal vezes 12. |
+| Erro de taxa de câmbio | Falta taxa para uma das moedas das metas ou das transações. |
 
 ---
 

@@ -1,6 +1,6 @@
 # Como cadastrar uma meta
 
-Esta página é o passo a passo da tela que **cria, edita e copia** um teto de gasto. O que a lista mostra, como o atingido é calculado e o que cada número significa estão em [Metas de gastos](Goals.md).
+Esta página é o passo a passo da tela que **cria, edita e copia** um teto de gasto. Os outros guias estão em [Metas de gastos](Goals.md). O que a lista mostra está em [A tela de metas](GoalScreen.md).
 
 ---
 
@@ -74,7 +74,7 @@ No plano **Free** há limite de **5 metas por espaço**. Cada linha que você gr
 
 A lista de metas atualiza sozinha. O novo teto entra no card daquela categoria, no período em que o intervalo do filtro o alcança.
 
-Se a lista parecer vazia, mude o filtro: uma meta de dezembro não aparece no acumulado até março. Detalhes em [Metas de gastos](Goals.md#a-tela).
+Se a lista parecer vazia, mude o filtro: uma meta de dezembro não aparece no acumulado até março. Detalhes em [A tela de metas](GoalScreen.md#a-tela).
 
 Editar o valor **zera o histórico de avisos** de 80% e 100% daquela meta, para o app poder avisar de novo se o teto for cruzado.
 
