@@ -10,6 +10,7 @@ Esta página apresenta o que o WFinance oferece. Para detalhes de uso, veja tamb
 
 - [Painel inicial](MainDashboard.md)
 - [Transações](Transactions/Transactions.md)
+- [Investimentos](Investments/Investments.md)
 - [Captura de notificações bancárias](Capture/Capture.md)
 - [Metas de gastos](Goals/Goals.md)
 - [Reservas para objetivos](Reserves/Reserves.md)
@@ -78,17 +79,13 @@ Leia o guia em [Espaços](Spaces.md). Conta, perfil, bloqueio do app e exclusão
 
 ### Investimentos
 
-Cada ativo (poupança, fundo, ação, tesouro etc.) fica em um registro próprio.
+Cada aplicação que você quer acompanhar (poupança, CDB, fundo, ação, tesouro) é uma **conta de investimento**, ligada à conta bancária de onde saem os aportes e para onde voltam os resgates.
 
-Você registra **aportes** e **resgates** ligados a uma conta bancária. De tempos em tempos, informa o saldo atual — o app calcula sozinho dividendos, juros e a variação do patrimônio.
+De tempos em tempos você informa o saldo que a instituição está mostrando. O app separa esse saldo em duas partes que ainda estão na conta: o **investido** (o capital) e o **resultado** (o ganho ou a perda). Um resgate leva um pedaço de cada uma, na mesma proporção.
 
-Indicadores que aparecem no extrato:
+A tela de investimentos mostra o mês, o saldo da carteira, a rentabilidade e a evolução dos últimos 12 meses. Sem uma avaliação de saldo recente, aparece um aviso.
 
-- **Valor investido** — aportes menos resgates.
-- **Saldo atual** — valor da última avaliação.
-- **Resultado** — ganho ou perda em reais e em percentual.
-
-Se o saldo ficar muitos dias sem avaliação, o app avisa que os números estão desatualizados.
+Leia o guia em [Investimentos](Investments/Investments.md) e o cadastro em [Como cadastrar uma conta de investimento](Investments/ManageInvestmentAccount.md).
 
 ### Metas
 

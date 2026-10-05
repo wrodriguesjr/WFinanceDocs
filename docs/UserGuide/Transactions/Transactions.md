@@ -120,7 +120,7 @@ São transferências, não receitas nem despesas.
 
 **Aplicação (aporte)** — conta bancária → investimento. Aumenta o valor investido.
 
-**Resgate** — investimento → conta bancária. Diminui o valor investido.
+**Resgate** — investimento → conta bancária. Leva uma parte do valor investido e uma parte do resultado, na proporção do saldo naquele momento. O detalhe está em [Investimentos](../Investments/Investments.md#como-o-app-calcula-a-rentabilidade).
 
 A conta bancária precisa ser a **mesma associada** àquele investimento no cadastro do ativo. Se a conta não bater, o app não conclui o lançamento.
 
@@ -174,11 +174,11 @@ Mostra o que entrou e saiu daquele ativo.
 
 Pelo cabeçalho você:
 
-- **Avalia o saldo** — informa quanto vale hoje; o app registra o rendimento ou a perda;
+- **Avalia o saldo** — informa quanto a conta vale; o app registra o rendimento ou a perda. Sem isso, a rentabilidade não anda. O passo a passo está em [Atualizar o saldo](../Investments/Investments.md#atualizar-o-saldo);
 - **Aplica** — transfere da conta bancária para o investimento;
 - **Resgata** — traz o valor de volta para a conta bancária.
 
-Os números (investido, saldo, resultado e rentabilidade) ficam na moeda da conta de investimento. Sem avaliação recente, aparece um aviso.
+Os números (investido, saldo, resultado e rentabilidade) ficam na moeda da conta de investimento. Sem avaliação recente, aparece um aviso. O que cada um significa na carteira inteira está em [Investimentos](../Investments/Investments.md).
 
 ### Modo relatório
 
