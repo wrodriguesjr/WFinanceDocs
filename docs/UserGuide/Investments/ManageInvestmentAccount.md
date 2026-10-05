@@ -2,7 +2,7 @@
 
 Uma **conta de investimento** é o cadastro de uma aplicação que você quer acompanhar: um CDB, a poupança, um fundo, um conjunto de ações, o FGTS. Ela guarda o histórico de aportes, resgates e avaliações de saldo. Os números da tela de investimentos saem desse histórico.
 
-O que cada número significa, inclusive a rentabilidade, está em [Investimentos](Investments.md). Visão geral do app: [WFinance](../WFinance.md).
+Os outros guias estão em [Investimentos](Investments.md). O que a tela mostra está em [A tela de investimentos](InvestmentScreen.md). A rentabilidade está em [Como a rentabilidade é calculada](Profitability.md). Visão geral do app: [WFinance](../WFinance.md).
 
 ---
 
@@ -23,7 +23,7 @@ Uma conta é uma posição que você escolhe seguir. Dois CDBs em bancos diferen
 | **Criar** | Central → **Estrutura financeira** → **Investimentos** → botão **+**. A tela se chama **Minhas contas**, já na aba Investimentos. |
 | **Abrir a lista** | O mesmo caminho. No topo dá para alternar **Bancos**, **Carteiras**, **Investimentos** e **Cartões**. |
 | **Editar** | Toque na conta → lápis. Ou deslize o card para editar. |
-| **Ver os lançamentos** | Toque na conta → **Ver transações da conta**. Na [tela de investimentos](Investments.md), o toque no card abre o mesmo extrato. |
+| **Ver os lançamentos** | Toque na conta → **Ver transações da conta**. Na [tela de investimentos](InvestmentScreen.md), o toque no card abre o mesmo extrato. |
 
 Quem está no espaço só para visualizar vê a lista, sem **+**, sem deslizar e sem gravar o formulário.
 
@@ -95,7 +95,7 @@ Na edição, este bloco some. Para corrigir a abertura, edite o lançamento de s
 
 A moeda da conta. Na criação, o padrão é o real, entre as moedas que você marcou no perfil.
 
-Aplicações, resgates, avaliações e os números do extrato ficam nessa moeda. Na [tela de investimentos](Investments.md#moeda), os totais são convertidos para a moeda padrão do perfil.
+Aplicações, resgates, avaliações e os números do extrato ficam nessa moeda. Na [tela de investimentos](InvestmentScreen.md#moeda), os totais são convertidos para a moeda padrão do perfil.
 
 Depois do primeiro lançamento, a moeda fica travada. O campo avisa: “Não é possível mudar a moeda de uma conta que possui lançamentos”.
 
@@ -113,7 +113,7 @@ Depois do primeiro lançamento, a conta associada também fica travada. Se a con
 
 Opcional. Digite e escolha uma tag já usada em contas de investimento, ou crie uma nova na hora. Toque no x do chip para tirar.
 
-As tags aparecem no card expandido da [tela de investimentos](Investments.md) e servem de filtro lá. Uma conta pode ter várias. No filtro, ela entra se tiver **qualquer uma** das tags selecionadas.
+As tags aparecem no card expandido da [tela de investimentos](InvestmentScreen.md) e servem de filtro lá. Uma conta pode ter várias. No filtro, ela entra se tiver **qualquer uma** das tags selecionadas.
 
 ### Conta ativa
 
@@ -125,7 +125,7 @@ O interruptor começa ligado. Desligar arquiva: a conta sai da aba **Ativas** e 
 
 A lista atualiza sozinha. Com saldo inicial maior que zero, o extrato já mostra esse lançamento na data escolhida.
 
-O próximo passo, para a rentabilidade existir, é abrir o extrato e usar **Avaliar**. O ideal é repetir isso ao menos uma vez por mês. Sem essa avaliação, a [tela de investimentos](Investments.md) mostra resultado zero e o ícone de aviso — o saldo inicial não conta como avaliação. O passo a passo da folha está em [Atualizar o saldo](Investments.md#atualizar-o-saldo).
+O próximo passo, para a rentabilidade existir, é abrir o extrato e usar **Avaliar**. O ideal é repetir isso ao menos uma vez por mês. Sem essa avaliação, a [tela de investimentos](InvestmentScreen.md) mostra resultado zero e o ícone de aviso — o saldo inicial não conta como avaliação. O passo a passo da folha está em [Atualizar o saldo](UpdateBalance.md).
 
 Para colocar dinheiro novo que sai do banco, use **Aplicar**. Para tirar, **Resgatar**. Para um valor que não passa por outra conta do app, use **Outros** → aporte. IOF e IR também ficam em **Outros**.
 

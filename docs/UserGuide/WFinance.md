@@ -85,7 +85,7 @@ De tempos em tempos você informa o saldo que a instituição está mostrando. O
 
 A tela de investimentos mostra o mês, o saldo da carteira, a rentabilidade e a evolução dos últimos 12 meses. Sem uma avaliação de saldo recente, aparece um aviso.
 
-Leia o guia em [Investimentos](Investments/Investments.md) e o cadastro em [Como cadastrar uma conta de investimento](Investments/ManageInvestmentAccount.md).
+Leia o guia em [Investimentos](Investments/Investments.md). O cadastro, a tela, a atualização de saldo e o cálculo da rentabilidade estão ligados a partir dessa página.
 
 ### Metas
 
