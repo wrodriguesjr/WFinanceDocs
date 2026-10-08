@@ -32,6 +32,7 @@ O WFinance serve bem em situações como:
 
 ---
 
+
 ## O que você consegue fazer
 
 ### Painel inicial
