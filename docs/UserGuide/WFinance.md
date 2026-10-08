@@ -201,6 +201,6 @@ Os textos completos estão em [Política de Privacidade](PrivacyPolice.md) e [Te
 
 - **E-mail:** [wfinance.suporte@gmail.com](mailto:wfinance.suporte@gmail.com)
 - **Google Play:** [Baixar o WFinance](https://play.google.com/store/apps/details?id=com.wrj.wfinance)
-- **Documentação no GitHub:** [WFinanceDocs](https://wrodriguesjr.github.io/WFinanceDocs/UserGuide/WFinance)
+- **Documentação:** [wfinance.app.br](https://wfinance.app.br/UserGuide/WFinance)
 
 Atualizações do app saem na [Google Play](https://play.google.com/store/apps/details?id=com.wrj.wfinance). Na tela **Sobre**, toque na versão para conferir se já está na última.
