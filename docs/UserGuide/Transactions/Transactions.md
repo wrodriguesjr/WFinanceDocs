@@ -3,7 +3,7 @@
 Uma **transação** é qualquer movimentação de dinheiro no WFinance: o salário que entrou, a consulta no cartão, o PIX entre contas, o reembolso do plano. Cada lançamento guarda quanto, quando, em qual conta, de que tipo e em que situação — prevista, feita ou já conferida.
 
 Visão geral do app: [WFinance](../WFinance.md).
-
+ 
 ---
 
 ## Neste guia
