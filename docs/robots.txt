@@ -1,0 +1,4 @@
+User-agent: *
+Allow: /
+
+Sitemap: https://wfinance.app.br/sitemap.xml
