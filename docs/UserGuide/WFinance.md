@@ -104,7 +104,7 @@ Separe o dinheiro que já está nas contas para um **objetivo**: viagem, troca d
 
 Uma conta entra em **no máximo uma** reserva. Cartão de crédito não entra. Valor alvo e data são opcionais; com alvo, o app mostra o progresso.
 
-Leia o guia em [Reservas para objetivos](Reserves/Reserves.md) e o passo a passo em [Como cadastrar uma reserva](Reserves/ManageReserve.md).
+Leia o guia em [Reservas para objetivos](Reserves/Reserves.md). A lista e o cadastro estão ligados a partir dessa página.
 
 ### Várias moedas
 

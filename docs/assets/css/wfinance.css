@@ -145,6 +145,10 @@ a:hover {
   margin-bottom: 28px;
 }
 
+.wf-hero picture {
+  display: block;
+}
+
 .wf-hero-image {
   width: 100%;
   height: auto;
@@ -380,6 +384,10 @@ a:hover {
 }
 
 @media (max-width: 720px) {
+  .wf-hero-image {
+    aspect-ratio: 768 / 1376;
+  }
+
   .wf-header-inner {
     flex-direction: column;
     align-items: flex-start;

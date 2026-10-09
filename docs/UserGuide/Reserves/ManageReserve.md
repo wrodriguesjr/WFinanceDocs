@@ -1,6 +1,6 @@
 # Como cadastrar uma reserva
 
-Esta página é o passo a passo da tela que **cria e edita** uma caixinha por objetivo. O que a lista mostra e de onde vem o total estão em [Reservas para objetivos](Reserves.md).
+Esta página é o passo a passo da tela que **cria e edita** uma caixinha por objetivo. Os outros guias estão em [Reservas para objetivos](Reserves.md). O que a lista mostra e de onde vem o total estão em [A tela de reservas](ReserveScreen.md).
 
 ---
 
@@ -89,7 +89,7 @@ A lista atualiza sozinha. O total da reserva acompanha o saldo das contas: um la
 
 Tirar uma conta da reserva **não mexe** no saldo dela. Só deixa de entrar na soma da caixinha — e a conta fica livre para outra reserva.
 
-Excluir a reserva também não apaga contas nem lançamentos. Detalhes em [Reservas para objetivos](Reserves.md#concluir-ou-excluir).
+Excluir a reserva também não apaga contas nem lançamentos. Detalhes em [A tela de reservas](ReserveScreen.md#concluir-ou-excluir).
 
 ---
 
