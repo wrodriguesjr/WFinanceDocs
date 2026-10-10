@@ -72,7 +72,9 @@ O total é a **soma dos saldos atuais** das contas associadas, convertidos para 
 | Bancária ou carteira | O saldo **de hoje** (só lançamentos efetivados ou reconciliados). Previstos não entram. |
 | Investimento | O saldo da **última avaliação**. |
 
-A conversão usa a taxa **do dia**. Se uma conta está em outra moeda, o app converte para a moeda da reserva. Sem taxa cadastrada, o cálculo pode falhar — no [painel inicial](../MainDashboard.md#reservas) aparece um aviso no total.
+A conversão usa a taxa **do dia**. Se uma conta está em outra moeda, o app converte para a moeda da reserva.
+
+Sem taxa para alguma conta, ela fica **fora do total**, e o card ganha o ícone de câmbio. No detalhe, essa conta aparece com o saldo na moeda dela e o aviso “Sem taxa USD → EUR”. A barra de progresso some enquanto faltar taxa: comparar o alvo com um total incompleto daria um percentual falso. A taxa é sua: num espaço compartilhado, a de outro membro não vale para você. Mais em [Quando falta uma taxa](../Transactions/CurrencyConversion.md#quando-falta-uma-taxa).
 
 O progresso para em **100%** na barra, mesmo que o saldo já tenha passado do alvo. Sem valor alvo, não há barra.
 
@@ -142,7 +144,8 @@ Cada espaço tem as suas reservas. Trocar de espaço na [conta](../UserAccount.m
 | O saldo da conta não mudou depois de criar a reserva | É esperado. Reserva não transfere dinheiro. |
 | Não consigo associar uma conta | Ela já está em outra reserva, ou é cartão de crédito. |
 | Total diferente da soma que eu faço de cabeça | Contas em outra moeda são convertidas pela taxa de hoje. No painel, o total de cima usa a sua moeda padrão. |
-| Aviso no total da home | Falta taxa de câmbio para converter alguma conta. Cadastre a taxa em Moedas. |
+| Ícone de câmbio no total ou no card | Falta taxa para converter alguma conta, e ela ficou fora do total. Toque no ícone (no total da home ou no detalhe) para ver qual taxa falta. |
+| Outro membro do espaço vê o total completo e eu não | As taxas são de cada pessoa. Cadastre a taxa no seu usuário. |
 | Progresso não aparece | Cadastre um valor alvo. Só a data não gera barra. |
 | Reserva sumiu da lista | Veja a aba **Concluídas**. |
 | Número menor que o do banco | Só entra o saldo atual (efetivado/reconciliado). Previstos não contam. No investimento, vale a última avaliação. |

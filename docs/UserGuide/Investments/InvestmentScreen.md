@@ -160,7 +160,7 @@ Cada conta tem a própria moeda. Nesta tela, os **valores** são convertidos par
 
 O **percentual de cada card** é o da moeda da conta: converter para real não altera esse %. O percentual do **topo** já é calculado com os valores convertidos, então ele descreve a carteira na sua moeda.
 
-Sem taxa cadastrada para aquela moeda e aquela data, o relatório avisa, em vez de mostrar um total convertido pela metade. As taxas ficam em Central → Estrutura financeira → **Taxas de câmbio**. No gráfico, um mês antigo sem taxa reaproveita a taxa do mês selecionado.
+Sem taxa cadastrada para aquela moeda e aquela data, o relatório não abre, em vez de mostrar um total convertido pela metade. O aviso lista **todas** as taxas que faltam e a data de cada uma (“com data até 31/03/2026”), para você cadastrar de uma vez. As taxas ficam em Central → Estrutura financeira → **Taxas de câmbio**. No gráfico, um mês antigo sem taxa reaproveita a taxa do mês selecionado. Mais em [Quando falta uma taxa](../Transactions/CurrencyConversion.md#quando-falta-uma-taxa).
 
 ---
 
@@ -176,7 +176,8 @@ Quem está no espaço só para visualizar vê a lista e os números, sem criar c
 |----------|----------------|
 | % do topo diferente do % do card | No modo do mês, o card usa saldo inicial + aportes. O topo divide pelo investido. No modo acumulado, o topo é a carteira inteira, não a média dos cards. |
 | Lista vazia | Filtro de conta, tipo ou tag pode ter escondido tudo. Ou **Considerar contas inativas** está desligado e a conta foi arquivada. |
-| Conta em dólar com valores estranhos em real | Falta a taxa do fim daquele mês, ou a taxa usada não é a que você esperava. |
+| Conta em dólar com valores estranhos em real | A taxa usada é a mais recente até o fim do mês selecionado. Confira se é a que você esperava. |
+| Aviso de taxa no lugar do relatório | Falta taxa para alguma conta. Cadastre as taxas listadas, com data até a indicada. |
 | Não consigo aplicar nem avaliar | Papel de somente leitura neste espaço. Conta inativa também some da lista de contas na hora de lançar uma transferência. |
 | Resultado zerado, com o ícone de aviso | Falta [atualizar o saldo](UpdateBalance.md). |
 | O resgate ou o percentual não fecham com a conta de cabeça | Veja [como a rentabilidade é calculada](Profitability.md). |

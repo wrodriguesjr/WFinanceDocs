@@ -150,6 +150,8 @@ Os relatórios ajudam a enxergar o conjunto, não só o lançamento isolado:
 
 Ao abrir as transações de um relatório, a lista fica restrita àqueles lançamentos — sem adicionar novos itens, só para análise.
 
+Se faltar taxa de câmbio, o relatório avisa no topo quais taxas faltam e até que data cada uma precisa existir. Veja [Quando falta uma taxa](Transactions/CurrencyConversion.md#quando-falta-uma-taxa).
+
 ---
 
 ## Planos

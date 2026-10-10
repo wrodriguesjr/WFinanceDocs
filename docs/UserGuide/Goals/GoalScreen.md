@@ -132,6 +132,8 @@ O intervalo inteiro conta, mesmo nos meses em que você não cadastrou meta. Se 
 
 Valores em outra moeda são convertidos pela taxa da **data do lançamento**, para a moeda da meta.
 
+Sem taxa para algum lançamento, ele fica **fora do atingido**, e o card ganha o ícone de câmbio. O percentual, a barra e a sobra ou excesso somem enquanto faltar taxa, porque comparariam a meta com um total incompleto. O detalhe da meta lista as moedas sem taxa. Como a taxa usada é a da data do lançamento, uma taxa cadastrada hoje não resolve gastos antigos. Mais em [Quando falta uma taxa](../Transactions/CurrencyConversion.md#quando-falta-uma-taxa).
+
 ---
 
 ## Detalhes da meta
@@ -204,6 +206,8 @@ Itens de um espaço em que você só visualiza não se editam. Trocar de espaço
 | Números não mudam depois de lançar | A despesa precisa estar efetivada ou reconciliada, na mesma categoria ou subcategoria, e no intervalo. |
 | Não consigo tocar em + | Falta categoria de despesa, ou você está só para visualizar neste espaço. |
 | Meta não soma com a outra no mesmo card | Precisam ser o mesmo recorte e o mesmo ano. Moedas diferentes no mesmo ano não são aceitas. |
+| Ícone de câmbio no card, sem percentual | Falta taxa entre a moeda de algum lançamento e a da meta. O detalhe mostra o par e o que ficou de fora. |
+| Meta fora das três da home | Meta com taxa faltando não entra no ranking de desvios. O ícone no título do card de metas avisa e mostra quais taxas faltam. |
 
 ---
 

@@ -164,6 +164,8 @@ No topo:
 
 Toque numa meta para ver o detalhe. **Ir para metas** abre o acompanhamento completo (mês, trimestre ou ano).
 
+Se faltar taxa de câmbio para alguma meta do mês, ela mostra o ícone de câmbio no lugar do percentual e fica fora do ranking e do resumo. O mesmo ícone aparece no título do card; o toque nele lista as taxas que faltam.
+
 Metas usam só transações **efetivadas** e **reconciliadas**. O guia completo está em [Metas de gastos](Goals/Goals.md).
 
 ---
@@ -180,6 +182,8 @@ No topo:
 - **Objetivos concluídos** — quantas já chegaram lá, no formato “2 de 5”.
 
 Toque na reserva para o detalhe. **Ir para reservas** abre a tela completa. Com os valores ocultos pelo olho, o toque no item fica desativado.
+
+Se faltar taxa de câmbio para alguma conta, a reserva mostra o ícone de câmbio e o total soma só o que converteu. O toque no ícone do **Total reservado** lista as taxas que faltam.
 
 O guia completo está em [Reservas para objetivos](Reserves/Reserves.md).
 
@@ -217,7 +221,7 @@ O **+** é o caminho mais rápido para [lançar uma transação](Transactions/Ma
 | Números diferentes do banco                      | Saldos do painel ignoram previstos. Confira o status dos lançamentos.                                   |
 | Resultado e fluxo de caixa não coincidem         | É esperado. Um olha a data da compra; o outro, a data em que o dinheiro saiu ou entrou.                 |
 | Valores em `••••`                                | O olho da barra superior está ocultando os números. Toque de novo para revelar.                         |
-| Ícone de alerta no total                         | Falta taxa de câmbio entre a moeda da conta e a sua moeda padrão. Cadastre a taxa em Moedas.            |
+| Ícone de câmbio num total ou card                | Falta taxa de câmbio, e o valor sem taxa ficou de fora. Veja [Quando falta uma taxa](Transactions/CurrencyConversion.md#quando-falta-uma-taxa). |
 | Troquei de espaço e os números mudaram           | O painel é sempre do espaço ativo. Toque no nome, no topo, para conferir.                               |
 | Capturas no aviso, mas o saldo não mudou         | Importar ainda não aconteceu. O rascunho não conta até você confirmar.                                  |
 
