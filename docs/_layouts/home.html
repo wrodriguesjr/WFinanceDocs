@@ -39,19 +39,23 @@
 
     <section class="wf-features" aria-label="O que o WFinance oferece">
       <p class="wf-kicker">Documentação</p>
-      <a class="wf-feature" href="{{ '/UserGuide/MainDashboard.html' | relative_url }}">Painel inicial</a>
-      <a class="wf-feature" href="{{ '/UserGuide/Transactions/Transactions.html' | relative_url }}">Transações</a>
-      <a class="wf-feature" href="{{ '/UserGuide/Investments/Investments.html' | relative_url }}">Investimentos</a>
-      <a class="wf-feature" href="{{ '/UserGuide/Goals/Goals.html' | relative_url }}">Metas</a>
-      <a class="wf-feature" href="{{ '/UserGuide/Reserves/Reserves.html' | relative_url }}">Reservas</a>
-      <a class="wf-feature" href="{{ '/UserGuide/Reports/Reports.html' | relative_url }}">Relatórios</a>
-      <a class="wf-feature" href="{{ '/UserGuide/AccountAndSpaces.html' | relative_url }}">Conta e espaços</a>
+      <div class="wf-feature-row">
+        <a class="wf-feature" href="{{ '/UserGuide/MainDashboard.html' | relative_url }}">Painel inicial</a>
+        <a class="wf-feature" href="{{ '/UserGuide/Transactions/Transactions.html' | relative_url }}">Transações</a>
+        <a class="wf-feature" href="{{ '/UserGuide/Investments/Investments.html' | relative_url }}">Investimentos</a>
+        <a class="wf-feature" href="{{ '/UserGuide/Goals/Goals.html' | relative_url }}">Metas</a>
+        <a class="wf-feature" href="{{ '/UserGuide/Reserves/Reserves.html' | relative_url }}">Reservas</a>
+        <a class="wf-feature" href="{{ '/UserGuide/Reports/Reports.html' | relative_url }}">Relatórios</a>
+        <a class="wf-feature" href="{{ '/UserGuide/AccountAndSpaces.html' | relative_url }}">Conta e espaços</a>
+      </div>
     </section>
 
     <section class="wf-features" aria-label="Informações legais">
       <p class="wf-kicker">Informações legais</p>
-      <a class="wf-feature" href="{{ '/UserGuide/PrivacyPolice.html' | relative_url }}">Privacidade</a>
-      <a class="wf-feature" href="{{ '/UserGuide/TermsOfUse.html' | relative_url }}">Termos de uso</a>
+      <div class="wf-feature-row">
+        <a class="wf-feature" href="{{ '/UserGuide/PrivacyPolice.html' | relative_url }}">Privacidade</a>
+        <a class="wf-feature" href="{{ '/UserGuide/TermsOfUse.html' | relative_url }}">Termos de uso</a>
+      </div>
     </section>
 
     {{ content }}

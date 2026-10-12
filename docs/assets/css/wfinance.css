@@ -142,7 +142,7 @@ a:hover {
 .wf-hero {
   display: grid;
   gap: 24px;
-  margin-bottom: 28px;
+  margin-bottom: 44px;
 }
 
 .wf-hero picture {
@@ -171,6 +171,7 @@ a:hover {
   font-size: 0.82rem;
   font-weight: 700;
   letter-spacing: 0.12em;
+  line-height: 1.2;
   text-transform: uppercase;
 }
 
@@ -218,14 +219,14 @@ a:hover {
   border-color: var(--wf-primary);
 }
 
-.wf-features {
+.wf-features + .wf-features {
+  margin-top: 36px;
+}
+
+.wf-feature-row {
   display: flex;
   flex-wrap: wrap;
   gap: 10px;
-}
-
-.wf-features > .wf-kicker {
-  flex-basis: 100%;
 }
 
 .wf-feature {
