@@ -33,7 +33,9 @@ Visão geral do app: [WFinance](../WFinance.md).
 
 ## O que cada um responde
 
-A lista segue os grupos da tela de relatórios.
+Central → **Relatórios** abre esta lista. Os grupos abaixo são os da tela, na mesma ordem.
+
+![Central de relatórios, com Financeiro, Análises, Investimentos e Contas](Central%20-%20Relatorios.png)
 
 ### Financeiro
 
