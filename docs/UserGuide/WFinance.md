@@ -14,6 +14,7 @@ Esta página apresenta o que o WFinance oferece. Para detalhes de uso, veja tamb
 - [Captura de notificações bancárias](Capture/Capture.md)
 - [Metas de gastos](Goals/Goals.md)
 - [Reservas para objetivos](Reserves/Reserves.md)
+- [Relatórios](Reports/Reports.md)
 - [Conta e espaços](AccountAndSpaces.md)
 - [Termos de Uso](TermsOfUse.md)
 - [Política de Privacidade](PrivacyPolice.md)
@@ -112,7 +113,9 @@ Cada conta e cada cartão pode ter a **própria moeda**. Uma compra em dólar nu
 
 Isso vale também para transferências entre contas de moedas diferentes — útil para quem usa Wise, Nomad ou tem conta no exterior. O exemplo de uma compra em dólar está em [Conversão de moeda](Transactions/CurrencyConversion.md).
 
-Você pode cadastrar taxas diárias (ficam guardadas por 12 meses) e o app monta médias mensais para períodos mais antigos. Em Configurações → Moedas, escolha as moedas que usa com mais frequência para a lista ficar mais curta na hora de lançar.
+Você pode cadastrar taxas diárias (ficam guardadas por 12 meses) e o app monta médias mensais para períodos mais antigos. As taxas ficam em Central → Estrutura financeira → **Taxas de câmbio**.
+
+Em Central → Estrutura financeira → **Moedas preferenciais**, escolha as moedas que usa com mais frequência. Os principais lugares do app mostram essa lista curta, em vez de todas as moedas.
 
 ### Sincronização e uso offline
 
@@ -139,18 +142,9 @@ Além das transações, o WFinance organiza o dinheiro em quatro tipos de conta:
 
 ## Relatórios
 
-Os relatórios ajudam a enxergar o conjunto, não só o lançamento isolado:
+Os relatórios olham o conjunto: o que você consumiu, quando o dinheiro se moveu, como ficou um projeto, o patrimônio, os investimentos, o extrato e a fatura. O número abre os lançamentos que o formaram.
 
-- **Fluxo de caixa** — entradas e saídas do período.
-- **Por categoria** — para onde o dinheiro foi.
-- **Por tag** — recortes que você mesmo criou (viagem, obra, projeto).
-- **Investimentos** — rentabilidade e evolução.
-- **Patrimônio** — visão consolidada dos saldos.
-- **Faturas e extratos** — histórico de cartões e importações bancárias.
-
-Ao abrir as transações de um relatório, a lista fica restrita àqueles lançamentos — sem adicionar novos itens, só para análise.
-
-Se faltar taxa de câmbio, o relatório avisa no topo quais taxas faltam e até que data cada uma precisa existir. Veja [Quando falta uma taxa](Transactions/CurrencyConversion.md#quando-falta-uma-taxa).
+Leia o guia em [Relatórios](Reports/Reports.md).
 
 ---
 

@@ -139,7 +139,7 @@ Cada linha usa a **moeda da meta**. O topo converte tudo para a **sua moeda** an
 
 Meses fechados usam a taxa do último dia do mês. Meses que ainda vêm usam a taxa mais recente.
 
-Se faltar taxa, a tela não calcula e mostra o erro. Cadastre a taxa e volte.
+Se faltar taxa, a tela não calcula e mostra o erro. Cadastre a taxa em Central → Estrutura financeira → **Taxas de câmbio** e volte. Mais em [Quando falta uma taxa](../Transactions/CurrencyConversion.md#quando-falta-uma-taxa).
 
 ---
 

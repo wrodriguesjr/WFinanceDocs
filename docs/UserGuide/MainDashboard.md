@@ -82,23 +82,25 @@ Esses avisos somem sozinhos quando não há mais o que fazer.
 
 É o card do **mês corrente**, na sua moeda padrão. Só aparece se o espaço tiver pelo menos uma conta **e** categorias, e se você puder editar o espaço.
 
-Há duas visões. A escolha fica gravada até você trocar.
+Há duas visões no mesmo card. Toque no **título** (o ícone de troca ao lado de **Resultado • mês**) para alternar. A escolha fica gravada até você trocar de novo.
 
-| Visão              | O que conta                                      | Resultado                         | Quando usar                                      |
-|--------------------|--------------------------------------------------|-----------------------------------|--------------------------------------------------|
-| **Resultado**      | Receitas e despesas na **data do lançamento**.   | **Lucro** ou **Prejuízo**         | Entender o padrão de gasto e de renda do mês.    |
-| **Fluxo de caixa** | Entradas e saídas quando o **dinheiro se move**. | **Superávit** ou **Déficit**      | Ver se o caixa do mês sobrou ou faltou.          |
+| Visão na tela | O que o mês conta | O saldo positivo se chama | Toque nos valores abre |
+|---------------|-------------------|---------------------------|------------------------|
+| **Resultado** | Receitas e despesas na **data do lançamento**. | **Lucro** | [Resultado por categoria](Reports/CategoryResult.md) |
+| **Fluxo de caixa** | Entradas e saídas quando o **dinheiro se move** na conta bancária. | **Superávit** | [Fluxo de caixa](Reports/CashFlow.md) |
+
+Na visão de fluxo de caixa os rótulos passam a ser **Entradas** e **Saídas**, e o saldo negativo se chama **Déficit**. Na visão de resultado, saldo negativo é **Prejuízo**.
 
 A diferença mais comum: compra no cartão em março entra no **Resultado** de março; o pagamento da fatura em abril entra no **Fluxo de caixa** de abril.
 
-O interruptor **Considerar previstas** vale para as duas visões:
+O interruptor **Considerar previstas** vale para as duas visões e vai junto para o relatório:
 
 - **Ligado** — inclui lançamentos ainda [previstos](Transactions/TransactionStatus.md) (salário que vai cair, conta que ainda não venceu).
 - **Desligado** — só o que já foi efetivado ou reconciliado.
 
-Toque nos valores para abrir o relatório correspondente (por categoria no Resultado, fluxo de caixa na outra visão), já com o mesmo critério de previstas.
+O card é só o mês corrente. O relatório de fluxo de caixa abre no acumulado do ano, de janeiro até esse mês. Para comparar com o card, mude o período do relatório para **Mensal**.
 
-Se a ajuda contextual estiver ligada, o link **O que é Resultado?** / **O que é visão de Fluxo de Caixa?** explica isso de novo dentro do app.
+Se a ajuda contextual estiver ligada, o link **O que é Resultado?** / **O que é Fluxo de Caixa?** explica a visão que está na tela.
 
 ---
 
@@ -219,7 +221,7 @@ O **+** é o caminho mais rápido para [lançar uma transação](Transactions/Ma
 | Painel quase vazio depois do cadastro            | Falta categoria, ou o card está desligado nas configurações.                                            |
 | Conta existe, mas não está na lista              | Precisa estar ativa e marcada para mostrar saldo na tela inicial.                                       |
 | Números diferentes do banco                      | Saldos do painel ignoram previstos. Confira o status dos lançamentos.                                   |
-| Resultado e fluxo de caixa não coincidem         | É esperado. Um olha a data da compra; o outro, a data em que o dinheiro saiu ou entrou.                 |
+| Resultado e fluxo de caixa não coincidem         | É esperado. Um olha a data da compra; o outro, a data em que o dinheiro saiu ou entrou na conta. Confira qual visão está no título do card. |
 | Valores em `••••`                                | O olho da barra superior está ocultando os números. Toque de novo para revelar.                         |
 | Ícone de câmbio num total ou card                | Falta taxa de câmbio, e o valor sem taxa ficou de fora. Veja [Quando falta uma taxa](Transactions/CurrencyConversion.md#quando-falta-uma-taxa). |
 | Troquei de espaço e os números mudaram           | O painel é sempre do espaço ativo. Toque no nome, no topo, para conferir.                               |
