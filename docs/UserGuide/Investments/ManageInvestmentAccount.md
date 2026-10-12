@@ -63,7 +63,7 @@ Dois campos, nessa ordem:
 1. **Grupo** — a família (renda fixa, fundos, cripto…).
 2. **Tipo** — o produto dentro do grupo. A lista de tipos muda quando o grupo muda.
 
-O grupo **Liquidez restrita** (FGTS e previdência privada) usa o mesmo cálculo das outras contas. No relatório de patrimônio, essas contas aparecem em **Investimentos restritos**. No [fluxo de caixa](../Reports/CashFlowScreen.md#filtros), o filtro **Considerar investimentos restritos no fluxo** decide se a aplicação e o resgate delas entram na conta.
+O grupo **Liquidez restrita** (FGTS e previdência privada) usa o mesmo cálculo das outras contas. No [relatório de patrimônio](../Reports/AssetGrowth.md), essas contas aparecem em **Investimentos restritos**. No [fluxo de caixa](../Reports/CashFlowScreen.md#filtros), o filtro **Considerar investimentos restritos no fluxo** decide se a aplicação e o resgate delas entram na conta.
 
 | Grupo | Tipos |
 |-------|--------|

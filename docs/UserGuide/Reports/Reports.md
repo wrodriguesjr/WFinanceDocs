@@ -12,7 +12,11 @@ Visão geral do app: [WFinance](../WFinance.md).
 
 - [Resultado por categoria](CategoryResult.md) — receitas e despesas pela data do lançamento, com a fatia de cada categoria.
 - [Fluxo de caixa](CashFlow.md) — entradas e saídas na data em que o dinheiro entrou ou saiu da conta bancária.
+- [Evolução de patrimônio](AssetGrowth.md) — o saldo de fim de mês das contas, da carteira e dos investimentos.
 - [Transações por tag](TagReport.md) — o mesmo tipo de conta do resultado, recortado por um rótulo seu (viagem, obra, projeto).
+- [Rentabilidade](InvestmentReturn.md) — saldo, capital e ganho das contas de investimento no mês.
+- [Extratos bancários](BankStatements.md) — entradas, saídas e saldo de fim de mês das contas bancárias.
+- [Faturas de cartão](CardInvoices.md) — o total de cada fatura, mês a mês, por cartão.
 
 ---
 
@@ -22,7 +26,7 @@ Visão geral do app: [WFinance](../WFinance.md).
 |---------|------------|
 | Central → **Relatórios** | A lista de todos os relatórios. |
 | Atalho **Relatório de resultado**, na Central | O [resultado por categoria](CategoryResult.md). |
-| Atalho **Evolução patrimônio**, na Central | A evolução de patrimônio. |
+| Atalho **Evolução patrimônio**, na Central | A [evolução de patrimônio](AssetGrowth.md). |
 | [Painel](../MainDashboard.md#resumo-financeiro), toque nos valores do resumo | O relatório da visão que está na tela: [resultado por categoria](CategoryResult.md) ou [fluxo de caixa](CashFlow.md). |
 
 ---
@@ -33,7 +37,7 @@ A lista segue os grupos da tela de relatórios.
 
 ### Financeiro
 
-- **Evolução de patrimônio** — como os saldos das contas e dos investimentos mudaram no período.
+- **[Evolução de patrimônio](AssetGrowth.md)** — o saldo de fim de mês das contas, da carteira e dos investimentos. Cartão de crédito fica de fora.
 - **[Fluxo de caixa](CashFlow.md)** — entradas e saídas na data em que o dinheiro entrou ou saiu da conta bancária. No painel, o saldo positivo é **Superávit** e o negativo é **Déficit**.
 
 ### Análises
@@ -43,26 +47,28 @@ A lista segue os grupos da tela de relatórios.
 
 ### Investimentos
 
-- **Rentabilidade** — saldo, aportes e retorno das contas de investimento. A tela se chama **Investimentos**. O cadastro e o cálculo do dia a dia estão em [Investimentos](../Investments/Investments.md).
+- **[Rentabilidade](InvestmentReturn.md)** — saldo, capital e ganho das contas de investimento no mês. A tela se chama **Investimentos**. O cadastro e o cálculo do dia a dia estão em [Investimentos](../Investments/Investments.md).
 
 ### Contas
 
-- **Extratos de conta bancária** — entradas, saídas e saldo das contas ao longo dos meses. A tela se chama **Extratos bancários**.
-- **Faturas de cartão de crédito** — faturas do período, por mês ou por cartão.
+- **[Extratos de conta bancária](BankStatements.md)** — entradas, saídas e saldo de fim de mês das contas. A tela se chama **Extratos bancários**.
+- **[Faturas de cartão de crédito](CardInvoices.md)** — o total de cada fatura, no mês da fatura, por cartão.
 
 ---
 
 ## Ao abrir os lançamentos
 
-Toque numa linha do relatório para ver só aqueles lançamentos. A lista é de análise: não há botão de incluir.
+Toque numa linha de [resultado por categoria](CategoryResult.md), [fluxo de caixa](CashFlow.md) ou [transações por tag](TagReport.md) para ver só aqueles lançamentos. A lista é de análise: não há botão de incluir.
+
+No [extrato bancário](BankStatements.md), na [fatura](CardInvoices.md) e na [rentabilidade](InvestmentReturn.md), o toque abre o extrato ou a fatura daquela conta, no mês da linha.
 
 ---
 
 ## Moedas
 
-Os totais saem na moeda que você escolher. O padrão é a moeda do seu perfil.
+Nos relatórios com filtro de moeda, os totais saem na moeda que você escolher. O padrão é a moeda do seu perfil. [Extratos](BankStatements.md), [faturas](CardInvoices.md) e [rentabilidade](InvestmentReturn.md) usam direto essa moeda do perfil.
 
-Se faltar taxa de câmbio, o relatório avisa no topo quais taxas faltam e até que data cada uma precisa existir. Os lançamentos sem taxa ficam fora do total e continuam na lista ao tocar a linha. Veja [Quando falta uma taxa](../Transactions/CurrencyConversion.md#quando-falta-uma-taxa).
+Se faltar taxa de câmbio, o relatório avisa no topo quais taxas faltam e até que data cada uma precisa existir. Em categorias, tags, fluxo de caixa e faturas, o que não converte fica fora do total e continua na lista. Em patrimônio, extratos e rentabilidade, a tela não calcula. Veja [Quando falta uma taxa](../Transactions/CurrencyConversion.md#quando-falta-uma-taxa).
 
 ---
 

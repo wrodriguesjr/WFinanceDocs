@@ -8,7 +8,10 @@ O conceito e os outros guias estão em [Investimentos](Investments.md). Criar a 
 
 ## Como chegar
 
-O ícone de **investimentos** na barra inferior abre esta tela no mês atual.
+| Caminho | O que abre |
+|---------|------------|
+| Ícone de **investimentos** na barra inferior | Esta tela, no mês atual. |
+| Central → **Relatórios** → Investimentos → **Rentabilidade** | A mesma tela. O passeio pelos números de outubro está em [Rentabilidade](../Reports/InvestmentReturn.md). |
 
 Toque num card para abrir o extrato daquela conta, no mesmo mês. Lá ficam **Avaliar**, **Aplicar**, **Resgatar** e **Outros**.
 

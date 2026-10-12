@@ -224,6 +224,10 @@ a:hover {
   gap: 10px;
 }
 
+.wf-features > .wf-kicker {
+  flex-basis: 100%;
+}
+
 .wf-feature {
   display: inline-flex;
   align-items: center;
