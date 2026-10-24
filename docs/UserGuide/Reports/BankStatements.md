@@ -1,3 +1,7 @@
+---
+description: Quanto entrou, quanto saiu e com quanto cada conta bancária fechou o mês no WFinance.
+---
+
 # Extratos bancários
 
 O relatório **Extratos bancários** responde: “quanto entrou, quanto saiu e com quanto cada conta bancária fechou o mês?”. As barras são o movimento do mês. A linha é o **saldo no fim do mês**.

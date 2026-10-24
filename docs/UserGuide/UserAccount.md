@@ -1,3 +1,7 @@
+---
+description: Como entrar no WFinance, trocar de aparelho, bloquear o app, ver o plano e apagar dados ou a conta.
+---
+
 # Conta de usuário
 
 Sua conta no WFinance é o que liga você aos seus espaços, ao plano e — no Premium — aos dados na nuvem.

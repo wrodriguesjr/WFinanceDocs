@@ -1,3 +1,7 @@
+---
+description: O WFinance lê o aviso do banco ou do cartão e monta um rascunho de gasto para você conferir antes de lançar.
+---
+
 # Captura de notificações bancárias
 
 A **captura** lê os avisos que o banco, o cartão ou a carteira digital já mandam para o celular e transforma cada um em um rascunho de lançamento. Você confere e confirma. Só então o valor entra no espaço.

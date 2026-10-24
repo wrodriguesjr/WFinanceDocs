@@ -1,3 +1,7 @@
+---
+description: Tela de faturas de cartão do WFinance — totais do ano, status de cada fatura e o detalhe do cartão.
+---
+
 # A tela de faturas de cartão
 
 A tela abre no **ano atual**, de janeiro a dezembro, na moeda padrão do seu perfil. O título é **Faturas de cartão de crédito**.

@@ -1,3 +1,7 @@
+---
+description: Separe dinheiro para uma viagem, um carro ou a emergência. A reserva soma as contas, sem mover o saldo.
+---
+
 # Reservas para objetivos
 
 Uma **reserva** é uma caixinha com propósito: viagem, troca de carro, fundo de emergência. Você associa contas que já existem; o app soma os saldos e mostra quanto já está separado para aquele objetivo. A reserva não cria transação, não altera saldo e não move dinheiro entre contas. O valor continua onde estava. Ela só responde: “quanto eu já tenho separado para este objetivo?”. Para limitar gasto por categoria, use [metas](../Goals/Goals.md).

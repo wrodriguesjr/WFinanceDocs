@@ -1,3 +1,7 @@
+---
+description: Como informar o saldo da instituição para o WFinance calcular o ganho ou a perda.
+---
+
 # Atualizar o saldo
 
 O app só calcula rentabilidade depois que você informa quanto a conta vale. Aplicação e resgate movem o **capital**. Juros, dividendos, variação de cota e prejuízo entram na **avaliação de saldo**. Sem essa atualização, o resultado fica em zero e o saldo da tela continua igual à soma do que entrou e saiu.

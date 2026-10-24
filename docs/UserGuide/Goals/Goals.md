@@ -1,3 +1,7 @@
+---
+description: Teto de gasto por categoria, no mês ou no ano. O WFinance compara a meta com o que você já gastou.
+---
+
 # Metas de gastos
 
 Uma **meta** é um teto de gasto para uma categoria de despesa, no mês ou no ano. O app compara esse teto com o que você já gastou e mostra o quanto ainda cabe. A meta não move dinheiro e não altera saldo. Ela só responde: “estou dentro do que planejei gastar?”. Para juntar dinheiro para uma viagem ou para a entrada do imóvel, use [reservas](../Reserves/Reserves.md).

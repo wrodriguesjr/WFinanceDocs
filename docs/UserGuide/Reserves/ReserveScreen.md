@@ -1,3 +1,7 @@
+---
+description: Quanto já está separado para cada objetivo — total de hoje, valor alvo e progresso.
+---
+
 # A tela de reservas
 
 A lista mostra quanto já está separado em cada objetivo: o total de hoje, o alvo e o progresso.

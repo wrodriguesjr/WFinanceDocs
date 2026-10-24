@@ -1,3 +1,7 @@
+---
+description: Como o saldo das suas contas mudou mês a mês, somado na moeda que você escolher.
+---
+
 # Evolução de patrimônio
 
 O relatório **Evolução de patrimônio** responde: “como o saldo das minhas contas mudou mês a mês?”. Cada ponto é o **saldo no fim do mês**, somado na moeda escolhida.

@@ -1,3 +1,7 @@
+---
+description: Quando o dinheiro entrou ou saiu das contas bancárias, pela data em que o saldo mudou.
+---
+
 # Fluxo de caixa
 
 O relatório **Fluxo de caixa** responde: “quando o dinheiro entrou ou saiu das minhas contas bancárias?”. Ele soma entradas e saídas pela **data em que o saldo da conta mudou**.

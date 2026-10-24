@@ -1,3 +1,7 @@
+---
+description: Como o WFinance trata os dados financeiros que você registra no aplicativo, no celular e na sincronização.
+---
+
 # Política de Privacidade
 
 Última atualização: outubro de 2026

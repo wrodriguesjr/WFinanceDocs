@@ -1,3 +1,7 @@
+---
+description: Resumo do mês no WFinance — contas, cartões, metas de gastos e reservas, na tela que abre depois do login.
+---
+
 # Painel inicial
 
 O **painel inicial** é a tela que abre depois do login. É um resumo do espaço ativo: o mês corrente, as contas, os cartões, as metas e as reservas — sem precisar entrar em cada lista.

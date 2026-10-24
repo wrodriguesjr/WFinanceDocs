@@ -1,3 +1,7 @@
+---
+description: Tela de evolução de patrimônio do WFinance — o saldo das contas no fim de cada mês.
+---
+
 # A tela de evolução de patrimônio
 
 A tela abre no **acumulado do ano**, de janeiro até o mês atual, na moeda padrão do seu perfil. O título é **Evolução de Patrimônio**.

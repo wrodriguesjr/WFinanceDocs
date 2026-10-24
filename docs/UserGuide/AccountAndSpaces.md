@@ -1,3 +1,7 @@
+---
+description: No WFinance a conta é você e o espaço é o conjunto das finanças. Veja login, planos, convites e permissões.
+---
+
 # Conta e espaços
 
 No WFinance, **conta** e **espaço** são coisas diferentes. A conta é você. O espaço é o conjunto de dados financeiros em que você está trabalhando.

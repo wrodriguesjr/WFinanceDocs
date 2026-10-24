@@ -1,3 +1,7 @@
+---
+description: Passo a passo para criar, editar, copiar e importar um lançamento no WFinance.
+---
+
 # Como lançar uma transação
 
 Esta página é o passo a passo da tela que **cria, edita, copia e importa** lançamentos. Os outros guias estão em [Transações](Transactions.md).

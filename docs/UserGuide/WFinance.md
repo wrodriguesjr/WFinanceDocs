@@ -1,8 +1,13 @@
+---
+title: App de controle financeiro para Android
+description: Controle gastos, receitas, cartões, investimentos e metas no WFinance. Use sozinho, com a família ou com um sócio, também sem internet.
+---
+
 # WFinance
 
 **Seu controle financeiro, do seu jeito.**
 
-O WFinance é um aplicativo Android para organizar o dinheiro do dia a dia: receitas, despesas, transferências, cartões, investimentos e metas. Você decide se usa sozinho, com a família ou com um sócio — e o app continua funcionando mesmo sem internet.
+O WFinance é um aplicativo Android de controle financeiro pessoal. Ele organiza receitas, despesas, transferências, cartões de crédito, investimentos e metas de gastos. Você usa sozinho, com a família ou com um sócio — e o app continua funcionando mesmo sem internet.
 
 Disponível na [Google Play](https://play.google.com/store/apps/details?id=com.wrj.wfinance).
 

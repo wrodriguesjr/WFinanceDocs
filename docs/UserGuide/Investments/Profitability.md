@@ -1,3 +1,7 @@
+---
+description: Como o WFinance calcula investido, resultado e rentabilidade a partir dos lançamentos.
+---
+
 # Como a rentabilidade é calculada
 
 O investido e o resultado acumulado não saem de uma conta de menos no fim do mês. O app **refaz o histórico**, lançamento por lançamento, na ordem da data. No mesmo dia, vale a ordem em que você lançou.

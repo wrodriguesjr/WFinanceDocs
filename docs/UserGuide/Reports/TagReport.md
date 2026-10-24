@@ -1,3 +1,7 @@
+---
+description: Quanto uma viagem, uma obra ou um projeto gastou e gerou, pela tag do lançamento.
+---
+
 # Transações por tag
 
 O relatório **Transações por tag** responde: “quanto esta viagem, esta obra ou este projeto consumiu e gerou?”. Uma tag é um rótulo livre que você coloca no lançamento, ao lado da categoria. O relatório junta, por tag, as receitas e as despesas daquele rótulo.

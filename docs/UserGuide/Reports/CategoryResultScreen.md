@@ -1,3 +1,7 @@
+---
+description: Tela de receitas e despesas do WFinance — resultado do mês por categoria.
+---
+
 # A tela de resultado por categoria
 
 A tela abre no **mês atual**, na moeda padrão do seu perfil. O título é **Receitas e Despesas**.

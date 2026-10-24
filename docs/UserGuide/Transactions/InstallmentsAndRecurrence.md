@@ -1,3 +1,7 @@
+---
+description: Parcelar uma compra ou repetir salário, aluguel e assinaturas no WFinance.
+---
+
 # Parcelas e recorrência
 
 Recorrência fixa e parcelamento são **mutuamente exclusivos**: no mesmo lançamento você escolhe um ou nenhum.

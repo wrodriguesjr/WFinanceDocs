@@ -1,3 +1,7 @@
+---
+description: Lançamentos que o WFinance cria para manter saldos e faturas coerentes.
+---
+
 # Lançamentos que o app cria
 
 Alguns itens não nascem do botão **+**. Eles existem para manter saldos e faturas coerentes.

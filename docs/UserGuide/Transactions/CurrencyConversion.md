@@ -1,3 +1,7 @@
+---
+description: Compra em outra moeda no WFinance — valor da operação, valor na conta e a taxa do dia.
+---
+
 # Conversão de moeda
 
 Cada lançamento pode ter dois valores: o da **operação** (o que você pagou ou recebeu) e o da **conta** (o mesmo movimento já na moeda da conta ou do cartão). Quando as moedas coincidem, os dois são o mesmo número e a faixa de câmbio fica oculta.

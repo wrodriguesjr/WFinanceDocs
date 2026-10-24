@@ -1,3 +1,7 @@
+---
+description: Previsto, efetivado e reconciliado — quando um lançamento entra no saldo real do WFinance.
+---
+
 # Status
 
 O status diz se o valor já vale para o saldo real.

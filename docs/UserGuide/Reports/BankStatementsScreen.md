@@ -1,3 +1,7 @@
+---
+description: Tela de extratos bancários do WFinance — entradas, saídas e o saldo de cada conta no fim do mês.
+---
+
 # A tela de extratos bancários
 
 A tela abre no **acumulado do ano**, de janeiro até o mês atual, na moeda padrão do seu perfil. O título é **Extratos bancários**.

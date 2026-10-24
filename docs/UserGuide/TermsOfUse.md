@@ -1,3 +1,7 @@
+---
+description: Condições de uso do WFinance, o que o aplicativo cobre e o que se espera de quem usa.
+---
+
 # Termos de Uso
 
 Última atualização: agosto de 2026

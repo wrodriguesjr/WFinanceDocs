@@ -1,3 +1,7 @@
+---
+description: Listas de lançamentos do WFinance — extrato da conta, fatura do cartão e todas as contas juntas.
+---
+
 # As listas
 
 A tela de transações muda conforme o contexto. No topo, o ícone de informação explica o modo atual.

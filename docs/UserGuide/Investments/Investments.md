@@ -1,3 +1,7 @@
+---
+description: Acompanhe CDB, fundos, ações e tesouro no WFinance. O app separa o dinheiro investido do ganho ou da perda.
+---
+
 # Investimentos
 
 Cada aplicação que você acompanha — um CDB, um fundo, ações, o tesouro, a previdência — é uma **conta de investimento**. Você registra o que entrou e o que saiu e, de tempos em tempos, informa quanto a conta vale. O app separa esse saldo em **investido** (o capital que ainda está lá) e **resultado** (o ganho ou a perda que ainda está lá). A rentabilidade é o resultado dividido pelo investido. O WFinance não busca cotação: os números nascem dos lançamentos que você registra.

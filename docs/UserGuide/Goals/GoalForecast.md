@@ -1,3 +1,7 @@
+---
+description: Projeção das metas de gastos até dezembro, pelo teto que falta ou pelo ritmo atual de gasto.
+---
+
 # Projeção das metas
 
 A projeção estima **como o ano fecha em dezembro**. Ela olha o que você já gastou nos meses que já terminaram e completa o resto do ano de um de dois jeitos: repetindo a meta que falta, ou repetindo o ritmo em que você tem gastado.

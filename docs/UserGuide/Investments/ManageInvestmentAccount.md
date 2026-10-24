@@ -1,3 +1,7 @@
+---
+description: Como cadastrar CDB, poupança, fundo ou ações como conta de investimento no WFinance.
+---
+
 # Como cadastrar uma conta de investimento
 
 Uma **conta de investimento** é o cadastro de uma aplicação que você quer acompanhar: um CDB, a poupança, um fundo, um conjunto de ações, o FGTS. Ela guarda o histórico de aportes, resgates e avaliações de saldo. Os números da tela de investimentos saem desse histórico.

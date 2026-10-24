@@ -1,3 +1,7 @@
+---
+description: Como criar uma reserva no WFinance e associar as contas de um objetivo.
+---
+
 # Como cadastrar uma reserva
 
 Esta página é o passo a passo da tela que **cria e edita** uma caixinha por objetivo. Os outros guias estão em [Reservas para objetivos](Reserves.md). O que a lista mostra e de onde vem o total estão em [A tela de reservas](ReserveScreen.md).

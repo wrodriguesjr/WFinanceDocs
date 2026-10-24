@@ -1,3 +1,7 @@
+---
+description: Quanto fechou a fatura de cada cartão de crédito, mês a mês, no relatório do WFinance.
+---
+
 # Faturas de cartão
 
 O relatório **Faturas de cartão de crédito** responde: “quanto fechou a fatura de cada cartão, em cada mês?”. O mês é o **mês da fatura**, o mesmo do seletor de mês e ano na hora de lançar no cartão.

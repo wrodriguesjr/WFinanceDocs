@@ -1,3 +1,7 @@
+---
+description: Fluxo de caixa, categorias, faturas, extrato, patrimônio e rentabilidade dos seus gastos no WFinance.
+---
+
 # Relatórios
 
 O WFinance acompanha a finança por inteiro. Cada relatório responde uma pergunta, e o número abre os lançamentos que o formaram. Dá para ver o que você consumiu, quando o dinheiro se moveu, como um projeto fechou, quanto o patrimônio cresceu e como os investimentos renderam.

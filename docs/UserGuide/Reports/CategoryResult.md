@@ -1,3 +1,7 @@
+---
+description: O que você ganhou e o que consumiu no período, com a fatia de cada categoria no WFinance.
+---
+
 # Resultado por categoria
 
 O relatório **Resultado por categoria** responde: “o que eu ganhei e o que eu consumi neste período?”. Ele junta receitas e despesas pela **data do lançamento** e mostra a fatia de cada categoria.

@@ -1,3 +1,7 @@
+---
+description: Tela de fluxo de caixa do WFinance — quando o dinheiro entrou e saiu das contas bancárias.
+---
+
 # A tela de fluxo de caixa
 
 A tela abre no **acumulado do ano**, de janeiro até o mês atual, na moeda padrão do seu perfil. O título é **Fluxo de Caixa**.

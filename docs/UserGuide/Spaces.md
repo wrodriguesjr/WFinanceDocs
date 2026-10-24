@@ -1,3 +1,7 @@
+---
+description: Espaço pessoal e espaços compartilhados para controlar as finanças com a família ou com um sócio.
+---
+
 # Espaços
 
 Um **espaço** é um ambiente isolado de finanças. Transações, contas, cartões, categorias, metas e relatórios pertencem a um espaço — não à sua conta de usuário.

@@ -1,3 +1,7 @@
+---
+description: Como criar, editar e copiar um teto de gasto por categoria no WFinance.
+---
+
 # Como cadastrar uma meta
 
 Esta página é o passo a passo da tela que **cria, edita e copia** um teto de gasto. Os outros guias estão em [Metas de gastos](Goals.md). O que a lista mostra está em [A tela de metas](GoalScreen.md).

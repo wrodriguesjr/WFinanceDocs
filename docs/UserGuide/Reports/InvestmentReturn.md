@@ -1,3 +1,7 @@
+---
+description: Quanto as contas de investimento valem, quanto ainda é capital e quanto é ganho ou perda.
+---
+
 # Rentabilidade
 
 O relatório **Rentabilidade** responde: “quanto as minhas contas de investimento valem neste mês, quanto disso ainda é dinheiro que eu coloquei e quanto ainda é ganho ou perda?”.

@@ -1,3 +1,7 @@
+---
+description: Receita, despesa e transferência no WFinance, e o que cada tipo altera no saldo.
+---
+
 # Os três tipos
 
 O app trata **três tipos**: receita, despesa e transferência. O tipo diz a natureza do lançamento. O [estorno](Reversal.md) inverte o sinal, sem trocar o tipo.

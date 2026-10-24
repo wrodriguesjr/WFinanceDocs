@@ -1,3 +1,7 @@
+---
+description: Estorno no WFinance — o mesmo lançamento com o sinal invertido quando parte do valor volta.
+---
+
 # Estorno
 
 Um **estorno** é o mesmo tipo de lançamento com o **sinal invertido**. A consulta continua sendo despesa de Saúde. O que muda é o sentido do dinheiro: uma parte voltou.

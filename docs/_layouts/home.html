@@ -19,12 +19,12 @@
           src="{{ '/assets/images/hero.png' | relative_url }}"
           width="1024"
           height="500"
-          alt="WFinance — Seu controle financeiro, do seu jeito. App com fluxo de caixa, contas, metas, patrimônio e espaços compartilhados.">
+          alt="WFinance, app de controle financeiro. Imagem com fluxo de caixa, contas, metas, patrimônio e espaços compartilhados.">
       </picture>
       <div class="wf-hero-copy">
         <h1>Seu controle financeiro, do seu jeito.</h1>
         <p class="wf-lead">
-          Guia de uso do WFinance: painel inicial, transações, investimentos, metas, reservas, relatórios, espaços, conta e privacidade.
+          Site oficial do WFinance, app Android para controlar gastos, receitas, cartões e metas. Organize as finanças pessoais ou da família, também sem internet.
         </p>
         <div class="wf-hero-actions">
           <a
@@ -32,13 +32,13 @@
             href="{{ site.play_store_url }}"
             target="_blank"
             rel="noopener noreferrer">Baixar na Play Store</a>
-          <a class="wf-button wf-button-secondary" href="{{ '/UserGuide/WFinance.html' | relative_url }}">Abrir o guia</a>
+          <a class="wf-button wf-button-secondary" href="{{ '/UserGuide/WFinance.html' | relative_url }}">Conhecer o app</a>
         </div>
       </div>
     </section>
 
     <section class="wf-features" aria-label="O que o WFinance oferece">
-      <p class="wf-kicker">Documentação</p>
+      <p class="wf-kicker">O que o app faz</p>
       <div class="wf-feature-row">
         <a class="wf-feature" href="{{ '/UserGuide/MainDashboard.html' | relative_url }}">Painel inicial</a>
         <a class="wf-feature" href="{{ '/UserGuide/Transactions/Transactions.html' | relative_url }}">Transações</a>
@@ -60,6 +60,51 @@
 
     {{ content }}
   </main>
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@graph": [
+      {
+        "@type": "WebSite",
+        "@id": "{{ site.url }}/#website",
+        "url": "{{ site.url }}/",
+        "name": {{ site.title | jsonify }},
+        "description": {{ page.description | jsonify }},
+        "inLanguage": "pt-BR"
+      },
+      {
+        "@type": "SoftwareApplication",
+        "name": {{ site.title | jsonify }},
+        "operatingSystem": "Android",
+        "applicationCategory": "FinanceApplication",
+        "description": {{ page.description | jsonify }},
+        "url": "{{ site.url }}/",
+        "installUrl": {{ site.play_store_url | jsonify }},
+        "image": "{{ '/assets/images/hero.png' | absolute_url }}",
+        "offers": {
+          "@type": "Offer",
+          "price": "0",
+          "priceCurrency": "BRL"
+        },
+        "featureList": [
+          "Controle de gastos e receitas",
+          "Cartão de crédito",
+          "Metas de gastos",
+          "Investimentos",
+          "Finanças da família",
+          "Uso sem internet"
+        ],
+        "inLanguage": "pt-BR",
+        "publisher": {
+          "@type": "Organization",
+          "name": {{ site.title | jsonify }},
+          "url": "{{ site.url }}/",
+          "email": "wfinance.suporte@gmail.com"
+        }
+      }
+    ]
+  }
+  </script>
   {% include footer.html %}
 </body>
 </html>

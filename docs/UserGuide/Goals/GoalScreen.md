@@ -1,3 +1,7 @@
+---
+description: A lista de metas do WFinance compara o teto cadastrado com as despesas já feitas no período.
+---
+
 # A tela de metas
 
 A lista compara o teto que você cadastrou com as despesas já feitas no período que você está olhando.

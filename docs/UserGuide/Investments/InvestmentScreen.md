@@ -1,3 +1,7 @@
+---
+description: Tela de investimentos do WFinance no mês — saldo da carteira, valor investido e ganho ou perda.
+---
+
 # A tela de investimentos
 
 A tela de **Investimentos** mostra, no mês que você está olhando, quanto as contas valem, quanto desse valor ainda é dinheiro que você colocou e quanto ainda é ganho ou perda.
