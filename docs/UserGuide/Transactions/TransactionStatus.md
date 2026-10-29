@@ -26,7 +26,7 @@ Regras práticas:
 - Na **carteira** (dinheiro vivo), o ciclo é previsto ↔ efetivado. Reconciliado não se usa.
 - Os dois lados de uma transferência **sempre** têm o mesmo status.
 
-Só o que está **efetivado** ou **reconciliado** muda o saldo da conta, os totais da barra inferior e o progresso das [metas](../Goals/Goals.md).
+Só o que está **efetivado** ou **reconciliado** muda o saldo da conta, os totais da barra inferior e o progresso das [metas](../Planning/Goals/Goals.md).
 
 ---
 

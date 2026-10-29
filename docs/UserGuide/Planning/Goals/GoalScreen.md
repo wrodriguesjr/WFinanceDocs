@@ -34,7 +34,7 @@ Duas metas no mesmo recorte **somam**. Uma anual de Alimentação e uma mensal d
 
 Categoria e subcategoria são recortes **independentes**. Uma meta de Veículo (a categoria toda) e outra de Combustível (subcategoria) viram **dois cards**. Uma despesa de combustível conta nos dois. São perguntas diferentes: “quanto gastei em veículo?” e “quanto gastei em combustível?”.
 
-Só transações de **despesa** entram. Receitas e transferências ficam de fora. [Estorno de despesa](../Transactions/Reversal.md) (reembolso, devolução) reduz o atingido.
+Só transações de **despesa** entram. Receitas e transferências ficam de fora. [Estorno de despesa](../../Transactions/Reversal.md) (reembolso, devolução) reduz o atingido.
 
 ---
 
@@ -42,7 +42,7 @@ Só transações de **despesa** entram. Receitas e transferências ficam de fora
 
 A lista abre no **acumulado no ano**: de janeiro até o mês atual.
 
-![Lista de metas no acumulado de janeiro a junho](Metas%20-%20Acumulado%20Jan%20a%20Jun.png)
+![Lista de metas no acumulado de janeiro a junho](Metas - Acumulado Jan a Jun.png)
 
 De cima para baixo:
 
@@ -136,7 +136,7 @@ O intervalo inteiro conta, mesmo nos meses em que você não cadastrou meta. Se 
 
 Valores em outra moeda são convertidos pela taxa da **data do lançamento**, para a moeda da meta.
 
-Sem taxa para algum lançamento, ele fica **fora do atingido**, e o card ganha o ícone de câmbio. O percentual, a barra e a sobra ou excesso somem enquanto faltar taxa, porque comparariam a meta com um total incompleto. O detalhe da meta lista as moedas sem taxa. Como a taxa usada é a da data do lançamento, uma taxa cadastrada hoje não resolve gastos antigos. Mais em [Quando falta uma taxa](../Transactions/CurrencyConversion.md#quando-falta-uma-taxa).
+Sem taxa para algum lançamento, ele fica **fora do atingido**, e o card ganha o ícone de câmbio. O percentual, a barra e a sobra ou excesso somem enquanto faltar taxa, porque comparariam a meta com um total incompleto. O detalhe da meta lista as moedas sem taxa. Como a taxa usada é a da data do lançamento, uma taxa cadastrada hoje não resolve gastos antigos. Mais em [Quando falta uma taxa](../../Transactions/CurrencyConversion.md#quando-falta-uma-taxa).
 
 ---
 
@@ -144,13 +144,13 @@ Sem taxa para algum lançamento, ele fica **fora do atingido**, e o card ganha o
 
 Toque no card. Editar, copiar e excluir ficam aqui.
 
-![Detalhes da meta, com limites do ano e gráfico mensal](Metas%20-%20Bottom%20sheet%20v2.png)
+![Detalhes da meta, com limites do ano e gráfico mensal](Metas - Bottom sheet v2.png)
 
 ### Ver transações da meta
 
 Abre a lista das despesas que formaram o **atingido do card**, no mesmo intervalo do filtro. No exemplo, “Jan 2026 até Jun 2026”. É o conjunto do card, não de uma linha só.
 
-A lista abre em [modo relatório](../Transactions/TransactionLists.md#modo-relatório): aqueles lançamentos, sem incluir novos.
+A lista abre em [modo relatório](../../Transactions/TransactionLists.md#modo-relatório): aqueles lançamentos, sem incluir novos.
 
 ### Metas do período
 
@@ -172,7 +172,7 @@ Meses futuros ficam mais claros. A barra pode ficar negativa se, naquele mês, o
 
 ## No painel inicial
 
-O card de metas da [home](../MainDashboard.md#metas) mostra as **três** com maior desvio no **mês corrente**, misturando percentual e valor estourado. Meta anual entra pela parte daquele mês.
+O card de metas da [home](../../MainDashboard.md#metas) mostra as **três** com maior desvio no **mês corrente**, misturando percentual e valor estourado. Meta anual entra pela parte daquele mês.
 
 No topo: maior desvio em % e maior estouro em valor, na sua moeda padrão. **Ir para metas** abre esta tela.
 
@@ -195,7 +195,7 @@ O toque na notificação abre a tela de metas. Se o atingido cair (um estorno, p
 
 No **Free**, o teto é de **5 metas por espaço**. O que conta é cada cadastro (anual de Veículo + janeiro + julho = **3**), não o card na lista.
 
-Itens de um espaço em que você só visualiza não se editam. Trocar de espaço na [conta](../UserAccount.md) troca as metas junto: cada espaço tem as suas.
+Itens de um espaço em que você só visualiza não se editam. Trocar de espaço na [conta](../../UserAccount.md) troca as metas junto: cada espaço tem as suas.
 
 ---
 

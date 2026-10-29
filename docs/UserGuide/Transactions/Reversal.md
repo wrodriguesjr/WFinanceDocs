@@ -22,7 +22,7 @@ Essa separação entre tipo e sinal praticamente não existe nos outros apps de 
 
 Sem estorno, o reembolso entra como dinheiro ganho no mês. A despesa original fica inteira. O resultado passa a mostrar duas coisas ao mesmo tempo: uma receita que não existiu e um gasto maior do que o que saiu do bolso.
 
-Com estorno, a categoria guarda os dois lançamentos e o relatório mostra o gasto **líquido**. A [meta](../Goals/Goals.md) daquela categoria também desce, porque o atingido soma despesas e subtrai estornos de despesa.
+Com estorno, a categoria guarda os dois lançamentos e o relatório mostra o gasto **líquido**. A [meta](../Planning/Goals/Goals.md) daquela categoria também desce, porque o atingido soma despesas e subtrai estornos de despesa.
 
 O saldo da conta, esse sim, sobe: o dinheiro voltou. Subir o saldo e aumentar a receita do mês são contas diferentes.
 

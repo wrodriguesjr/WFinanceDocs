@@ -83,7 +83,7 @@ Concluir pela ficha de detalhes ou pelo deslize faz a mesma coisa.
 | Conta já vinculada a outra reserva | Uma conta só pode estar em uma caixinha. |
 | Você não tem permissão para editar reservas neste grupo | Papel de somente leitura neste espaço. |
 
-No plano **Free** há limite de **1 reserva por espaço**. O Premium remove esse teto — veja [Conta de usuário](../UserAccount.md).
+No plano **Free** há limite de **1 reserva por espaço**. O Premium remove esse teto — veja [Conta de usuário](../../UserAccount.md).
 
 ---
 

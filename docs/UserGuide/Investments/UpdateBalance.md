@@ -23,7 +23,7 @@ O saldo inicial do cadastro não conta como avaliação. Uma conta recém-criada
 
 Conta inativa não mostra o ícone. Na lista, o nome dela fica mais claro.
 
-Uma [reserva](../Reserves/Reserves.md) que inclui a conta usa o saldo da **última avaliação**.
+Uma [reserva](../Planning/Reserves/Reserves.md) que inclui a conta usa o saldo da **última avaliação**.
 
 ---
 

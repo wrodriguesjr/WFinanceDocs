@@ -35,7 +35,7 @@ Em janeiro nenhum mês fechou. A tela avisa que ainda não há base para projeta
 
 A captura abaixo está no modelo **Metas futuras**. A base é janeiro a setembro.
 
-![Projeção de 2026 em outubro, no modelo Metas futuras](Metas%20-%20projecao%20anual.png)
+![Projeção de 2026 em outubro, no modelo Metas futuras](Metas - projecao anual.png)
 
 ### O que já aconteceu, nas categorias com meta
 
@@ -143,7 +143,7 @@ Cada linha usa a **moeda da meta**. O topo converte tudo para a **sua moeda** an
 
 Meses fechados usam a taxa do último dia do mês. Meses que ainda vêm usam a taxa mais recente.
 
-Se faltar taxa, a tela não calcula e mostra o erro. Cadastre a taxa em Central → Estrutura financeira → **Taxas de câmbio** e volte. Mais em [Quando falta uma taxa](../Transactions/CurrencyConversion.md#quando-falta-uma-taxa).
+Se faltar taxa, a tela não calcula e mostra o erro. Cadastre a taxa em Central → Estrutura financeira → **Taxas de câmbio** e volte. Mais em [Quando falta uma taxa](../../Transactions/CurrencyConversion.md#quando-falta-uma-taxa).
 
 ---
 

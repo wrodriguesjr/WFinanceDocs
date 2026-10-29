@@ -17,8 +17,7 @@ Esta página apresenta o que o WFinance oferece. Para detalhes de uso, veja tamb
 - [Transações](Transactions/Transactions.md)
 - [Investimentos](Investments/Investments.md)
 - [Captura de notificações bancárias](Capture/Capture.md)
-- [Metas de gastos](Goals/Goals.md)
-- [Reservas para objetivos](Reserves/Reserves.md)
+- [Planejamento](Planning/Planning.md)
 - [Relatórios](Reports/Reports.md)
 - [Conta e espaços](AccountAndSpaces.md)
 - [Termos de Uso](TermsOfUse.md)
@@ -94,23 +93,13 @@ A tela de investimentos mostra o mês, o saldo da carteira, a rentabilidade e a 
 
 Leia o guia em [Investimentos](Investments/Investments.md). O cadastro, a tela, a atualização de saldo e o cálculo da rentabilidade estão ligados a partir dessa página.
 
-### Metas
+### Planejamento
 
-Defina um teto de gasto por categoria ou subcategoria, no mês ou no ano. O progresso usa só transações **efetivadas** e **reconciliadas**.
+Central → **Planejamento** reúne o teto de gasto, a estimativa das metas até dezembro, o dinheiro separado para um objetivo e o plano de receitas e despesas do ano. Nenhum deles move saldo nem cria lançamento.
 
-Na lista, cada categoria vira um **card**. Meta anual e metas mensais do mesmo recorte **somam** nesse card. Você escolhe olhar o **acumulado no ano** (janeiro até o mês escolhido), o **mês**, o **trimestre** ou o **ano inteiro**.
+A meta responde se uma categoria de despesa estourou. A reserva soma contas que você separa para uma viagem, um carro ou a emergência. O orçamento cobre o ano inteiro, receitas e despesas, e compara o planejado com o realizado.
 
-Todo o período do filtro conta no atingido — inclusive meses em que você não cadastrou limite. O app avisa quando uma meta chega a **80%** e a **100%**.
-
-Leia o guia em [Metas de gastos](Goals/Goals.md). A lista, o cadastro e a projeção até dezembro estão ligados a partir dessa página.
-
-### Reservas
-
-Separe o dinheiro que já está nas contas para um **objetivo**: viagem, troca de carro, emergência. A reserva **não move saldo** e **não cria lançamento** — só soma as contas que você associar.
-
-Uma conta entra em **no máximo uma** reserva. Cartão de crédito não entra. Valor alvo e data são opcionais; com alvo, o app mostra o progresso.
-
-Leia o guia em [Reservas para objetivos](Reserves/Reserves.md). A lista e o cadastro estão ligados a partir dessa página.
+Leia o guia em [Planejamento](Planning/Planning.md). As metas, a projeção e as reservas estão ligadas a partir dessa página.
 
 ### Várias moedas
 

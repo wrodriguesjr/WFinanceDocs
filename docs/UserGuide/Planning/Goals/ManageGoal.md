@@ -70,7 +70,7 @@ Na edição, **só valor e moeda** mudam.
 | Já existe uma meta desta categoria neste ano em outra moeda | No mesmo ano o card soma os limites; isso só funciona numa moeda só. |
 | Você não tem permissão para editar metas neste grupo | Papel de somente leitura neste espaço. |
 
-No plano **Free** há limite de **5 metas por espaço**. Cada linha que você grava conta (anual + três mensais = 4), ainda que a lista mostre um único card. O Premium remove esse teto — veja [Conta de usuário](../UserAccount.md).
+No plano **Free** há limite de **5 metas por espaço**. Cada linha que você grava conta (anual + três mensais = 4), ainda que a lista mostre um único card. O Premium remove esse teto — veja [Conta de usuário](../../UserAccount.md).
 
 ---
 
@@ -90,5 +90,5 @@ Editar o valor **zera o histórico de avisos** de 80% e 100% daquela meta, para 
 - Use subcategoria quando quiser um teto mais apertado dentro do grupo (Combustível dentro de Veículo).
 - Copiar é o caminho mais rápido para repetir o mesmo teto em outro mês ou no ano seguinte.
 - Lançamentos **previstos** não empurram a meta. Efetive quando o gasto acontecer.
-- Reembolso é [estorno de despesa](../Transactions/Reversal.md): a meta desce, sem virar receita.
+- Reembolso é [estorno de despesa](../../Transactions/Reversal.md): a meta desce, sem virar receita.
 - Metas não substituem [reservas](../Reserves/Reserves.md). Teto de gasto é uma coisa; dinheiro separado para um objetivo é outra.

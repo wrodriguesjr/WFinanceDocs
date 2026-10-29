@@ -6,7 +6,7 @@ description: Resumo do mês no WFinance — contas, cartões, metas de gastos e 
 
 O **painel inicial** é a tela que abre depois do login. É um resumo do espaço ativo: o mês corrente, as contas, os cartões, as metas e as reservas — sem precisar entrar em cada lista.
 
-Visão geral do app: [WFinance](WFinance.md). Conceitos de lançamento: [Transações](Transactions/Transactions.md). Teto de gastos: [Metas](Goals/Goals.md). Objetivos: [Reservas](Reserves/Reserves.md). Perfil e espaços: [Conta e espaços](AccountAndSpaces.md).
+Visão geral do app: [WFinance](WFinance.md). Conceitos de lançamento: [Transações](Transactions/Transactions.md). Teto de gastos: [Metas](Planning/Goals/Goals.md). Objetivos: [Reservas](Planning/Reserves/Reserves.md). Perfil e espaços: [Conta e espaços](AccountAndSpaces.md).
 
 ---
 
@@ -172,7 +172,7 @@ Toque numa meta para ver o detalhe. **Ir para metas** abre o acompanhamento comp
 
 Se faltar taxa de câmbio para alguma meta do mês, ela mostra o ícone de câmbio no lugar do percentual e fica fora do ranking e do resumo. O mesmo ícone aparece no título do card; o toque nele lista as taxas que faltam.
 
-Metas usam só transações **efetivadas** e **reconciliadas**. O guia completo está em [Metas de gastos](Goals/Goals.md).
+Metas usam só transações **efetivadas** e **reconciliadas**. O guia completo está em [Metas de gastos](Planning/Goals/Goals.md).
 
 ---
 
@@ -191,7 +191,7 @@ Toque na reserva para o detalhe. **Ir para reservas** abre a tela completa. Com 
 
 Se faltar taxa de câmbio para alguma conta, a reserva mostra o ícone de câmbio e o total soma só o que converteu. O toque no ícone do **Total reservado** lista as taxas que faltam.
 
-O guia completo está em [Reservas para objetivos](Reserves/Reserves.md).
+O guia completo está em [Reservas para objetivos](Planning/Reserves/Reserves.md).
 
 ---
 

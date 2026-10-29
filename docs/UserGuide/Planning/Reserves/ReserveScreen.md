@@ -41,7 +41,7 @@ Uma conta pertence a **no máximo uma** reserva. Se ela já está em “Trocar d
 
 A lista abre nas reservas **em andamento**.
 
-![Lista de reservas em andamento](Reservas%20-%20tela%20inicial.png)
+![Lista de reservas em andamento](Reservas - tela inicial.png)
 
 De cima para baixo:
 
@@ -78,7 +78,7 @@ O total é a **soma dos saldos atuais** das contas associadas, convertidos para 
 
 A conversão usa a taxa **do dia**. Se uma conta está em outra moeda, o app converte para a moeda da reserva.
 
-Sem taxa para alguma conta, ela fica **fora do total**, e o card ganha o ícone de câmbio. No detalhe, essa conta aparece com o saldo na moeda dela e o aviso “Sem taxa USD → EUR”. A barra de progresso some enquanto faltar taxa: comparar o alvo com um total incompleto daria um percentual falso. A taxa é sua: num espaço compartilhado, a de outro membro não vale para você. Mais em [Quando falta uma taxa](../Transactions/CurrencyConversion.md#quando-falta-uma-taxa).
+Sem taxa para alguma conta, ela fica **fora do total**, e o card ganha o ícone de câmbio. No detalhe, essa conta aparece com o saldo na moeda dela e o aviso “Sem taxa USD → EUR”. A barra de progresso some enquanto faltar taxa: comparar o alvo com um total incompleto daria um percentual falso. A taxa é sua: num espaço compartilhado, a de outro membro não vale para você. Mais em [Quando falta uma taxa](../../Transactions/CurrencyConversion.md#quando-falta-uma-taxa).
 
 O progresso para em **100%** na barra, mesmo que o saldo já tenha passado do alvo. Sem valor alvo, não há barra.
 
@@ -88,7 +88,7 @@ O progresso para em **100%** na barra, mesmo que o saldo já tenha passado do al
 
 Toque no card.
 
-![Detalhes da reserva, com total, alvo e contas associadas](Reservas%20-%20detalhes.png)
+![Detalhes da reserva, com total, alvo e contas associadas](Reservas - detalhes.png)
 
 No topo, três ícones:
 
@@ -120,7 +120,7 @@ As duas ações pedem confirmação.
 
 ## No painel inicial
 
-O card de reservas da [home](../MainDashboard.md#reservas) lista só as **em andamento**: nome, data alvo, valor juntado e barra.
+O card de reservas da [home](../../MainDashboard.md#reservas) lista só as **em andamento**: nome, data alvo, valor juntado e barra.
 
 No topo, na sua **moeda padrão**:
 
@@ -135,9 +135,9 @@ Toque na reserva para o detalhe. **Ir para reservas** abre esta tela. Com os val
 
 ## Plano e espaço
 
-No **Free**, o teto é de **1 reserva por espaço**. O Premium remove esse limite — veja [Conta de usuário](../UserAccount.md).
+No **Free**, o teto é de **1 reserva por espaço**. O Premium remove esse limite — veja [Conta de usuário](../../UserAccount.md).
 
-Cada espaço tem as suas reservas. Trocar de espaço na [conta](../UserAccount.md) troca a lista junto.
+Cada espaço tem as suas reservas. Trocar de espaço na [conta](../../UserAccount.md) troca a lista junto.
 
 ---
 
