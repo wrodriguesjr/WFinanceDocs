@@ -27,6 +27,7 @@ No topo, três números do ano que está no título:
 - [Metas de gastos](Goals/Goals.md) — teto por categoria, no mês ou no ano, e o quanto ainda cabe.
 - [Projeção das metas](Goals/GoalForecast.md) — estimativa até dezembro, com os modelos **Metas futuras** e **Meu ritmo atual**.
 - [Reservas para objetivos](Reserves/Reserves.md) — a lista, o total e o cadastro de uma caixinha por objetivo.
+- [Orçamento anual](Budget/Budget.md) — o plano do ano, a planilha, a comparação com o realizado e as metas criadas a partir dele.
 
 ---
 
@@ -60,13 +61,9 @@ Leia o guia em [Reservas para objetivos](Reserves/Reserves.md). A lista e o cada
 
 ## Orçamento anual
 
-O **orçamento** é o plano do ano inteiro: quanto você espera receber e gastar em cada categoria, mês a mês. Ele cobre receitas e despesas, não só as categorias que viraram meta. A meta responde “esta linha estourou?”. O orçamento responde “o ano fecha dentro do que planejei?”.
+O **orçamento** é o plano do ano inteiro: quanto você espera receber e gastar em cada categoria, mês a mês. Ele cobre receitas e despesas, não só as categorias que viraram meta. Dá para guardar mais de um no mesmo ano e marcar um como **principal**.
 
-O caminho principal é a planilha. O app gera um modelo já preenchido com uma base — por exemplo, o que aconteceu no ano anterior. Você ajusta no computador e importa o arquivo de volta. Dá para guardar mais de um orçamento no mesmo ano, cada um com um nome, e marcar um como **principal**. A comparação mostra o orçado ao lado do que de fato entrou e saiu.
-
-Quando o orçamento estiver pronto, você pode criar ou atualizar metas de gastos a partir dele. Os dois continuam separados: mudar a meta não reescreve o orçamento, e o contrário também vale, até você pedir essa atualização.
-
-O orçamento anual faz parte do plano **Premium**. No plano Free, o atalho mostra o cadeado.
+Leia o guia em [Orçamento anual](Budget/Budget.md). A lista, a criação, a planilha, o detalhe, a comparação e as metas estão ligados a partir dessa página.
 
 ---
 
@@ -77,7 +74,7 @@ O orçamento anual faz parte do plano **Premium**. No plano Free, o atalho mostr
 | Central → **Planejamento** | Esta tela, com os três números e os atalhos. |
 | Central → Planejamento → **Metas de gastos** | A [lista de metas](Goals/GoalScreen.md). |
 | Central → Planejamento → **Projeção anual das metas** | A [projeção](Goals/GoalForecast.md) até dezembro. |
-| Central → Planejamento → **Orçamento anual** | O plano do ano. No Free, a tela de assinatura. |
+| Central → Planejamento → **Orçamento anual** | A [lista de orçamentos](Budget/BudgetScreen.md). No Free, a tela de assinatura. |
 | Central → Planejamento → **Reservas para objetivos** | A [lista de reservas](Reserves/ReserveScreen.md). |
 
 ---

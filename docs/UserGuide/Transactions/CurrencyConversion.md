@@ -69,6 +69,8 @@ O app nunca soma um valor em dólar como se fosse real. O que não converte fica
 | Relatórios de categorias, tags, fluxo de caixa e faturas | O relatório abre com os valores que converteram. Um aviso no topo lista as moedas que ficaram de fora e a data de cada taxa. |
 | Relatórios de [patrimônio](../Reports/AssetGrowthScreen.md#moeda), extratos e [investimentos](../Investments/InvestmentScreen.md#moeda) | O relatório não abre. Saldos são fotos de cada mês: uma conta faltando inventaria ganho ou perda. O aviso lista **todas** as taxas que faltam, de uma vez. |
 | [Projeção das metas](../Planning/Goals/GoalForecast.md) | A tela mostra o erro e não calcula. |
+| [Novo orçamento](../Planning/Budget/CreateBudget.md#ano-moeda-e-nome) a partir do realizado ou da média | O orçamento não é criado. O aviso lista os pares que faltam. |
+| [Orçado × realizado](../Planning/Budget/BudgetComparison.md#o-resumo) | A tela abre. O lançamento sem taxa fica de fora, e um aviso lista o que faltou. |
 
 As taxas ficam em Central → Estrutura financeira → **Taxas de câmbio**.
 

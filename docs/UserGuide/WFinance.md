@@ -99,7 +99,7 @@ Central → **Planejamento** reúne o teto de gasto, a estimativa das metas até
 
 A meta responde se uma categoria de despesa estourou. A reserva soma contas que você separa para uma viagem, um carro ou a emergência. O orçamento cobre o ano inteiro, receitas e despesas, e compara o planejado com o realizado.
 
-Leia o guia em [Planejamento](Planning/Planning.md). As metas, a projeção e as reservas estão ligadas a partir dessa página.
+Leia o guia em [Planejamento](Planning/Planning.md). As metas, a projeção, as reservas e o orçamento estão ligados a partir dessa página.
 
 ### Várias moedas
 
