@@ -4,7 +4,7 @@ description: Como o WFinance trata os dados financeiros que você registra no ap
 
 # Política de Privacidade
 
-Última atualização: outubro de 2026
+Última atualização: novembro de 2026
 
 Esta política descreve como o WFinance trata os dados que você insere no aplicativo. Os [Termos de Uso](TermsOfUse.md) regem o uso do serviço. Visão geral do app: [WFinance](WFinance.md).
 
@@ -42,6 +42,7 @@ Para habilitar recursos específicos, o aplicativo poderá solicitar permissões
 - **Notificações:** para lembretes de contas, metas e avisos do sistema.
 - **Biometria:** o WFinance não coleta nem armazena dados biométricos. Se você ativar o Bloqueio do app, a confirmação (digital, rosto ou bloqueio de tela do aparelho) é feita pelo Android, só para liberar a entrada nas telas. Esse bloqueio não criptografa os dados guardados no dispositivo. Detalhes em [Bloqueio do app](UserAccount.md#bloqueio-do-app).
 - **Leitura de SMS / notificações (opcional):** apenas se utilizada para detecção automática de lançamentos. O processamento é realizado no próprio dispositivo.
+  - **WhatsApp:** o app só processa mensagens de conversas com remetentes bancários configurados pelo WFinance, identificados pela própria conversa e não pelo nome salvo na sua agenda. Mensagens de outros contatos, de grupos, de status e o resumo de notificações são descartados no aparelho: não são gravados, não aparecem na lista de não reconhecidas e não podem ser enviados para análise.
 
 ---
 

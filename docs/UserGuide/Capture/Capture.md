@@ -47,14 +47,14 @@ Quem está no espaço só para visualizar não vê o aviso da tela inicial nem a
 
 ## Como chegar
 
-| Caminho | O que abre |
-|---------|------------|
-| Painel inicial → **Transações aguardando importação** | Aba **Capturadas**. |
-| Central → **Importação** → **Importar notificações bancárias** | Aba **Capturadas**. O número ao lado é a quantidade de rascunhos. |
-| Central → **Importação** → **Notificações não reconhecidas** | Aba **Não reconhecidas**. |
-| Toque no aviso do WFinance (“nova compra detectada”, “PIX recebido”…) | O formulário daquele rascunho, direto. |
-| Painel inicial → **Ajustes recomendados** → **Permissões** | A tela de configurações, para ligar a captura. |
-| Ícone de engrenagem → **Configurações** | As permissões e a opção de câmbio. |
+| Caminho                                                               | O que abre                                                        |
+|-----------------------------------------------------------------------|-------------------------------------------------------------------|
+| Painel inicial → **Transações aguardando importação**                 | Aba **Capturadas**.                                               |
+| Central → **Importação** → **Importar notificações bancárias**        | Aba **Capturadas**. O número ao lado é a quantidade de rascunhos. |
+| Central → **Importação** → **Notificações não reconhecidas**          | Aba **Não reconhecidas**.                                         |
+| Toque no aviso do WFinance (“nova compra detectada”, “PIX recebido”…) | O formulário daquele rascunho, direto.                            |
+| Painel inicial → **Ajustes recomendados** → **Permissões**            | A tela de configurações, para ligar a captura.                    |
+| Ícone de engrenagem → **Configurações**                               | As permissões e a opção de câmbio.                                |
 
 As duas abas ficam na mesma tela, **Importação de notificações**. O número entre parênteses em **Capturadas** é a quantidade de rascunhos. Em **Não reconhecidas**, é a quantidade que ainda não foi enviada para análise.
 
@@ -70,12 +70,12 @@ Se ainda faltar algum, o painel inicial mostra **Ajustes recomendados**, com o a
 
 ![Opções de leitura, SMS, envio de avisos e bateria](Notificacoes%20-%20Configuracoes.png)
 
-| Opção | Para que serve |
-|-------|----------------|
-| **Leitura de notificações** | Lê o aviso do aplicativo do banco, do cartão, da carteira ou do app de SMS. É o acesso principal. |
-| **Leitura de SMS** | Lê a mensagem de texto direto, quando o banco avisa por SMS e o celular esconde o conteúdo na notificação. |
-| **Envio de notificações** | Permite que o WFinance avise você quando capturar um lançamento (e também nos avisos de meta). |
-| **Otimização de Bateria** | Explica, no seu modelo de celular, como evitar que o sistema pare a captura com o app fechado. |
+| Opção                       | Para que serve                                                                                             |
+|-----------------------------|------------------------------------------------------------------------------------------------------------|
+| **Leitura de notificações** | Lê o aviso do aplicativo do banco, do cartão, da carteira ou do app de SMS. É o acesso principal.          |
+| **Leitura de SMS**          | Lê a mensagem de texto direto, quando o banco avisa por SMS e o celular esconde o conteúdo na notificação. |
+| **Envio de notificações**   | Permite que o WFinance avise você quando capturar um lançamento (e também nos avisos de meta).             |
+| **Otimização de Bateria**   | Explica, no seu modelo de celular, como evitar que o sistema pare a captura com o app fechado.             |
 
 Ao ligar o interruptor, o Android pede a permissão:
 
@@ -217,11 +217,11 @@ A mesma mensagem não é enviada duas vezes.
 
 Depois do envio, um ícone no canto do card indica o andamento:
 
-| Ícone | Significado |
-|-------|-------------|
-| Seta de envio | A equipe ainda não respondeu. |
-| Círculo com visto | A análise foi concluída. |
-| Círculo com X | A análise foi cancelada. |
+| Ícone             | Significado                   |
+|-------------------|-------------------------------|
+| Seta de envio     | A equipe ainda não respondeu. |
+| Círculo com visto | A análise foi concluída.      |
+| Círculo com X     | A análise foi cancelada.      |
 
 Toque no card para ver o texto e, quando a equipe escrever, o retorno. A resposta chega quando o celular sincroniza. É preciso internet.
 
@@ -257,12 +257,24 @@ Mensagens típicas: compra no cartão, PIX enviado ou recebido, boleto, pagament
 
 Três destinos possíveis:
 
-| O que aconteceu | Onde fica |
-|-----------------|-----------|
-| O texto foi entendido como movimentação | Aba **Capturadas**, até você importar. |
-| O texto foi entendido como cotação, com a opção ligada | Nas taxas de câmbio, na hora. |
-| O aplicativo é conhecido e o texto não foi entendido | Aba **Não reconhecidas**. |
-| O aplicativo não é acompanhado | A mensagem é deixada de lado. |
+| O que aconteceu                                        | Onde fica                              |
+|--------------------------------------------------------|----------------------------------------|
+| O texto foi entendido como movimentação                | Aba **Capturadas**, até você importar. |
+| O texto foi entendido como cotação, com a opção ligada | Nas taxas de câmbio, na hora.          |
+| O aplicativo é conhecido e o texto não foi entendido   | Aba **Não reconhecidas**.              |
+| O aplicativo não é acompanhado                         | A mensagem é deixada de lado.          |
+
+### Bancos que avisam pelo WhatsApp
+
+Alguns bancos avisam a compra no cartão pelo WhatsApp. Para esses, o WFinance lê só a conversa do banco, reconhecida pela própria conversa, e não pelo nome que você deu ao contato. O resto do WhatsApp (outros contatos, grupos, status) é descartado no aparelho e não vai para **Não reconhecidas**.
+
+Da conversa do banco, só entra em **Não reconhecidas** o que parece aviso de movimentação. Código de verificação, oferta e conversa com o atendimento são descartados.
+
+A leitura depende de o WhatsApp mostrar a notificação. Não há captura quando:
+
+- a conversa do banco está silenciada ou arquivada;
+- a conversa está aberta na tela quando a mensagem chega;
+- a prévia das mensagens está desligada nas configurações de notificação do WhatsApp.
 
 Pagamento agendado pode vir com data futura. Confira no formulário. Se o dinheiro ainda não saiu, grave e, na lista de transações, deixe o lançamento como [previsto](../Transactions/TransactionStatus.md).
 
@@ -275,6 +287,8 @@ A leitura acontece no aparelho, para achar movimentação e cotação. O WFinanc
 O rascunho e a lista de não reconhecidas ficam só neste celular. Eles não sobem para a nuvem e não passam para outra pessoa do espaço. O lançamento importado, sim, entra no espaço ativo.
 
 No envio para análise, seguem a origem, o título e o texto daquela mensagem — os mesmos que a confirmação mostra na tela. Nada mais da sua lista é enviado junto.
+
+No WhatsApp, só a conversa de um banco configurado é lida. Conversas pessoais e de grupo são descartadas sem ser gravadas, então nunca aparecem na lista nem podem ser enviadas para análise.
 
 Só uma pessoa fica logada por vez neste aparelho. Quem importar o rascunho fica com o lançamento.
 
@@ -296,18 +310,18 @@ Só uma pessoa fica logada por vez neste aparelho. Quem importar o rascunho fica
 
 ## Se a captura não aparecer
 
-| Situação | O que conferir |
-|----------|----------------|
-| Nenhum aviso vira rascunho | Leitura de notificações ligada, e o WFinance autorizado na tela de acesso a notificações do Android. |
-| SMS do banco não entra | Leitura de SMS ligada. Se a notificação do app de mensagens chegar com o texto oculto, desligue as notificações aprimoradas do Android. |
-| Funciona uns minutos e para | **Otimização de Bateria**, sobretudo em Xiaomi, Huawei, Oppo e similares. Desbloqueie o celular uma vez depois de reiniciar. |
-| O aviso do WFinance não aparece | **Envio de notificações**. O rascunho pode estar na lista mesmo assim. |
-| A compra está na outra aba | O texto ainda não é reconhecido. Envie para análise ou reprocesse depois de uma atualização. |
-| Não está em aba nenhuma | O aplicativo daquele aviso ainda não é acompanhado, ou o banco não enviou notificação. |
-| Conta ou categoria vieram vazias | É a primeira vez daquela descrição ou daquele cartão. Preencha e grave; a próxima sugestão usa essa escolha. |
-| Possível duplicidade | Já existe lançamento com o mesmo valor e o mesmo sinal naquela data ou num dia vizinho. |
-| Não vejo o card na tela inicial | Não há rascunho, ou você está só visualizando este espaço. As não reconhecidas não aparecem nesse card. |
-| Reprocessei e nada mudou | O formato ainda não foi aprendido. A mensagem volta para **Não reconhecidas**. |
+| Situação                         | O que conferir                                                                                                                          |
+|----------------------------------|-----------------------------------------------------------------------------------------------------------------------------------------|
+| Nenhum aviso vira rascunho       | Leitura de notificações ligada, e o WFinance autorizado na tela de acesso a notificações do Android.                                    |
+| SMS do banco não entra           | Leitura de SMS ligada. Se a notificação do app de mensagens chegar com o texto oculto, desligue as notificações aprimoradas do Android. |
+| Funciona uns minutos e para      | **Otimização de Bateria**, sobretudo em Xiaomi, Huawei, Oppo e similares. Desbloqueie o celular uma vez depois de reiniciar.            |
+| O aviso do WFinance não aparece  | **Envio de notificações**. O rascunho pode estar na lista mesmo assim.                                                                  |
+| A compra está na outra aba       | O texto ainda não é reconhecido. Envie para análise ou reprocesse depois de uma atualização.                                            |
+| Não está em aba nenhuma          | O aplicativo daquele aviso ainda não é acompanhado, ou o banco não enviou notificação.                                                  |
+| Conta ou categoria vieram vazias | É a primeira vez daquela descrição ou daquele cartão. Preencha e grave; a próxima sugestão usa essa escolha.                            |
+| Possível duplicidade             | Já existe lançamento com o mesmo valor e o mesmo sinal naquela data ou num dia vizinho.                                                 |
+| Não vejo o card na tela inicial  | Não há rascunho, ou você está só visualizando este espaço. As não reconhecidas não aparecem nesse card.                                 |
+| Reprocessei e nada mudou         | O formato ainda não foi aprendido. A mensagem volta para **Não reconhecidas**.                                                          |
 
 ---
 
